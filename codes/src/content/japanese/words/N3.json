@@ -1,0 +1,10262 @@
+[
+  {
+    "id": "n3-001",
+    "word": "愛情",
+    "reading": "あいじょう",
+    "meaning": "爱情",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-002",
+    "word": "空き地",
+    "reading": "あきち",
+    "meaning": "空地",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-003",
+    "word": "欠伸",
+    "reading": "あくび",
+    "meaning": "哈欠",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-004",
+    "word": "朝市",
+    "reading": "あさいち",
+    "meaning": "早市",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-005",
+    "word": "朝寝坊",
+    "reading": "あさねぼう",
+    "meaning": "睡懒觉",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-006",
+    "word": "足跡",
+    "reading": "あしあと",
+    "meaning": "脚印",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-007",
+    "word": "味付け",
+    "reading": "あじつけ",
+    "meaning": "调味",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-008",
+    "word": "足元",
+    "reading": "あしもと",
+    "meaning": "脚下",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-009",
+    "word": "あちこち",
+    "reading": "あちこち",
+    "meaning": "到处",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-010",
+    "word": "宛先",
+    "reading": "あてさき",
+    "meaning": "收件人，收件地",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-011",
+    "word": "油",
+    "reading": "あぶら",
+    "meaning": "游",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-012",
+    "word": "甘口",
+    "reading": "あまくち",
+    "meaning": "甜口",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-013",
+    "word": "安全面",
+    "reading": "あんぜんめん",
+    "meaning": "安全方面",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-014",
+    "word": "胃",
+    "reading": "い",
+    "meaning": "胃",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-015",
+    "word": "委員",
+    "reading": "いいん",
+    "meaning": "委员",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-016",
+    "word": "医学",
+    "reading": "いがく",
+    "meaning": "医学",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-017",
+    "word": "育児",
+    "reading": "いくじ",
+    "meaning": "育儿",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-018",
+    "word": "異常",
+    "reading": "いじょう",
+    "meaning": "异常",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-019",
+    "word": "以前",
+    "reading": "いぜん",
+    "meaning": "以前",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-020",
+    "word": "悪戯",
+    "reading": "いたずら",
+    "meaning": "恶作剧",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-021",
+    "word": "苺",
+    "reading": "いちご",
+    "meaning": "草莓",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-022",
+    "word": "一流",
+    "reading": "いちりゅう",
+    "meaning": "一流",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-023",
+    "word": "一定",
+    "reading": "いってい",
+    "meaning": "一定",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-024",
+    "word": "一般常識",
+    "reading": "いっぱんじょうしき",
+    "meaning": "一般常识",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-025",
+    "word": "田舎",
+    "reading": "いなか",
+    "meaning": "乡下；农村",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-026",
+    "word": "印象",
+    "reading": "いんしょう",
+    "meaning": "印象",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-027",
+    "word": "引退",
+    "reading": "いんたい",
+    "meaning": "退役",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-028",
+    "word": "兎",
+    "reading": "うさぎ",
+    "meaning": "兔子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-029",
+    "word": "嘘",
+    "reading": "うそ",
+    "meaning": "谎言",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-030",
+    "word": "銃",
+    "reading": "じゅう",
+    "meaning": "枪",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-031",
+    "word": "饂飩",
+    "reading": "うどん",
+    "meaning": "乌冬",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-032",
+    "word": "鰻",
+    "reading": "うなぎ",
+    "meaning": "鳗鱼",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-033",
+    "word": "馬",
+    "reading": "うま",
+    "meaning": "马",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-034",
+    "word": "生まれつき",
+    "reading": "うまれつき",
+    "meaning": "天生",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-035",
+    "word": "占い",
+    "reading": "うらない",
+    "meaning": "占卜",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-036",
+    "word": "売上",
+    "reading": "うりあげ",
+    "meaning": "营业额",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-037",
+    "word": "上着",
+    "reading": "うわぎ",
+    "meaning": "上衣",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-038",
+    "word": "噂",
+    "reading": "うわさ",
+    "meaning": "流言",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-039",
+    "word": "影響",
+    "reading": "えいきょう",
+    "meaning": "影响",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-040",
+    "word": "営業時間",
+    "reading": "えいぎょうじかん",
+    "meaning": "营业时间",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-041",
+    "word": "営業部",
+    "reading": "えいぎょうび",
+    "meaning": "营销部",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-042",
+    "word": "栄養",
+    "reading": "えいよう",
+    "meaning": "营养",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-043",
+    "word": "絵葉書",
+    "reading": "えはがき",
+    "meaning": "明信片",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-044",
+    "word": "海老",
+    "reading": "えび",
+    "meaning": "虾",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-045",
+    "word": "演技",
+    "reading": "えんぎ",
+    "meaning": "表演",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-046",
+    "word": "演劇",
+    "reading": "えんげき",
+    "meaning": "戏剧",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-047",
+    "word": "援助",
+    "reading": "えんじょ",
+    "meaning": "援助",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-048",
+    "word": "演奏",
+    "reading": "えんそう",
+    "meaning": "演奏",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-049",
+    "word": "延長",
+    "reading": "えんちょう",
+    "meaning": "延长",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-050",
+    "word": "遠慮",
+    "reading": "えんりょ",
+    "meaning": "回避，谢绝",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-051",
+    "word": "お祈り",
+    "reading": "おいのり",
+    "meaning": "祈祷",
+    "type": "N-サ変",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-052",
+    "word": "傷",
+    "reading": "きず",
+    "meaning": "伤",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-053",
+    "word": "応援",
+    "reading": "おうえん",
+    "meaning": "应援，支持",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-054",
+    "word": "応接室",
+    "reading": "おうせつしつ",
+    "meaning": "接待室",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-055",
+    "word": "応募",
+    "reading": "おうぼ",
+    "meaning": "应征",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-056",
+    "word": "大雨",
+    "reading": "おおあめ",
+    "meaning": "大雨",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-057",
+    "word": "大型",
+    "reading": "おおがた",
+    "meaning": "大型",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-058",
+    "word": "多く",
+    "reading": "おおく",
+    "meaning": "多数",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-059",
+    "word": "大声",
+    "reading": "おおごえ",
+    "meaning": "大声",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-060",
+    "word": "大騒ぎ",
+    "reading": "おおさわぎ",
+    "meaning": "骚乱",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-061",
+    "word": "大粒",
+    "reading": "おおつぶ",
+    "meaning": "大颗粒",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-062",
+    "word": "大家",
+    "reading": "おおや",
+    "meaning": "房东",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-063",
+    "word": "お気に入り",
+    "reading": "おきにいり",
+    "meaning": "中意",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-064",
+    "word": "奥",
+    "reading": "おく",
+    "meaning": "里面",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-065",
+    "word": "屋上",
+    "reading": "おくじょう",
+    "meaning": "屋顶",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-066",
+    "word": "お嬢さん",
+    "reading": "おじょうさん",
+    "meaning": "令爱，小姐",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-067",
+    "word": "相撲",
+    "reading": "すもう",
+    "meaning": "相扑",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-068",
+    "word": "お互い",
+    "reading": "おたがい",
+    "meaning": "相互",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-069",
+    "word": "お茶会",
+    "reading": "おちゃかい",
+    "meaning": "茶会",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-070",
+    "word": "お年寄り",
+    "reading": "おとしより",
+    "meaning": "老年人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-071",
+    "word": "お褒めの言葉",
+    "reading": "おほめのことば",
+    "meaning": "赞美之词",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-072",
+    "word": "お巡りさん",
+    "reading": "おまわりさん",
+    "meaning": "警察",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-073",
+    "word": "お見舞い",
+    "reading": "おみまい",
+    "meaning": "探病",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-074",
+    "word": "思い通り",
+    "reading": "おもいどおり",
+    "meaning": "按预想的一样",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-075",
+    "word": "おもちゃ",
+    "reading": "おもちゃ",
+    "meaning": "玩具",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-076",
+    "word": "お詫び",
+    "reading": "おわび",
+    "meaning": "道歉",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-077",
+    "word": "音楽家",
+    "reading": "おんがくか",
+    "meaning": "音乐家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-078",
+    "word": "温暖",
+    "reading": "おんだん",
+    "meaning": "温暖",
+    "type": "N-ナ形",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-079",
+    "word": "御礼",
+    "reading": "おんれい",
+    "meaning": "致谢",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-080",
+    "word": "蚊",
+    "reading": "か",
+    "meaning": "蚊子",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-081",
+    "word": "会員",
+    "reading": "かいいん",
+    "meaning": "会员",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-082",
+    "word": "開花",
+    "reading": "かいか",
+    "meaning": "开花",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-083",
+    "word": "海外研修",
+    "reading": "かいがいけんしゅう",
+    "meaning": "海外进修",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-084",
+    "word": "外国製",
+    "reading": "がいこくせい",
+    "meaning": "外国产",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-085",
+    "word": "開催",
+    "reading": "かいさい",
+    "meaning": "举办",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-086",
+    "word": "開始",
+    "reading": "かいし",
+    "meaning": "开始",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-087",
+    "word": "解消",
+    "reading": "かいしょう",
+    "meaning": "解除",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-088",
+    "word": "外食",
+    "reading": "がいしょく",
+    "meaning": "外出吃饭",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-089",
+    "word": "海水浴",
+    "reading": "かいすいよく",
+    "meaning": "海水浴",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-090",
+    "word": "改装",
+    "reading": "かいそう",
+    "meaning": "改装",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-091",
+    "word": "回答",
+    "reading": "かいとう",
+    "meaning": "回答，答复",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-092",
+    "word": "開発",
+    "reading": "かいはつ",
+    "meaning": "开发",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-093",
+    "word": "会費",
+    "reading": "かいひ",
+    "meaning": "会员费",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-094",
+    "word": "画家",
+    "reading": "がか",
+    "meaning": "画家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-095",
+    "word": "下記",
+    "reading": "かき",
+    "meaning": "下记",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-096",
+    "word": "確認",
+    "reading": "かくにん",
+    "meaning": "确认",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-097",
+    "word": "学費",
+    "reading": "がくひ",
+    "meaning": "学费",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-098",
+    "word": "学部",
+    "reading": "がくぶ",
+    "meaning": "学院",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-099",
+    "word": "家事",
+    "reading": "かじ",
+    "meaning": "家务",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-100",
+    "word": "歌手",
+    "reading": "かしゅ",
+    "meaning": "歌手",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-101",
+    "word": "画像",
+    "reading": "がぞう",
+    "meaning": "画像",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-102",
+    "word": "片思い",
+    "reading": "かたおもい",
+    "meaning": "单相思",
+    "type": "N-サ変",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-103",
+    "word": "片手",
+    "reading": "かたて",
+    "meaning": "单手",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-104",
+    "word": "活動",
+    "reading": "かつどう",
+    "meaning": "活动",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-105",
+    "word": "活躍",
+    "reading": "かつやく",
+    "meaning": "活跃",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-106",
+    "word": "黴",
+    "reading": "かび",
+    "meaning": "霉",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-107",
+    "word": "花粉症",
+    "reading": "かふんしょう",
+    "meaning": "花粉症",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-108",
+    "word": "髪型",
+    "reading": "かみがた",
+    "meaning": "发型",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-109",
+    "word": "画面",
+    "reading": "がめん",
+    "meaning": "画面",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-110",
+    "word": "科目",
+    "reading": "かもく",
+    "meaning": "科目",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-111",
+    "word": "眼科",
+    "reading": "がんか",
+    "meaning": "眼科",
+    "type": "N",
+    "accent": "◎①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-112",
+    "word": "観客",
+    "reading": "かんきゃく",
+    "meaning": "观众",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-113",
+    "word": "関係",
+    "reading": "かんけい",
+    "meaning": "关系",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-114",
+    "word": "観光客",
+    "reading": "かんこうきゃく",
+    "meaning": "游客",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-115",
+    "word": "観光地",
+    "reading": "かんこうち",
+    "meaning": "景点",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-116",
+    "word": "観光",
+    "reading": "かんこう",
+    "meaning": "观光",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-117",
+    "word": "韓国語",
+    "reading": "かんこくご",
+    "meaning": "韩国",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-118",
+    "word": "看護師",
+    "reading": "かんごし",
+    "meaning": "护士",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-119",
+    "word": "感謝",
+    "reading": "かんしゃ",
+    "meaning": "感谢",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-120",
+    "word": "完成",
+    "reading": "かんせい",
+    "meaning": "完成",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-121",
+    "word": "感染",
+    "reading": "かんせん",
+    "meaning": "感染",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-122",
+    "word": "感想",
+    "reading": "かんそう",
+    "meaning": "感想",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-123",
+    "word": "管理",
+    "reading": "かんり",
+    "meaning": "管理",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-124",
+    "word": "機械工学",
+    "reading": "きかいこうがく",
+    "meaning": "机械工程学",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-125",
+    "word": "機嫌",
+    "reading": "きげん",
+    "meaning": "心情，情绪",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-126",
+    "word": "気候",
+    "reading": "きこう",
+    "meaning": "气候",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-127",
+    "word": "記者会見",
+    "reading": "きしゃかいけん",
+    "meaning": "记者见面会",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-128",
+    "word": "機種",
+    "reading": "きしゅ",
+    "meaning": "型号",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-129",
+    "word": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "技术",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-130",
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning": "季节",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-131",
+    "word": "期待",
+    "reading": "きたい",
+    "meaning": "期待",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-132",
+    "word": "きっかけ",
+    "reading": "きっかけ",
+    "meaning": "契机",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-133",
+    "word": "機内",
+    "reading": "きない",
+    "meaning": "机舱",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-134",
+    "word": "機能",
+    "reading": "きのう",
+    "meaning": "功能",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-135",
+    "word": "希望",
+    "reading": "きぼう",
+    "meaning": "希望",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-136",
+    "word": "希望者",
+    "reading": "きぼうしゃ",
+    "meaning": "希望参加的人",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-137",
+    "word": "期末",
+    "reading": "きまつ",
+    "meaning": "期末",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-138",
+    "word": "休暇",
+    "reading": "きゅうか",
+    "meaning": "休假，放假",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-139",
+    "word": "休館日",
+    "reading": "きゅうかんび",
+    "meaning": "闭馆日",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-140",
+    "word": "休憩",
+    "reading": "きゅうけい",
+    "meaning": "休息",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-141",
+    "word": "休校",
+    "reading": "きゅうこう",
+    "meaning": "学校放假",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-142",
+    "word": "急行",
+    "reading": "きゅうこう",
+    "meaning": "快车",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-143",
+    "word": "休日",
+    "reading": "きゅうじつ",
+    "meaning": "假日",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-144",
+    "word": "求人",
+    "reading": "きゅうじん",
+    "meaning": "招人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-145",
+    "word": "急停車",
+    "reading": "きゅうていしゃ",
+    "meaning": "急刹车",
+    "type": "N-サ変",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-146",
+    "word": "牛丼屋",
+    "reading": "ぎゅうどんや",
+    "meaning": "牛肉盖饭店",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-147",
+    "word": "休養",
+    "reading": "きゅうよう",
+    "meaning": "休养",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-148",
+    "word": "きゅうり",
+    "reading": "きゅうり",
+    "meaning": "黄瓜",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-149",
+    "word": "教師",
+    "reading": "きょうし",
+    "meaning": "教师",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-150",
+    "word": "競争",
+    "reading": "きょうそう",
+    "meaning": "竞争",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-151",
+    "word": "競走",
+    "reading": "きょうそう",
+    "meaning": "竞走",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-152",
+    "word": "共存",
+    "reading": "きょうぞん",
+    "meaning": "共存",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-153",
+    "word": "共通",
+    "reading": "きょうつう",
+    "meaning": "共通，相通",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-154",
+    "word": "強風",
+    "reading": "きょうふう",
+    "meaning": "强风",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-155",
+    "word": "興味",
+    "reading": "きょうみ",
+    "meaning": "兴趣",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-156",
+    "word": "協力",
+    "reading": "きょうりょく",
+    "meaning": "协助",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-157",
+    "word": "許可",
+    "reading": "きょか",
+    "meaning": "许可",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-158",
+    "word": "漁業",
+    "reading": "ぎょぎょう",
+    "meaning": "渔业",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-159",
+    "word": "禁煙",
+    "reading": "きんえん",
+    "meaning": "禁烟",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-160",
+    "word": "緊張",
+    "reading": "きんちょう",
+    "meaning": "紧张",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-161",
+    "word": "勤務",
+    "reading": "きんむ",
+    "meaning": "工作",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-162",
+    "word": "勤務地",
+    "reading": "きんむち",
+    "meaning": "工作地点",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-163",
+    "word": "具合",
+    "reading": "ぐあい",
+    "meaning": "情况",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-164",
+    "word": "区画",
+    "reading": "くかく",
+    "meaning": "区划",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-165",
+    "word": "工夫",
+    "reading": "くふう",
+    "meaning": "下功夫",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-166",
+    "word": "雲",
+    "reading": "くも",
+    "meaning": "云",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-167",
+    "word": "区役所",
+    "reading": "くやくしょ",
+    "meaning": "区政府",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-168",
+    "word": "経営",
+    "reading": "けいえい",
+    "meaning": "经营",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-169",
+    "word": "経営学",
+    "reading": "けいえいがく",
+    "meaning": "经营学",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-170",
+    "word": "経過",
+    "reading": "けいか",
+    "meaning": "经过",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-171",
+    "word": "計画",
+    "reading": "けいかく",
+    "meaning": "计划",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-172",
+    "word": "警官",
+    "reading": "けいかん",
+    "meaning": "警官",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-173",
+    "word": "経験者",
+    "reading": "けいけんしゃ",
+    "meaning": "有经验的人",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-174",
+    "word": "敬語",
+    "reading": "けいご",
+    "meaning": "敬语",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-175",
+    "word": "経済学",
+    "reading": "けいざいがく",
+    "meaning": "经济学",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-176",
+    "word": "刑事",
+    "reading": "けいじ",
+    "meaning": "刑警",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-177",
+    "word": "掲示板",
+    "reading": "けいじばん",
+    "meaning": "公告牌",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-178",
+    "word": "継続",
+    "reading": "けいぞく",
+    "meaning": "持续",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-179",
+    "word": "芸能人",
+    "reading": "げいのうじん",
+    "meaning": "艺人",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-180",
+    "word": "契約",
+    "reading": "けいやく",
+    "meaning": "签合同",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-181",
+    "word": "経歴",
+    "reading": "けいれき",
+    "meaning": "背景经历",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-182",
+    "word": "劇団",
+    "reading": "げきだん",
+    "meaning": "剧团",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-183",
+    "word": "化粧品",
+    "reading": "けしょうひん",
+    "meaning": "化妆品",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-184",
+    "word": "決心",
+    "reading": "けっしん",
+    "meaning": "决心",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-185",
+    "word": "欠席",
+    "reading": "けっせき",
+    "meaning": "缺席",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-186",
+    "word": "結末",
+    "reading": "けつまつ",
+    "meaning": "结局",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-187",
+    "word": "毛虫",
+    "reading": "けむし",
+    "meaning": "毛毛虫",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-188",
+    "word": "圏外",
+    "reading": "けんがい",
+    "meaning": "不在服务区",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-189",
+    "word": "玄関",
+    "reading": "げんかん",
+    "meaning": "玄关",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-190",
+    "word": "原稿",
+    "reading": "げんこう",
+    "meaning": "原稿",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-191",
+    "word": "検査",
+    "reading": "けんさ",
+    "meaning": "检查",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-192",
+    "word": "現在",
+    "reading": "げんざい",
+    "meaning": "现在",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-193",
+    "word": "現実",
+    "reading": "げんじつ",
+    "meaning": "现实",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-194",
+    "word": "研修",
+    "reading": "けんしゅう",
+    "meaning": "进修",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-195",
+    "word": "建設",
+    "reading": "けんせつ",
+    "meaning": "建设",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-196",
+    "word": "限定",
+    "reading": "げんてい",
+    "meaning": "限定",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-197",
+    "word": "現場",
+    "reading": "げんば",
+    "meaning": "现场",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-198",
+    "word": "子犬",
+    "reading": "こいぬ",
+    "meaning": "小狗",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-199",
+    "word": "公演",
+    "reading": "こうえん",
+    "meaning": "公演",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-200",
+    "word": "講演",
+    "reading": "こうえん",
+    "meaning": "演讲",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-201",
+    "word": "効果",
+    "reading": "こうか",
+    "meaning": "效果",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-202",
+    "word": "後悔",
+    "reading": "こうかい",
+    "meaning": "后悔",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-203",
+    "word": "合格者",
+    "reading": "ごうかくしゃ",
+    "meaning": "合格者",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-204",
+    "word": "講義",
+    "reading": "こうぎ",
+    "meaning": "讲座",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-205",
+    "word": "工業",
+    "reading": "こうぎょう",
+    "meaning": "工业",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-206",
+    "word": "航空便",
+    "reading": "こうくうびん",
+    "meaning": "航空邮件",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-207",
+    "word": "攻撃",
+    "reading": "こうげき",
+    "meaning": "攻击",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-208",
+    "word": "高原",
+    "reading": "こうげん",
+    "meaning": "高原",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-209",
+    "word": "洪水",
+    "reading": "こうずい",
+    "meaning": "洪水",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-210",
+    "word": "香水",
+    "reading": "こうすい",
+    "meaning": "香水",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-211",
+    "word": "交通安全",
+    "reading": "こうつうあんぜん",
+    "meaning": "交通安全",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-212",
+    "word": "交通機関",
+    "reading": "こうつうきかん",
+    "meaning": "交通工具",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-213",
+    "word": "後任",
+    "reading": "こうにん",
+    "meaning": "后任",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-214",
+    "word": "公用語",
+    "reading": "こうようご",
+    "meaning": "通用语",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-215",
+    "word": "交流",
+    "reading": "こうりゅう",
+    "meaning": "交流",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-216",
+    "word": "誤解",
+    "reading": "ごかい",
+    "meaning": "误解",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-217",
+    "word": "故郷",
+    "reading": "こきょう",
+    "meaning": "故乡",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-218",
+    "word": "国際化",
+    "reading": "こくさいか",
+    "meaning": "国际化",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-219",
+    "word": "国民",
+    "reading": "こくみん",
+    "meaning": "国民",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-220",
+    "word": "腰",
+    "reading": "こし",
+    "meaning": "腰",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-221",
+    "word": "後日",
+    "reading": "ごじつ",
+    "meaning": "日后",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-222",
+    "word": "こしょう",
+    "reading": "こしょう",
+    "meaning": "胡椒",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-223",
+    "word": "子育て",
+    "reading": "こそだて",
+    "meaning": "育儿",
+    "type": "N-サ変",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-224",
+    "word": "辺り",
+    "reading": "あたり",
+    "meaning": "周围",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-225",
+    "word": "好み",
+    "reading": "このみ",
+    "meaning": "喜好",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-226",
+    "word": "五分咲き",
+    "reading": "ごぶざき",
+    "meaning": "花开到一半",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-227",
+    "word": "小麦粉",
+    "reading": "こむぎこ",
+    "meaning": "面粉",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-228",
+    "word": "婚約指輪",
+    "reading": "こんやくゆびわ",
+    "meaning": "婚戒",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-229",
+    "word": "最下位",
+    "reading": "さいかい",
+    "meaning": "最后一名",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-230",
+    "word": "災害",
+    "reading": "さいがい",
+    "meaning": "灾害",
+    "type": "N",
+    "accent": "◎①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-231",
+    "word": "最新作",
+    "reading": "さいしんさく",
+    "meaning": "最新作",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-232",
+    "word": "裁判",
+    "reading": "さいばん",
+    "meaning": "裁断，判决",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-233",
+    "word": "作業",
+    "reading": "さぎょう",
+    "meaning": "作业",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-234",
+    "word": "削除",
+    "reading": "さくじょ",
+    "meaning": "删除",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-235",
+    "word": "昨年",
+    "reading": "さくねん",
+    "meaning": "去年",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-236",
+    "word": "昨晩",
+    "reading": "さくばん",
+    "meaning": "昨晚",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-237",
+    "word": "作品",
+    "reading": "さくひん",
+    "meaning": "作品",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-238",
+    "word": "殺人",
+    "reading": "さつじん",
+    "meaning": "杀人",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-239",
+    "word": "雑草",
+    "reading": "ざっそう",
+    "meaning": "杂草",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-240",
+    "word": "猿",
+    "reading": "さる",
+    "meaning": "猴子",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-241",
+    "word": "笊",
+    "reading": "ざる",
+    "meaning": "笊篱",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-242",
+    "word": "参加者",
+    "reading": "さんかしゃ",
+    "meaning": "参加者",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-243",
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meaning": "加班",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-244",
+    "word": "参考書",
+    "reading": "さんこうしょ",
+    "meaning": "参考书",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-245",
+    "word": "参考",
+    "reading": "さんこう",
+    "meaning": "参考",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-246",
+    "word": "参加",
+    "reading": "さんか",
+    "meaning": "参加",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-247",
+    "word": "酸素",
+    "reading": "さんそ",
+    "meaning": "氧气",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-248",
+    "word": "山頂",
+    "reading": "さんちょう",
+    "meaning": "山顶",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-249",
+    "word": "塩",
+    "reading": "しお",
+    "meaning": "盐",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-250",
+    "word": "次回",
+    "reading": "じかい",
+    "meaning": "下回",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-251",
+    "word": "資格",
+    "reading": "しかく",
+    "meaning": "资格",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-252",
+    "word": "四季",
+    "reading": "しき",
+    "meaning": "四季",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-253",
+    "word": "時期",
+    "reading": "じき",
+    "meaning": "时期",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-254",
+    "word": "時給",
+    "reading": "じきゅう",
+    "meaning": "时薪",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-255",
+    "word": "事件",
+    "reading": "じけん",
+    "meaning": "事件",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-256",
+    "word": "指示",
+    "reading": "しじ",
+    "meaning": "指示",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-257",
+    "word": "支持",
+    "reading": "しじ",
+    "meaning": "支持",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-258",
+    "word": "支社",
+    "reading": "ししゃ",
+    "meaning": "分公司",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-259",
+    "word": "支持率",
+    "reading": "しじりつ",
+    "meaning": "支持率",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-260",
+    "word": "自信",
+    "reading": "じしん",
+    "meaning": "自信",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-261",
+    "word": "地震",
+    "reading": "じしん",
+    "meaning": "地震",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-262",
+    "word": "施設",
+    "reading": "しせつ",
+    "meaning": "设施",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-263",
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning": "自然",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-264",
+    "word": "時代",
+    "reading": "じだい",
+    "meaning": "时代",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-265",
+    "word": "市長",
+    "reading": "しちょう",
+    "meaning": "市长",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-266",
+    "word": "実感",
+    "reading": "じっかん",
+    "meaning": "真的感到",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-267",
+    "word": "実施",
+    "reading": "じっし",
+    "meaning": "实施",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-268",
+    "word": "湿度",
+    "reading": "しつど",
+    "meaning": "湿度",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-269",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meaning": "失败",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-270",
+    "word": "尻尾",
+    "reading": "しっぽ",
+    "meaning": "尾巴",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-271",
+    "word": "指導",
+    "reading": "しどう",
+    "meaning": "指导",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-272",
+    "word": "指導員",
+    "reading": "しどういん",
+    "meaning": "指导员",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-273",
+    "word": "自動販売機",
+    "reading": "じどうはんばいき",
+    "meaning": "自动贩卖机",
+    "type": "N",
+    "accent": "⑥",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-274",
+    "word": "自販機",
+    "reading": "じはんき",
+    "meaning": "自动贩卖机",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-275",
+    "word": "支払い",
+    "reading": "しはらい",
+    "meaning": "支付",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-276",
+    "word": "支配",
+    "reading": "しはい",
+    "meaning": "支配",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-277",
+    "word": "私費留学生",
+    "reading": "しひりゅうがくせい",
+    "meaning": "自费留学生",
+    "type": "N",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-278",
+    "word": "私費",
+    "reading": "しひ",
+    "meaning": "自费",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-279",
+    "word": "市民",
+    "reading": "しみん",
+    "meaning": "市民",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-280",
+    "word": "市民団体",
+    "reading": "しみんだんたい",
+    "meaning": "市民组织",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-281",
+    "word": "市民農園",
+    "reading": "しみんのうえん",
+    "meaning": "市民农场",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-282",
+    "word": "締切",
+    "reading": "しめきり",
+    "meaning": "截止日",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-283",
+    "word": "視野",
+    "reading": "しや",
+    "meaning": "视野",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-284",
+    "word": "社会人",
+    "reading": "しゃかいじん",
+    "meaning": "社会人士",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-285",
+    "word": "写真家",
+    "reading": "しゃしんか",
+    "meaning": "摄影家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-286",
+    "word": "斜面",
+    "reading": "しゃめん",
+    "meaning": "坡面，斜面",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-287",
+    "word": "収穫",
+    "reading": "しゅうかく",
+    "meaning": "收获",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-288",
+    "word": "自由形",
+    "reading": "じゆうがた",
+    "meaning": "自由泳",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-289",
+    "word": "集客",
+    "reading": "しゅうきゃく",
+    "meaning": "招揽客人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-290",
+    "word": "集合",
+    "reading": "しゅうごう",
+    "meaning": "集合",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-291",
+    "word": "重傷",
+    "reading": "じゅうしょう",
+    "meaning": "重伤",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-292",
+    "word": "就職",
+    "reading": "しゅしょく",
+    "meaning": "就业",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-293",
+    "word": "渋滞",
+    "reading": "じゅうたい",
+    "meaning": "堵车",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-294",
+    "word": "終電",
+    "reading": "しゅうでん",
+    "meaning": "末班车",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-295",
+    "word": "充電",
+    "reading": "じゅうでん",
+    "meaning": "充电",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-296",
+    "word": "住民",
+    "reading": "じゅうみん",
+    "meaning": "住民，居民",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-297",
+    "word": "終了",
+    "reading": "しゅうりょう",
+    "meaning": "结束",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-298",
+    "word": "宿泊",
+    "reading": "しゅくはく",
+    "meaning": "住宿",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-299",
+    "word": "受験",
+    "reading": "じゅけん",
+    "meaning": "参加考试",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-300",
+    "word": "取材",
+    "reading": "しゅざい",
+    "meaning": "采访",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-301",
+    "word": "手術",
+    "reading": "しゅじゅつ",
+    "meaning": "手术",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-302",
+    "word": "出演",
+    "reading": "しゅつえん",
+    "meaning": "登台演出",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-303",
+    "word": "出席率",
+    "reading": "しゅっせきりつ",
+    "meaning": "出席率",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-304",
+    "word": "寿命",
+    "reading": "じゅみょう",
+    "meaning": "寿命",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-305",
+    "word": "準備体操",
+    "reading": "じゅんびたいそう",
+    "meaning": "准备运动",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-306",
+    "word": "正月",
+    "reading": "しょうがつ",
+    "meaning": "正月",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-307",
+    "word": "条件",
+    "reading": "じょうけん",
+    "meaning": "条件",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-308",
+    "word": "上司",
+    "reading": "じょうし",
+    "meaning": "上司",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-309",
+    "word": "少子化",
+    "reading": "しょうしか",
+    "meaning": "少子化",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-310",
+    "word": "常識",
+    "reading": "じょうしき",
+    "meaning": "常识",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-311",
+    "word": "状態",
+    "reading": "じょうたい",
+    "meaning": "状态",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-312",
+    "word": "冗談",
+    "reading": "じょうだん",
+    "meaning": "玩笑",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-313",
+    "word": "商店街",
+    "reading": "しょうてんがい",
+    "meaning": "商业街",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-314",
+    "word": "消費者",
+    "reading": "しょうひしゃ",
+    "meaning": "消费者",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-315",
+    "word": "消費税",
+    "reading": "しょうひぜい",
+    "meaning": "消费税",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-316",
+    "word": "商品",
+    "reading": "しょうひん",
+    "meaning": "商品",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-317",
+    "word": "賞品",
+    "reading": "しょうひん",
+    "meaning": "奖品",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-318",
+    "word": "情報",
+    "reading": "じょうほう",
+    "meaning": "信息",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-319",
+    "word": "証明",
+    "reading": "しょうめい",
+    "meaning": "证明",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-320",
+    "word": "食材",
+    "reading": "しょくざい",
+    "meaning": "食材",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-321",
+    "word": "消費",
+    "reading": "しょうひ",
+    "meaning": "消费",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-322",
+    "word": "食中毒",
+    "reading": "しょくちゅうどく",
+    "meaning": "食物中毒",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-323",
+    "word": "職場",
+    "reading": "しょくば",
+    "meaning": "职场",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-324",
+    "word": "初心者",
+    "reading": "しょしんしゃ",
+    "meaning": "初学者",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-325",
+    "word": "知り合い",
+    "reading": "しりあい",
+    "meaning": "相识的人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-326",
+    "word": "皺",
+    "reading": "しわ",
+    "meaning": "皱纹",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-327",
+    "word": "人事",
+    "reading": "じんじ",
+    "meaning": "人事",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-328",
+    "word": "新入社員",
+    "reading": "しんにゅうしゃいん",
+    "meaning": "新员工",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-329",
+    "word": "進歩",
+    "reading": "しんぽ",
+    "meaning": "进步",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-330",
+    "word": "親友",
+    "reading": "しんゆう",
+    "meaning": "亲密朋友",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-331",
+    "word": "信頼",
+    "reading": "しんらい",
+    "meaning": "信赖",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-332",
+    "word": "信頼関係",
+    "reading": "しんらいかんけい",
+    "meaning": "信赖关系",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-333",
+    "word": "人類",
+    "reading": "じんるい",
+    "meaning": "人类",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-334",
+    "word": "進路",
+    "reading": "しんろ",
+    "meaning": "出路",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-335",
+    "word": "新郎",
+    "reading": "しんろう",
+    "meaning": "新郎",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-336",
+    "word": "新婦",
+    "reading": "しんぷ",
+    "meaning": "新娘",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-337",
+    "word": "水分",
+    "reading": "すいぶん",
+    "meaning": "水分",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-338",
+    "word": "数学",
+    "reading": "すうがく",
+    "meaning": "数学",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-339",
+    "word": "好き嫌い",
+    "reading": "すききらい",
+    "meaning": "挑剔，喜欢讨厌",
+    "type": "N-サ変",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-340",
+    "word": "頭痛",
+    "reading": "ずつう",
+    "meaning": "头疼",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-341",
+    "word": "選手",
+    "reading": "せんしゅ",
+    "meaning": "选手",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-342",
+    "word": "性格",
+    "reading": "せいかく",
+    "meaning": "性格",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-343",
+    "word": "生活費",
+    "reading": "せいかつひ",
+    "meaning": "生活费",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-344",
+    "word": "成功",
+    "reading": "せいこう",
+    "meaning": "成功",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-345",
+    "word": "政策",
+    "reading": "せいさく",
+    "meaning": "政策",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-346",
+    "word": "生産",
+    "reading": "せいさん",
+    "meaning": "生产",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-347",
+    "word": "政治",
+    "reading": "せいじ",
+    "meaning": "政治",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-348",
+    "word": "正社員",
+    "reading": "せいしゃいん",
+    "meaning": "正式员工",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-349",
+    "word": "成人式",
+    "reading": "せいじんしき",
+    "meaning": "成人仪式",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-350",
+    "word": "性能",
+    "reading": "せいのう",
+    "meaning": "性能",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-351",
+    "word": "生物",
+    "reading": "せいぶつ",
+    "meaning": "生物",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-352",
+    "word": "声優",
+    "reading": "せいゆう",
+    "meaning": "声优",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-353",
+    "word": "整理",
+    "reading": "せいり",
+    "meaning": "整理",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-354",
+    "word": "各地",
+    "reading": "かくち",
+    "meaning": "各地",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-355",
+    "word": "咳",
+    "reading": "せき",
+    "meaning": "咳嗽",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-356",
+    "word": "嚔",
+    "reading": "くしゃみ",
+    "meaning": "喷嚏",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-357",
+    "word": "欠伸",
+    "reading": "あくび",
+    "meaning": "打哈欠",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-358",
+    "word": "積雪",
+    "reading": "せきせつ",
+    "meaning": "积雪",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-359",
+    "word": "世代",
+    "reading": "せだい",
+    "meaning": "世代",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-360",
+    "word": "接待",
+    "reading": "せったい",
+    "meaning": "招待，应酬",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-361",
+    "word": "設定",
+    "reading": "せってい",
+    "meaning": "设定",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-362",
+    "word": "設備",
+    "reading": "せつび",
+    "meaning": "设备",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-363",
+    "word": "説明書",
+    "reading": "せつめいしょ",
+    "meaning": "说明书",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-364",
+    "word": "背中",
+    "reading": "せなか",
+    "meaning": "背后",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-365",
+    "word": "世話",
+    "reading": "せわ",
+    "meaning": "照顾",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-366",
+    "word": "全員",
+    "reading": "ぜんいん",
+    "meaning": "全员",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-367",
+    "word": "全速力",
+    "reading": "ぜんそくりょく",
+    "meaning": "最大速度",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-368",
+    "word": "洗濯物",
+    "reading": "せんたくもの",
+    "meaning": "要洗的衣服",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-369",
+    "word": "宣伝",
+    "reading": "せんでん",
+    "meaning": "宣传",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-370",
+    "word": "専門家",
+    "reading": "せんもんか",
+    "meaning": "专家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-371",
+    "word": "専門分野",
+    "reading": "せんもんぶんや",
+    "meaning": "专业领域",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-372",
+    "word": "騒音",
+    "reading": "そうおん",
+    "meaning": "噪音",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-373",
+    "word": "操作",
+    "reading": "そうさ",
+    "meaning": "操作",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-374",
+    "word": "送信",
+    "reading": "そうしん",
+    "meaning": "送信",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-375",
+    "word": "想像",
+    "reading": "そうぞう",
+    "meaning": "想象",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-376",
+    "word": "早退",
+    "reading": "そうたい",
+    "meaning": "早退",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-377",
+    "word": "送別会",
+    "reading": "そうべつかい",
+    "meaning": "欢送会",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-378",
+    "word": "速達",
+    "reading": "そくたつ",
+    "meaning": "快递",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-379",
+    "word": "卒業論文",
+    "reading": "そつぎょうろんぶん",
+    "meaning": "毕业论文",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-380",
+    "word": "蕎麦",
+    "reading": "そば",
+    "meaning": "荞麦面",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-381",
+    "word": "退院",
+    "reading": "たいいん",
+    "meaning": "出院",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-382",
+    "word": "対応",
+    "reading": "たいおう",
+    "meaning": "对应",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-383",
+    "word": "大企業",
+    "reading": "だいきぎょう",
+    "meaning": "大公司",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-384",
+    "word": "滞在",
+    "reading": "たいざい",
+    "meaning": "逗留",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-385",
+    "word": "大事故",
+    "reading": "だいじこ",
+    "meaning": "大事故",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-386",
+    "word": "体重計",
+    "reading": "たいじゅうけい",
+    "meaning": "体重秤",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-387",
+    "word": "体操",
+    "reading": "たいそう",
+    "meaning": "体操",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-388",
+    "word": "体調",
+    "reading": "たいちょう",
+    "meaning": "身体状况",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-389",
+    "word": "態度",
+    "reading": "たいど",
+    "meaning": "态度",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-390",
+    "word": "大統領",
+    "reading": "だいとうりょう",
+    "meaning": "总统",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-391",
+    "word": "大都市",
+    "reading": "だいとし",
+    "meaning": "大城市",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-392",
+    "word": "太陽",
+    "reading": "たいよう",
+    "meaning": "太阳",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-393",
+    "word": "体力",
+    "reading": "たいりょく",
+    "meaning": "体力",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-394",
+    "word": "宝くじ",
+    "reading": "たからくじ",
+    "meaning": "彩票",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-395",
+    "word": "他社",
+    "reading": "たしゃ",
+    "meaning": "其他公司",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-396",
+    "word": "多方面",
+    "reading": "たほうめん",
+    "meaning": "多方面",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-397",
+    "word": "単語",
+    "reading": "たんご",
+    "meaning": "单词",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-398",
+    "word": "担当",
+    "reading": "たんとう",
+    "meaning": "担当",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-399",
+    "word": "担当者",
+    "reading": "たんとうしゃ",
+    "meaning": "担当者",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-400",
+    "word": "地域",
+    "reading": "ちいき",
+    "meaning": "地域",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-401",
+    "word": "違い",
+    "reading": "ちがい",
+    "meaning": "不同",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-402",
+    "word": "地球",
+    "reading": "ちきゅう",
+    "meaning": "地球",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-403",
+    "word": "地方",
+    "reading": "ちほう",
+    "meaning": "地方",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-404",
+    "word": "知名度",
+    "reading": "ちめいど",
+    "meaning": "知名度",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-405",
+    "word": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meaning": "停车场",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-406",
+    "word": "抽選",
+    "reading": "ちゅうせん",
+    "meaning": "抽选，抽签",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-407",
+    "word": "調査",
+    "reading": "ちょうさ",
+    "meaning": "调查",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-408",
+    "word": "頂上",
+    "reading": "ちょうじょう",
+    "meaning": "顶点",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-409",
+    "word": "朝食",
+    "reading": "ちょうしょく",
+    "meaning": "早饭",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-410",
+    "word": "治療",
+    "reading": "ちりょう",
+    "meaning": "治疗",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-411",
+    "word": "治療法",
+    "reading": "ちりょうほう",
+    "meaning": "治疗方法",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-412",
+    "word": "通勤",
+    "reading": "つうきん",
+    "meaning": "上下班",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-413",
+    "word": "通信販売",
+    "reading": "つうしんはんばい",
+    "meaning": "网购",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-414",
+    "word": "通知",
+    "reading": "つうち",
+    "meaning": "通知",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-415",
+    "word": "土",
+    "reading": "つち",
+    "meaning": "土",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-416",
+    "word": "津波",
+    "reading": "つなみ",
+    "meaning": "海啸",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-417",
+    "word": "梅雨明け",
+    "reading": "つゆあけ",
+    "meaning": "出梅",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-418",
+    "word": "手足",
+    "reading": "てあし",
+    "meaning": "手足",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-419",
+    "word": "定員",
+    "reading": "ていいん",
+    "meaning": "规定人数",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-420",
+    "word": "鉄",
+    "reading": "てつ",
+    "meaning": "铁",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-421",
+    "word": "手伝い",
+    "reading": "てつだい",
+    "meaning": "帮忙",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-422",
+    "word": "手続き",
+    "reading": "てつづき",
+    "meaning": "手续",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-423",
+    "word": "徹夜",
+    "reading": "てつや",
+    "meaning": "通宵",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-424",
+    "word": "夜更かし",
+    "reading": "よふかし",
+    "meaning": "熬夜",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-425",
+    "word": "手荷物",
+    "reading": "てにもつ",
+    "meaning": "手提行李",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-426",
+    "word": "手元",
+    "reading": "てもと",
+    "meaning": "手边",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-427",
+    "word": "電気自動車",
+    "reading": "でんきじどうしゃ",
+    "meaning": "电车",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-428",
+    "word": "電球",
+    "reading": "でんきゅう",
+    "meaning": "电灯泡",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-429",
+    "word": "転勤",
+    "reading": "てんきん",
+    "meaning": "换工作，调岗",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-430",
+    "word": "伝統",
+    "reading": "でんとう",
+    "meaning": "传统",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-431",
+    "word": "電波",
+    "reading": "でんぱ",
+    "meaning": "电波",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-432",
+    "word": "問い合わせ",
+    "reading": "といあわせ",
+    "meaning": "咨询",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-433",
+    "word": "倒産",
+    "reading": "とうさん",
+    "meaning": "破产",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-434",
+    "word": "当日",
+    "reading": "とうじつ",
+    "meaning": "当天",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-435",
+    "word": "登場",
+    "reading": "とうじょう",
+    "meaning": "登场",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-436",
+    "word": "到着",
+    "reading": "とうちゃく",
+    "meaning": "到达",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-437",
+    "word": "盗難",
+    "reading": "とうなん",
+    "meaning": "失窃，遭窃",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-438",
+    "word": "導入",
+    "reading": "どうにゅう",
+    "meaning": "导入",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-439",
+    "word": "投票",
+    "reading": "とうひょう",
+    "meaning": "投票",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-440",
+    "word": "豆腐",
+    "reading": "とうふ",
+    "meaning": "豆腐",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-441",
+    "word": "都会",
+    "reading": "とかい",
+    "meaning": "城市，都会",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-442",
+    "word": "読書",
+    "reading": "どくしょ",
+    "meaning": "读书",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-443",
+    "word": "特色",
+    "reading": "とくしょく",
+    "meaning": "特色",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-444",
+    "word": "独身者",
+    "reading": "どくしんしゃ",
+    "meaning": "单身的人",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-445",
+    "word": "特売品",
+    "reading": "とくばいひん",
+    "meaning": "特卖品",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-446",
+    "word": "登山",
+    "reading": "とざん",
+    "meaning": "登山",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-447",
+    "word": "登山家",
+    "reading": "とざんか",
+    "meaning": "登山家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-448",
+    "word": "扉",
+    "reading": "とびら",
+    "meaning": "门",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-449",
+    "word": "取り扱い",
+    "reading": "とりあつかい",
+    "meaning": "接待，处理",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-450",
+    "word": "鶏肉",
+    "reading": "とりにく",
+    "meaning": "鸡肉",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-451",
+    "word": "努力",
+    "reading": "どりょく",
+    "meaning": "努力",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-452",
+    "word": "泥",
+    "reading": "どろ",
+    "meaning": "泥巴",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-453",
+    "word": "内線",
+    "reading": "ないせん",
+    "meaning": "内线",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-454",
+    "word": "内容",
+    "reading": "ないよう",
+    "meaning": "内容",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-455",
+    "word": "仲",
+    "reading": "なか",
+    "meaning": "关系",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-456",
+    "word": "仲直り",
+    "reading": "なかなおり",
+    "meaning": "和好",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-457",
+    "word": "中身",
+    "reading": "なかみ",
+    "meaning": "容纳的东西，里面的东西",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-458",
+    "word": "鳴き声",
+    "reading": "なきごえ",
+    "meaning": "叫声",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-459",
+    "word": "泣き虫",
+    "reading": "なきむし",
+    "meaning": "爱哭鬼",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-460",
+    "word": "茄子",
+    "reading": "なす",
+    "meaning": "茄子",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-461",
+    "word": "納豆",
+    "reading": "なっとう",
+    "meaning": "纳豆",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-462",
+    "word": "夏バテ",
+    "reading": "なつばて",
+    "meaning": "夏乏",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-463",
+    "word": "鍋",
+    "reading": "なべ",
+    "meaning": "锅；火锅",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-464",
+    "word": "涙",
+    "reading": "なみだ",
+    "meaning": "眼泪",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-465",
+    "word": "偽物",
+    "reading": "にせもの",
+    "meaning": "假货",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-466",
+    "word": "日課",
+    "reading": "にっか",
+    "meaning": "每天要做的事儿",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-467",
+    "word": "荷物入れ",
+    "reading": "にもついれ",
+    "meaning": "行李柜",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-468",
+    "word": "入会",
+    "reading": "にゅうかい",
+    "meaning": "入会",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-469",
+    "word": "入会金",
+    "reading": "にゅうかいきん",
+    "meaning": "入会费",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-470",
+    "word": "入金",
+    "reading": "にゅうきん",
+    "meaning": "进账",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-471",
+    "word": "入社",
+    "reading": "にゅうしゃ",
+    "meaning": "进公司",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-472",
+    "word": "入力",
+    "reading": "にゅうりょく",
+    "meaning": "输入",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-473",
+    "word": "人間",
+    "reading": "にんげん",
+    "meaning": "人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-474",
+    "word": "人間関係",
+    "reading": "にんげんかんけい",
+    "meaning": "人际关系",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-475",
+    "word": "人参",
+    "reading": "にんじん",
+    "meaning": "胡萝卜",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-476",
+    "word": "人数",
+    "reading": "にんずう",
+    "meaning": "人数",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-477",
+    "word": "根",
+    "reading": "ね",
+    "meaning": "根",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-478",
+    "word": "値上がり",
+    "reading": "ねあがり",
+    "meaning": "涨价",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-479",
+    "word": "値下げ",
+    "reading": "ねさげ",
+    "meaning": "降价",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-480",
+    "word": "寝不足",
+    "reading": "ねぶそく",
+    "meaning": "睡眠不足",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-481",
+    "word": "値札",
+    "reading": "ねふだ",
+    "meaning": "价签",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-482",
+    "word": "寝坊",
+    "reading": "ねぼう",
+    "meaning": "睡眠不足",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-483",
+    "word": "年度",
+    "reading": "ねんど",
+    "meaning": "年度",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-484",
+    "word": "年末",
+    "reading": "ねんまつ",
+    "meaning": "年末",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-485",
+    "word": "年齢",
+    "reading": "ねんれい",
+    "meaning": "年龄",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-486",
+    "word": "農園",
+    "reading": "のうえん",
+    "meaning": "农场",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-487",
+    "word": "農家",
+    "reading": "のうか",
+    "meaning": "农民",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-488",
+    "word": "農作物",
+    "reading": "のうさくもつ",
+    "meaning": "农作物",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-489",
+    "word": "納品",
+    "reading": "のうひん",
+    "meaning": "交货",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-490",
+    "word": "残り",
+    "reading": "のこり",
+    "meaning": "剩余",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-491",
+    "word": "売店",
+    "reading": "ばいてん",
+    "meaning": "小卖部",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-492",
+    "word": "俳優",
+    "reading": "はいゆう",
+    "meaning": "演员",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-493",
+    "word": "肌",
+    "reading": "はだ",
+    "meaning": "肌肤，皮肤",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-494",
+    "word": "蜂蜜",
+    "reading": "はちみつ",
+    "meaning": "蜂蜜",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-495",
+    "word": "発車",
+    "reading": "はっしゃ",
+    "meaning": "发车",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-496",
+    "word": "発生",
+    "reading": "はっせい",
+    "meaning": "发生",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-497",
+    "word": "発送",
+    "reading": "はっそう",
+    "meaning": "发送",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-498",
+    "word": "発売",
+    "reading": "はつばい",
+    "meaning": "发售",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-499",
+    "word": "鳩",
+    "reading": "はと",
+    "meaning": "鸽子",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-500",
+    "word": "話し合い",
+    "reading": "はなしあい",
+    "meaning": "商议",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-501",
+    "word": "花びら",
+    "reading": "はなびら",
+    "meaning": "花瓣",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-502",
+    "word": "花見",
+    "reading": "はなみ",
+    "meaning": "赏花",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-503",
+    "word": "花見客",
+    "reading": "はなみきゃく",
+    "meaning": "赏花的游客",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-504",
+    "word": "幅",
+    "reading": "はば",
+    "meaning": "宽度",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-505",
+    "word": "晴れ",
+    "reading": "はれ",
+    "meaning": "晴朗，晴天",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-506",
+    "word": "半額",
+    "reading": "はんがく",
+    "meaning": "半价",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-507",
+    "word": "番組",
+    "reading": "ばんぐみ",
+    "meaning": "节目",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-508",
+    "word": "反対",
+    "reading": "はんたい",
+    "meaning": "反对",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-509",
+    "word": "反対運動",
+    "reading": "はんたいうんどう",
+    "meaning": "反对运动",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-510",
+    "word": "反対方向",
+    "reading": "はんたいほうこう",
+    "meaning": "相反方向",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-511",
+    "word": "犯人",
+    "reading": "はんにん",
+    "meaning": "犯人",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-512",
+    "word": "日当たり",
+    "reading": "ひあたり",
+    "meaning": "向阳",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-513",
+    "word": "被害",
+    "reading": "ひがい",
+    "meaning": "受害，受灾",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-514",
+    "word": "光",
+    "reading": "ひかり",
+    "meaning": "光",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-515",
+    "word": "日頃",
+    "reading": "ひごろ",
+    "meaning": "平时",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-516",
+    "word": "筆記試験",
+    "reading": "ひっきしけん",
+    "meaning": "笔试",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-517",
+    "word": "引っ越し",
+    "reading": "ひっこし",
+    "meaning": "搬家",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-518",
+    "word": "一言",
+    "reading": "ひとこと",
+    "meaning": "一句话",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-519",
+    "word": "人ごみ",
+    "reading": "ひとごみ",
+    "meaning": "人群",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-520",
+    "word": "一晩",
+    "reading": "ひとばん",
+    "meaning": "一晚上",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-521",
+    "word": "人前",
+    "reading": "ひとまえ",
+    "meaning": "人前",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-522",
+    "word": "皸",
+    "reading": "ひび",
+    "meaning": "皲裂",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-523",
+    "word": "秘密",
+    "reading": "ひみつ",
+    "meaning": "秘密",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-524",
+    "word": "紐",
+    "reading": "ひも",
+    "meaning": "绳子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-525",
+    "word": "美容院",
+    "reading": "びよういん",
+    "meaning": "美容院",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-526",
+    "word": "評価",
+    "reading": "ひょうか",
+    "meaning": "评价",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-527",
+    "word": "評判",
+    "reading": "ひょうばん",
+    "meaning": "好评",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-528",
+    "word": "昼過ぎ",
+    "reading": "ひるすぎ",
+    "meaning": "午后",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-529",
+    "word": "風景",
+    "reading": "ふうけい",
+    "meaning": "风景",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-530",
+    "word": "部下",
+    "reading": "ぶか",
+    "meaning": "部下",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-531",
+    "word": "普及",
+    "reading": "ふきゅう",
+    "meaning": "普及",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-532",
+    "word": "布巾",
+    "reading": "ふきん",
+    "meaning": "抹布",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-533",
+    "word": "副作用",
+    "reading": "ふくさよう",
+    "meaning": "副作用",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-534",
+    "word": "復習",
+    "reading": "ふくしゅう",
+    "meaning": "复习",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-535",
+    "word": "不景気",
+    "reading": "ふけいき",
+    "meaning": "不景气",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-536",
+    "word": "蓋",
+    "reading": "ふた",
+    "meaning": "盖子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-537",
+    "word": "舞台",
+    "reading": "ぶたい",
+    "meaning": "舞台",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-538",
+    "word": "双子",
+    "reading": "ふたご",
+    "meaning": "双子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-539",
+    "word": "普段",
+    "reading": "ふだん",
+    "meaning": "平时",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-540",
+    "word": "負担",
+    "reading": "ふたん",
+    "meaning": "负担",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-541",
+    "word": "沸騰",
+    "reading": "ふっとう",
+    "meaning": "沸腾",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-542",
+    "word": "物理",
+    "reading": "ぶつり",
+    "meaning": "物理",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-543",
+    "word": "不動産屋",
+    "reading": "ふどうさんや",
+    "meaning": "房地产",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-544",
+    "word": "故郷",
+    "reading": "ふるさと",
+    "meaning": "故乡",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-545",
+    "word": "文章",
+    "reading": "ぶんしょう",
+    "meaning": "文章",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-546",
+    "word": "分野",
+    "reading": "ぶんや",
+    "meaning": "领域",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-547",
+    "word": "平均",
+    "reading": "へいきん",
+    "meaning": "平均",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-548",
+    "word": "平日",
+    "reading": "へいじつ",
+    "meaning": "平日",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-549",
+    "word": "平和",
+    "reading": "へいわ",
+    "meaning": "和平",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-550",
+    "word": "弁護士",
+    "reading": "べんごし",
+    "meaning": "律师",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-551",
+    "word": "報告",
+    "reading": "ほうこく",
+    "meaning": "报告",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-552",
+    "word": "報告書",
+    "reading": "ほうこくしょ",
+    "meaning": "报告书",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-553",
+    "word": "方針",
+    "reading": "ほうしん",
+    "meaning": "方针",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-554",
+    "word": "方法",
+    "reading": "ほうほう",
+    "meaning": "方法",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-555",
+    "word": "保険",
+    "reading": "ほけん",
+    "meaning": "保险",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-556",
+    "word": "保険証",
+    "reading": "ほけんしょう",
+    "meaning": "保险证",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-557",
+    "word": "保護",
+    "reading": "ほご",
+    "meaning": "保护",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-558",
+    "word": "ほこり",
+    "reading": "ほこり",
+    "meaning": "灰尘",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-559",
+    "word": "星占い",
+    "reading": "ほしうらない",
+    "meaning": "占星",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-560",
+    "word": "募集",
+    "reading": "ぼしゅう",
+    "meaning": "募集",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-561",
+    "word": "保障",
+    "reading": "ほしょう",
+    "meaning": "保障",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-562",
+    "word": "保存",
+    "reading": "ほぞん",
+    "meaning": "保存",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-563",
+    "word": "骨",
+    "reading": "ほね",
+    "meaning": "骨头",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-564",
+    "word": "本日",
+    "reading": "ほんじつ",
+    "meaning": "本日",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-565",
+    "word": "本棚",
+    "reading": "ほんだな",
+    "meaning": "书架",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-566",
+    "word": "迷子",
+    "reading": "まいご",
+    "meaning": "迷路",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-567",
+    "word": "孫",
+    "reading": "まご",
+    "meaning": "孙子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-568",
+    "word": "待ち合わせ",
+    "reading": "まちあわせ",
+    "meaning": "约会，碰头",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-569",
+    "word": "間違い",
+    "reading": "まちがい",
+    "meaning": "错误",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-570",
+    "word": "末日",
+    "reading": "まつじつ",
+    "meaning": "末日",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-571",
+    "word": "真夏",
+    "reading": "まなつ",
+    "meaning": "盛夏",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-572",
+    "word": "真似",
+    "reading": "まね",
+    "meaning": "模仿",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-573",
+    "word": "真冬",
+    "reading": "まふゆ",
+    "meaning": "隆冬",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-574",
+    "word": "満開",
+    "reading": "まんかい",
+    "meaning": "盛开",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-575",
+    "word": "漫画家",
+    "reading": "まんがか",
+    "meaning": "漫画家",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-576",
+    "word": "満足",
+    "reading": "まんぞく",
+    "meaning": "满足",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-577",
+    "word": "味方",
+    "reading": "みかた",
+    "meaning": "同伴",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-578",
+    "word": "見頃",
+    "reading": "みごろ",
+    "meaning": "正好看的时候",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-579",
+    "word": "水不足",
+    "reading": "みずぶそく",
+    "meaning": "缺水",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-580",
+    "word": "港",
+    "reading": "みなと",
+    "meaning": "码头",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-581",
+    "word": "身分",
+    "reading": "みぶん",
+    "meaning": "身份",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-582",
+    "word": "身分証明書",
+    "reading": "みぶんしょうめいしょ",
+    "meaning": "身份证",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-583",
+    "word": "無料",
+    "reading": "むりょう",
+    "meaning": "免费",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-584",
+    "word": "名刺",
+    "reading": "めいし",
+    "meaning": "名片",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-585",
+    "word": "名所",
+    "reading": "めいしょ",
+    "meaning": "名胜",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-586",
+    "word": "迷惑",
+    "reading": "めいわく",
+    "meaning": "麻烦",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-587",
+    "word": "目上",
+    "reading": "めうえ",
+    "meaning": "长辈",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-588",
+    "word": "目薬",
+    "reading": "めぐすり",
+    "meaning": "眼药水",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-589",
+    "word": "目覚まし時計",
+    "reading": "めざましとけい",
+    "meaning": "闹钟",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-590",
+    "word": "目の前",
+    "reading": "めのまえ",
+    "meaning": "眼前",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-591",
+    "word": "面",
+    "reading": "めん",
+    "meaning": "面条",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-592",
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning": "目的",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-593",
+    "word": "文字",
+    "reading": "もじ",
+    "meaning": "文字；字母",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-594",
+    "word": "持ち込み",
+    "reading": "もちこみ",
+    "meaning": "随身携带，带入",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-595",
+    "word": "持ち物",
+    "reading": "もちもの",
+    "meaning": "携带物品",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-596",
+    "word": "元",
+    "reading": "もと",
+    "meaning": "原来",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-597",
+    "word": "もも肉",
+    "reading": "ももにく",
+    "meaning": "鸡大腿肉",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-598",
+    "word": "催し",
+    "reading": "もよおし",
+    "meaning": "主办，活动",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-599",
+    "word": "森",
+    "reading": "もり",
+    "meaning": "森林",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-600",
+    "word": "文句",
+    "reading": "もんく",
+    "meaning": "抱怨",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-601",
+    "word": "役",
+    "reading": "やく",
+    "meaning": "作用；角色",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-602",
+    "word": "家賃",
+    "reading": "やちん",
+    "meaning": "房租",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-603",
+    "word": "薬局",
+    "reading": "やっきょく",
+    "meaning": "药店",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-604",
+    "word": "山崩れ",
+    "reading": "やまくずれ",
+    "meaning": "山崩",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-605",
+    "word": "やる気",
+    "reading": "やるき",
+    "meaning": "干劲",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-606",
+    "word": "有給休暇",
+    "reading": "ゆうきゅうきゅうか",
+    "meaning": "年假",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-607",
+    "word": "友人",
+    "reading": "ゆうじん",
+    "meaning": "友人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-608",
+    "word": "優先",
+    "reading": "ゆうせん",
+    "meaning": "优先",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-609",
+    "word": "夕べ",
+    "reading": "ゆうべ",
+    "meaning": "昨晚",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-610",
+    "word": "浴衣",
+    "reading": "ゆかた",
+    "meaning": "薄和服",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-611",
+    "word": "雪道",
+    "reading": "ゆきみち",
+    "meaning": "积雪的路",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-612",
+    "word": "ゆで卵",
+    "reading": "ゆでたまご",
+    "meaning": "水煮蛋",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-613",
+    "word": "要求",
+    "reading": "ようきゅう",
+    "meaning": "要求",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-614",
+    "word": "用件",
+    "reading": "ようけん",
+    "meaning": "事情",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-615",
+    "word": "様子",
+    "reading": "ようす",
+    "meaning": "样子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-616",
+    "word": "翌日",
+    "reading": "よくじつ",
+    "meaning": "第二天",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-617",
+    "word": "予算",
+    "reading": "よさん",
+    "meaning": "预算",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-618",
+    "word": "夜中",
+    "reading": "よなか",
+    "meaning": "半夜",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-619",
+    "word": "世の中",
+    "reading": "よのなか",
+    "meaning": "社会",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-620",
+    "word": "呼び出し",
+    "reading": "よびだし",
+    "meaning": "呼叫",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-621",
+    "word": "予約制",
+    "reading": "よやくせい",
+    "meaning": "预约制",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-622",
+    "word": "来店",
+    "reading": "らいてん",
+    "meaning": "来店",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-623",
+    "word": "来日",
+    "reading": "らいにち",
+    "meaning": "来日本",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-624",
+    "word": "落語",
+    "reading": "らくご",
+    "meaning": "落语",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-625",
+    "word": "理解",
+    "reading": "りかい",
+    "meaning": "理解",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-626",
+    "word": "理科系",
+    "reading": "りかけい",
+    "meaning": "理科系",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-627",
+    "word": "理想",
+    "reading": "りそう",
+    "meaning": "理想",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-628",
+    "word": "流行",
+    "reading": "りゅうこう",
+    "meaning": "流行",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-629",
+    "word": "流行色",
+    "reading": "りゅうこうしょく",
+    "meaning": "流行色",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-630",
+    "word": "利用者",
+    "reading": "りようしゃ",
+    "meaning": "用户",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-631",
+    "word": "料理屋",
+    "reading": "りょうりや",
+    "meaning": "餐馆",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-632",
+    "word": "理論",
+    "reading": "りろん",
+    "meaning": "理论",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-633",
+    "word": "留守",
+    "reading": "るす",
+    "meaning": "不在家；外出",
+    "type": "N-サ変",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-634",
+    "word": "冷凍庫",
+    "reading": "れいとうこ",
+    "meaning": "冷藏库",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-635",
+    "word": "例年",
+    "reading": "れいねん",
+    "meaning": "例年",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-636",
+    "word": "連続",
+    "reading": "れんぞく",
+    "meaning": "连续",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-637",
+    "word": "録画",
+    "reading": "ろくが",
+    "meaning": "录像",
+    "type": "N-サ変",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-638",
+    "word": "論文",
+    "reading": "ろんぶん",
+    "meaning": "论文",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-639",
+    "word": "和菓子",
+    "reading": "わがし",
+    "meaning": "日式点心",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-640",
+    "word": "我社",
+    "reading": "わがしゃ",
+    "meaning": "我公司",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-641",
+    "word": "若者",
+    "reading": "わかもの",
+    "meaning": "年轻人",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-642",
+    "word": "わけ",
+    "reading": "わけ",
+    "meaning": "理由；借口",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-643",
+    "word": "渡り鳥",
+    "reading": "わたりどり",
+    "meaning": "候鸟",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-644",
+    "word": "悪口",
+    "reading": "わるぐち",
+    "meaning": "坏话",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-645",
+    "word": "我々",
+    "reading": "われわれ",
+    "meaning": "我们",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-646",
+    "word": "甘い",
+    "reading": "あまい",
+    "meaning": "甜的",
+    "type": "A",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-647",
+    "word": "薄い",
+    "reading": "うすい",
+    "meaning": "稀薄",
+    "type": "A",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-648",
+    "word": "かっこいい",
+    "reading": "かっこいい",
+    "meaning": "帅气",
+    "type": "A",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-649",
+    "word": "悲しい",
+    "reading": "かなしい",
+    "meaning": "悲伤",
+    "type": "A",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-650",
+    "word": "痒い",
+    "reading": "かゆい",
+    "meaning": "痒",
+    "type": "A",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-651",
+    "word": "険しい",
+    "reading": "けわしい",
+    "meaning": "险峻的",
+    "type": "A",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-652",
+    "word": "心細い",
+    "reading": "こころぼそい",
+    "meaning": "孤独；不安",
+    "type": "A",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-653",
+    "word": "寂しい",
+    "reading": "さびしい",
+    "meaning": "寂寞",
+    "type": "A",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-654",
+    "word": "激しい",
+    "reading": "はげしい",
+    "meaning": "激烈",
+    "type": "A",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-655",
+    "word": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "羞耻",
+    "type": "A",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-656",
+    "word": "ひどい",
+    "reading": "ひどい",
+    "meaning": "严重；过分",
+    "type": "A",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-657",
+    "word": "若い",
+    "reading": "わかい",
+    "meaning": "年轻",
+    "type": "A",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-658",
+    "word": "明らか",
+    "reading": "あきらか",
+    "meaning": "明显",
+    "type": "Na",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-659",
+    "word": "意外",
+    "reading": "いがい",
+    "meaning": "意外",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-660",
+    "word": "意地悪",
+    "reading": "いじわる",
+    "meaning": "坏心眼",
+    "type": "Na",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-661",
+    "word": "一般",
+    "reading": "いっぱん",
+    "meaning": "普通的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-662",
+    "word": "嫌",
+    "reading": "いや",
+    "meaning": "讨厌的；令人厌恶的",
+    "type": "Na",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-663",
+    "word": "おしゃべり",
+    "reading": "おしゃべり",
+    "meaning": "健谈的，啰嗦的",
+    "type": "Na-サ変",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-664",
+    "word": "快適",
+    "reading": "かいてき",
+    "meaning": "舒适的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-665",
+    "word": "勝手",
+    "reading": "かって",
+    "meaning": "擅自",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-666",
+    "word": "頑固",
+    "reading": "がんこ",
+    "meaning": "固执地",
+    "type": "Na",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-667",
+    "word": "急",
+    "reading": "きゅう",
+    "meaning": "突然",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-668",
+    "word": "緊急",
+    "reading": "きんきゅう",
+    "meaning": "紧急的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-669",
+    "word": "具体的",
+    "reading": "ぐたいてき",
+    "meaning": "具体的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-670",
+    "word": "計画的",
+    "reading": "けいかくてき",
+    "meaning": "有计划的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-671",
+    "word": "光栄",
+    "reading": "こうえい",
+    "meaning": "光荣",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-672",
+    "word": "効果的",
+    "reading": "こうかてき",
+    "meaning": "有效果的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-673",
+    "word": "豪華",
+    "reading": "ごうかく",
+    "meaning": "豪华",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-674",
+    "word": "個性的",
+    "reading": "こせいてき",
+    "meaning": "个性的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-675",
+    "word": "最高",
+    "reading": "さいこう",
+    "meaning": "最棒的",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-676",
+    "word": "盛ん",
+    "reading": "さかん",
+    "meaning": "繁荣，盛行",
+    "type": "Na",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-677",
+    "word": "順調",
+    "reading": "じゅんちょう",
+    "meaning": "顺利",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-678",
+    "word": "正直",
+    "reading": "しょうじき",
+    "meaning": "正直",
+    "type": "Na",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-679",
+    "word": "真剣",
+    "reading": "しんけん",
+    "meaning": "认真",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-680",
+    "word": "深刻",
+    "reading": "しんこく",
+    "meaning": "深刻",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-681",
+    "word": "新鮮",
+    "reading": "しんせん",
+    "meaning": "新鲜",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-682",
+    "word": "正確",
+    "reading": "せいかく",
+    "meaning": "正确",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-683",
+    "word": "短気",
+    "reading": "たんき",
+    "meaning": "性急",
+    "type": "Na",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-684",
+    "word": "強気",
+    "reading": "つよき",
+    "meaning": "强硬，强势",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-685",
+    "word": "手軽",
+    "reading": "てがる",
+    "meaning": "轻便；随意",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-686",
+    "word": "当然",
+    "reading": "とうぜん",
+    "meaning": "当然",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-687",
+    "word": "得意",
+    "reading": "とくい",
+    "meaning": "擅长",
+    "type": "Na",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-688",
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning": "特别",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-689",
+    "word": "抜群",
+    "reading": "ばつぐん",
+    "meaning": "拔群；优质",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-690",
+    "word": "不健康",
+    "reading": "ふけんこう",
+    "meaning": "不健康",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-691",
+    "word": "不満",
+    "reading": "ふまん",
+    "meaning": "不满",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-692",
+    "word": "不要",
+    "reading": "ふよう",
+    "meaning": "不需要",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-693",
+    "word": "平気",
+    "reading": "へいき",
+    "meaning": "冷静",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-694",
+    "word": "無駄",
+    "reading": "むだ",
+    "meaning": "徒劳",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-695",
+    "word": "夢中",
+    "reading": "むちゅう",
+    "meaning": "着迷",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-696",
+    "word": "優秀",
+    "reading": "ゆうしゅう",
+    "meaning": "优秀",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-697",
+    "word": "余計",
+    "reading": "よけい",
+    "meaning": "多余",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-698",
+    "word": "弱気",
+    "reading": "よわき",
+    "meaning": "怯弱",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-699",
+    "word": "立派",
+    "reading": "りっぱ",
+    "meaning": "气派",
+    "type": "Na",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-700",
+    "word": "諦める",
+    "reading": "あきらめる",
+    "meaning": "放弃",
+    "type": "V-他Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-701",
+    "word": "呆れる",
+    "reading": "あきれる",
+    "meaning": "吃惊",
+    "type": "V-自Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-702",
+    "word": "空く",
+    "reading": "あく",
+    "meaning": "空着；空出来",
+    "type": "V-自Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-703",
+    "word": "憧れる",
+    "reading": "あこがれる",
+    "meaning": "憧憬",
+    "type": "V-自Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-704",
+    "word": "焦る",
+    "reading": "あせる",
+    "meaning": "焦急",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-705",
+    "word": "浮かぶ",
+    "reading": "うかぶ",
+    "meaning": "浮现",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-706",
+    "word": "当たる",
+    "reading": "あたる",
+    "meaning": "中奖",
+    "type": "V-自Ⅰ",
+    "accent": "◎②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-707",
+    "word": "甘やかす",
+    "reading": "あまやかす",
+    "meaning": "溺爱",
+    "type": "V-他Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-708",
+    "word": "編む",
+    "reading": "あむ",
+    "meaning": "编织",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-709",
+    "word": "謝る",
+    "reading": "あやまる",
+    "meaning": "道歉",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-710",
+    "word": "洗い流す",
+    "reading": "あらいながす",
+    "meaning": "冲洗",
+    "type": "V-他Ⅰ",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-711",
+    "word": "表れる",
+    "reading": "あらわれる",
+    "meaning": "呈现",
+    "type": "V-自Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-712",
+    "word": "慌てる",
+    "reading": "あわてる",
+    "meaning": "慌张",
+    "type": "V-自Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-713",
+    "word": "言い合う",
+    "reading": "いいあう",
+    "meaning": "相互交流",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-714",
+    "word": "いじめる",
+    "reading": "いじめる",
+    "meaning": "欺负",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-715",
+    "word": "痛む",
+    "reading": "いたむ",
+    "meaning": "疼痛",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-716",
+    "word": "生かす",
+    "reading": "いかす",
+    "meaning": "活用，利用",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-717",
+    "word": "切れる",
+    "reading": "きれる",
+    "meaning": "断了；暴怒；完了",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-718",
+    "word": "受かる",
+    "reading": "うかる",
+    "meaning": "合格，通过",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-719",
+    "word": "受け付ける",
+    "reading": "うけつける",
+    "meaning": "接待",
+    "type": "V-他Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-720",
+    "word": "失う",
+    "reading": "うしなう",
+    "meaning": "失去",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-721",
+    "word": "嘘をつく",
+    "reading": "うそをつく",
+    "meaning": "撒谎",
+    "type": "VⅠ",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-722",
+    "word": "撃つ",
+    "reading": "うつ",
+    "meaning": "射击",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-723",
+    "word": "写す",
+    "reading": "うつす",
+    "meaning": "抄写",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-724",
+    "word": "うつる",
+    "reading": "うつる",
+    "meaning": "传染",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-725",
+    "word": "上回る",
+    "reading": "うわまわる",
+    "meaning": "超过",
+    "type": "V-自Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-726",
+    "word": "演じる",
+    "reading": "えんじる",
+    "meaning": "扮演",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-727",
+    "word": "負う",
+    "reading": "おう",
+    "meaning": "背负",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-728",
+    "word": "起き上がる",
+    "reading": "おきあがる",
+    "meaning": "起床",
+    "type": "V-自Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-729",
+    "word": "贈る",
+    "reading": "おくる",
+    "meaning": "送",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-730",
+    "word": "おしゃべりする",
+    "reading": "おしゃべりする",
+    "meaning": "闲聊",
+    "type": "V-自Ⅲ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-731",
+    "word": "落ち込む",
+    "reading": "おちこむ",
+    "meaning": "消沉，低落",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-732",
+    "word": "訪れる",
+    "reading": "おとずれる",
+    "meaning": "拜访",
+    "type": "V-自Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-733",
+    "word": "思い出す",
+    "reading": "おもいだす",
+    "meaning": "想起来",
+    "type": "V-他Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-734",
+    "word": "飼う",
+    "reading": "かう",
+    "meaning": "饲养",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-735",
+    "word": "掻く",
+    "reading": "かく",
+    "meaning": "挠，抓挠",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-736",
+    "word": "加工する",
+    "reading": "かこうする",
+    "meaning": "加工",
+    "type": "V-他Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-737",
+    "word": "重ねる",
+    "reading": "かさねる",
+    "meaning": "重叠，叠加",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-738",
+    "word": "数える",
+    "reading": "かぞえる",
+    "meaning": "数",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-739",
+    "word": "語る",
+    "reading": "かたる",
+    "meaning": "讲述",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-740",
+    "word": "壊す",
+    "reading": "こわす",
+    "meaning": "损坏",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-741",
+    "word": "可愛がる",
+    "reading": "かわいがる",
+    "meaning": "疼爱",
+    "type": "V-他Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-742",
+    "word": "鍛える",
+    "reading": "きたえる",
+    "meaning": "锻炼",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-743",
+    "word": "気に入る",
+    "reading": "きにいる",
+    "meaning": "喜欢，中意",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-744",
+    "word": "込める",
+    "reading": "こめる",
+    "meaning": "包含",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-745",
+    "word": "嫌う",
+    "reading": "きらう",
+    "meaning": "讨厌",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-746",
+    "word": "繰り返す",
+    "reading": "くりかえす",
+    "meaning": "反复",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-747",
+    "word": "合格する",
+    "reading": "ごうかくする",
+    "meaning": "合格",
+    "type": "V-自Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-748",
+    "word": "超える",
+    "reading": "こえる",
+    "meaning": "超过",
+    "type": "V-自Ⅱ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-749",
+    "word": "断る",
+    "reading": "ことわる",
+    "meaning": "拒绝",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-750",
+    "word": "転ぶ",
+    "reading": "ころぶ",
+    "meaning": "跌到",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-751",
+    "word": "叫ぶ",
+    "reading": "さけぶ",
+    "meaning": "叫",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-752",
+    "word": "刺す",
+    "reading": "さす",
+    "meaning": "刺",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-753",
+    "word": "冷める",
+    "reading": "さめる",
+    "meaning": "冷下来",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-754",
+    "word": "触る",
+    "reading": "さわる",
+    "meaning": "碰触",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-755",
+    "word": "仕入れる",
+    "reading": "しいれる",
+    "meaning": "采购",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-756",
+    "word": "敷く",
+    "reading": "しく",
+    "meaning": "铺",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-757",
+    "word": "親しむ",
+    "reading": "したしむ",
+    "meaning": "亲近",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-758",
+    "word": "支払う",
+    "reading": "しはらう",
+    "meaning": "支付",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-759",
+    "word": "占める",
+    "reading": "しめる",
+    "meaning": "占比",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-760",
+    "word": "進める",
+    "reading": "すすめる",
+    "meaning": "前进",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-761",
+    "word": "貯まる",
+    "reading": "たまる",
+    "meaning": "积攒",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-762",
+    "word": "済む",
+    "reading": "すむ",
+    "meaning": "了事，结束",
+    "type": "V-自Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-763",
+    "word": "伸びる",
+    "reading": "のびる",
+    "meaning": "伸长，长高",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-764",
+    "word": "攻める",
+    "reading": "せめる",
+    "meaning": "攻击",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-765",
+    "word": "染まる",
+    "reading": "そまる",
+    "meaning": "染色",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-766",
+    "word": "染める",
+    "reading": "そめる",
+    "meaning": "染色",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-767",
+    "word": "抱く",
+    "reading": "だく",
+    "meaning": "抱",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-768",
+    "word": "訪ねる",
+    "reading": "たずねる",
+    "meaning": "访问",
+    "type": "V-自Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-769",
+    "word": "叩く",
+    "reading": "たたく",
+    "meaning": "敲打",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-770",
+    "word": "立ち上がる",
+    "reading": "たちあがる",
+    "meaning": "起立",
+    "type": "V-自Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-771",
+    "word": "試す",
+    "reading": "ためす",
+    "meaning": "尝试",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-772",
+    "word": "保つ",
+    "reading": "たもつ",
+    "meaning": "保持",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-773",
+    "word": "頼る",
+    "reading": "たよる",
+    "meaning": "拜托",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-774",
+    "word": "近づく",
+    "reading": "ちかづく",
+    "meaning": "靠近",
+    "type": "V-自Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-775",
+    "word": "合わせる",
+    "reading": "あわせる",
+    "meaning": "配合",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-776",
+    "word": "散らかす",
+    "reading": "ちらかす",
+    "meaning": "散乱",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-777",
+    "word": "付き合う",
+    "reading": "つきあう",
+    "meaning": "交往；陪同",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-778",
+    "word": "浸ける",
+    "reading": "つける",
+    "meaning": "浸泡",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-779",
+    "word": "潰す",
+    "reading": "つぶす",
+    "meaning": "捏碎，摧毁",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-780",
+    "word": "解く",
+    "reading": "とく",
+    "meaning": "解开",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-781",
+    "word": "解ける",
+    "reading": "とける",
+    "meaning": "解开",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-782",
+    "word": "届く",
+    "reading": "とどく",
+    "meaning": "送达",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-783",
+    "word": "取り直す",
+    "reading": "とりなおす",
+    "meaning": "重新拿起；重新振作",
+    "type": "V-他Ⅰ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-784",
+    "word": "投げる",
+    "reading": "なげる",
+    "meaning": "扔，投",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-785",
+    "word": "バテる",
+    "reading": "ばてる",
+    "meaning": "乏累",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-786",
+    "word": "悩む",
+    "reading": "なやむ",
+    "meaning": "烦恼",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-787",
+    "word": "鳴る",
+    "reading": "なる",
+    "meaning": "叫，鸣叫",
+    "type": "V-自Ⅱ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-788",
+    "word": "慣れる",
+    "reading": "なれる",
+    "meaning": "习惯",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-789",
+    "word": "似合う",
+    "reading": "にあう",
+    "meaning": "适合",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-790",
+    "word": "逃げ出す",
+    "reading": "にげだす",
+    "meaning": "逃出，逃走",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-791",
+    "word": "逃げる",
+    "reading": "にげる",
+    "meaning": "逃跑",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-792",
+    "word": "似る",
+    "reading": "にる",
+    "meaning": "像",
+    "type": "V-自Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-793",
+    "word": "抜ける",
+    "reading": "ぬける",
+    "meaning": "脱落；遗漏",
+    "type": "V-自Ⅱ",
+    "accent": "◎②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-794",
+    "word": "盗む",
+    "reading": "ぬすむ",
+    "meaning": "盗窃",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-795",
+    "word": "塗る",
+    "reading": "ぬる",
+    "meaning": "涂",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-796",
+    "word": "乗せる",
+    "reading": "のせる",
+    "meaning": "乘着；装载",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-797",
+    "word": "伸びる",
+    "reading": "のびる",
+    "meaning": "伸长",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-798",
+    "word": "延びる",
+    "reading": "のびる",
+    "meaning": "延长",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-799",
+    "word": "生える",
+    "reading": "はえる",
+    "meaning": "生长",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-800",
+    "word": "話しかける",
+    "reading": "はなしかける",
+    "meaning": "搭话",
+    "type": "V-自Ⅱ",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-801",
+    "word": "離す",
+    "reading": "はなす",
+    "meaning": "离开",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-802",
+    "word": "広まる",
+    "reading": "ひろまる",
+    "meaning": "扩大",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-803",
+    "word": "広がる",
+    "reading": "ひろがる",
+    "meaning": "扩大",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-804",
+    "word": "深まる",
+    "reading": "ふかまる",
+    "meaning": "加深",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-805",
+    "word": "不足する",
+    "reading": "ふそくする",
+    "meaning": "不足",
+    "type": "V-自Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-806",
+    "word": "太る",
+    "reading": "ふとる",
+    "meaning": "胖",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-807",
+    "word": "振り込む",
+    "reading": "ふりこむ",
+    "meaning": "汇入",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-808",
+    "word": "振る",
+    "reading": "ふる",
+    "meaning": "挥",
+    "type": "V-他Ⅰ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-809",
+    "word": "減る",
+    "reading": "へる",
+    "meaning": "减少",
+    "type": "V-他Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-810",
+    "word": "変換する",
+    "reading": "変換する",
+    "meaning": "变换",
+    "type": "V-他Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-811",
+    "word": "返却する",
+    "reading": "へんきゃくする",
+    "meaning": "退还",
+    "type": "V-他Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-812",
+    "word": "変更する",
+    "reading": "けんこうする",
+    "meaning": "变更",
+    "type": "V-他Ⅲ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-813",
+    "word": "放置する",
+    "reading": "ほうちする",
+    "meaning": "放置",
+    "type": "V-自Ⅲ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-814",
+    "word": "まとまる",
+    "reading": "まとまる",
+    "meaning": "谈妥；汇总",
+    "type": "V-自Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-815",
+    "word": "まとめる",
+    "reading": "まとめる",
+    "meaning": "汇总",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-816",
+    "word": "守る",
+    "reading": "まもる",
+    "meaning": "保护",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-817",
+    "word": "見上げる",
+    "reading": "みあげる",
+    "meaning": "抬头看",
+    "type": "V-他Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-818",
+    "word": "見合わせる",
+    "reading": "みあわせる",
+    "meaning": "暂停",
+    "type": "V-自Ⅱ",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-819",
+    "word": "乱れる",
+    "reading": "みだれる",
+    "meaning": "紊乱",
+    "type": "V-自Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-820",
+    "word": "むかう",
+    "reading": "むかう",
+    "meaning": "向着",
+    "type": "V-自Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-821",
+    "word": "無視する",
+    "reading": "むしする",
+    "meaning": "无视",
+    "type": "V-他Ⅲ",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-822",
+    "word": "恵まれる",
+    "reading": "めぐまれる",
+    "meaning": "赋予，受惠",
+    "type": "V-自Ⅱ",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-823",
+    "word": "目指す",
+    "reading": "めざす",
+    "meaning": "以……为目标",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-824",
+    "word": "燃える",
+    "reading": "もえる",
+    "meaning": "燃烧",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-825",
+    "word": "戻す",
+    "reading": "もどす",
+    "meaning": "归还",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-826",
+    "word": "戻る",
+    "reading": "もどる",
+    "meaning": "回",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-827",
+    "word": "訳す",
+    "reading": "やくす",
+    "meaning": "翻译",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-828",
+    "word": "痩せる",
+    "reading": "やせる",
+    "meaning": "瘦",
+    "type": "V-自Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-829",
+    "word": "止む",
+    "reading": "やむ",
+    "meaning": "停",
+    "type": "V-自Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-830",
+    "word": "病む",
+    "reading": "やむ",
+    "meaning": "病",
+    "type": "V-自Ⅰ",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-831",
+    "word": "許す",
+    "reading": "ゆるす",
+    "meaning": "原谅",
+    "type": "V-他Ⅰ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-832",
+    "word": "汚れる",
+    "reading": "よごれる",
+    "meaning": "脏",
+    "type": "V-自Ⅱ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-833",
+    "word": "呼び出す",
+    "reading": "よびだす",
+    "meaning": "呼出，叫出来",
+    "type": "V-他Ⅰ",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-834",
+    "word": "詫びる",
+    "reading": "わびる",
+    "meaning": "道歉",
+    "type": "V-他Ⅱ",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-835",
+    "word": "アイディア",
+    "reading": "アイディア",
+    "meaning": "主意，点子",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-836",
+    "word": "アドバイス",
+    "reading": "アドバイス",
+    "meaning": "建议",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-837",
+    "word": "アニメ",
+    "reading": "アニメ",
+    "meaning": "动画，动漫",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-838",
+    "word": "アレルギー",
+    "reading": "アレルギー",
+    "meaning": "过敏",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-839",
+    "word": "イベント",
+    "reading": "イベント",
+    "meaning": "活动",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-840",
+    "word": "インターンシップ",
+    "reading": "インターンシップ",
+    "meaning": "实习",
+    "type": "N",
+    "accent": "⑥",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-841",
+    "word": "ウイルス",
+    "reading": "ウイルス",
+    "meaning": "病毒",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-842",
+    "word": "ウイルスソフト",
+    "reading": "ウイルスソフト",
+    "meaning": "杀毒软件",
+    "type": "N",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-843",
+    "word": "ウェディングドレス",
+    "reading": "ウェディングドレス",
+    "meaning": "婚纱",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-844",
+    "word": "エネルギー",
+    "reading": "エネルギー",
+    "meaning": "能量",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-845",
+    "word": "オーブン",
+    "reading": "オーブン",
+    "meaning": "打开；开店",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-846",
+    "word": "オリンピック",
+    "reading": "オリンピック",
+    "meaning": "奥运会",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-847",
+    "word": "ガーデニング",
+    "reading": "ガーデニング",
+    "meaning": "园艺",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-848",
+    "word": "カット",
+    "reading": "カット",
+    "meaning": "剪",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-849",
+    "word": "カフェ",
+    "reading": "カフェ",
+    "meaning": "咖啡厅",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-850",
+    "word": "カロリー",
+    "reading": "カロリー",
+    "meaning": "卡路里",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-851",
+    "word": "キャッシュカード",
+    "reading": "キャッシュカード",
+    "meaning": "现金卡",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-852",
+    "word": "キャンセル",
+    "reading": "キャンセル",
+    "meaning": "取消",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-853",
+    "word": "クーポン",
+    "reading": "クーポン",
+    "meaning": "优惠，打折",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-854",
+    "word": "クッキー",
+    "reading": "クッキー",
+    "meaning": "饼干",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-855",
+    "word": "グラウンド",
+    "reading": "グラウンド",
+    "meaning": "运动场",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-856",
+    "word": "クラシック",
+    "reading": "クラシック",
+    "meaning": "古典",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-857",
+    "word": "クラスメート",
+    "reading": "クラスメート",
+    "meaning": "同班同学",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-858",
+    "word": "グループ",
+    "reading": "グループ",
+    "meaning": "小组",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-859",
+    "word": "グループディスカッション",
+    "reading": "グループディスカッション",
+    "meaning": "小组讨论",
+    "type": "N",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-860",
+    "word": "グルメ",
+    "reading": "グルメ",
+    "meaning": "美食；美食家",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-861",
+    "word": "グレー",
+    "reading": "グレー",
+    "meaning": "灰色",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-862",
+    "word": "グローバル",
+    "reading": "グローバル",
+    "meaning": "全球",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-863",
+    "word": "コアラ",
+    "reading": "コアラ",
+    "meaning": "考拉",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-864",
+    "word": "ゴール",
+    "reading": "ゴール",
+    "meaning": "得分；目标",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-865",
+    "word": "コミュニケーション",
+    "reading": "コミュニケーション",
+    "meaning": "沟通，交流",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-866",
+    "word": "コメディー",
+    "reading": "コメディー",
+    "meaning": "喜剧",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-867",
+    "word": "ゴルフ",
+    "reading": "ゴルフ",
+    "meaning": "高尔夫",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-868",
+    "word": "コンタクトレンズ",
+    "reading": "コンタクトレンズ",
+    "meaning": "隐形眼镜",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-869",
+    "word": "サークル",
+    "reading": "サークル",
+    "meaning": "社团；圈子",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-870",
+    "word": "サービス",
+    "reading": "サービス",
+    "meaning": "服务",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-871",
+    "word": "サプリメント",
+    "reading": "サプリメント",
+    "meaning": "补给品",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-872",
+    "word": "サポートセンター",
+    "reading": "サポートセンター",
+    "meaning": "支援中心",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-873",
+    "word": "サラダ",
+    "reading": "サラダ",
+    "meaning": "沙拉",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-874",
+    "word": "サラリーマン",
+    "reading": "サラリーマン",
+    "meaning": "工薪族",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-875",
+    "word": "サングラス",
+    "reading": "サングラス",
+    "meaning": "太阳镜",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-876",
+    "word": "サンタクロース",
+    "reading": "サンタクロース",
+    "meaning": "圣诞老人",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-877",
+    "word": "システム",
+    "reading": "システム",
+    "meaning": "系统",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-878",
+    "word": "ショー",
+    "reading": "ショー",
+    "meaning": "演出",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-879",
+    "word": "ショッピングセンター",
+    "reading": "ショッピングセンター",
+    "meaning": "购物中心",
+    "type": "N",
+    "accent": "⑥",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-880",
+    "word": "シロイルカ",
+    "reading": "シロイルカ",
+    "meaning": "白鲸，白海豚",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-881",
+    "word": "スーツケース",
+    "reading": "スーツケース",
+    "meaning": "旅行箱",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-882",
+    "word": "スター",
+    "reading": "スター",
+    "meaning": "明星",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-883",
+    "word": "スタッフ",
+    "reading": "スタッフ",
+    "meaning": "工作人员",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-884",
+    "word": "ストレス",
+    "reading": "ストレス",
+    "meaning": "压力",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-885",
+    "word": "スパゲティ",
+    "reading": "スパゲティ",
+    "meaning": "意大利通心粉",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-886",
+    "word": "スピード",
+    "reading": "スピード",
+    "meaning": "速度",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-887",
+    "word": "スポーツクラブ",
+    "reading": "スポーツクラブ",
+    "meaning": "体育俱乐部",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-888",
+    "word": "セール",
+    "reading": "セール",
+    "meaning": "廉价销售",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-889",
+    "word": "セット",
+    "reading": "セット",
+    "meaning": "套",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-890",
+    "word": "ソファー",
+    "reading": "ソファー",
+    "meaning": "沙发",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-891",
+    "word": "ダイエット",
+    "reading": "ダイエット",
+    "meaning": "减肥",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-892",
+    "word": "タイトル",
+    "reading": "タイトル",
+    "meaning": "标题",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-893",
+    "word": "タイプ",
+    "reading": "タイプ",
+    "meaning": "种类",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-894",
+    "word": "ダイヤ",
+    "reading": "ダイヤ",
+    "meaning": "运行时刻表",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-895",
+    "word": "チーズ",
+    "reading": "チーズ",
+    "meaning": "奶酪",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-896",
+    "word": "チームワーク",
+    "reading": "チームワーク",
+    "meaning": "团队合作",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-897",
+    "word": "チェック",
+    "reading": "チェック",
+    "meaning": "检查，核对",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-898",
+    "word": "チャイム",
+    "reading": "チャイム",
+    "meaning": "门铃",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-899",
+    "word": "チャリティコンサート",
+    "reading": "チャリティコンサート",
+    "meaning": "慈善音乐会",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-900",
+    "word": "チャンス",
+    "reading": "チャンス",
+    "meaning": "机会",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-901",
+    "word": "Tシャツ",
+    "reading": "Tシャツ",
+    "meaning": "T桖",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-902",
+    "word": "ディスカッション",
+    "reading": "ディスカッション",
+    "meaning": "讨论",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-903",
+    "word": "ディナー",
+    "reading": "ディナー",
+    "meaning": "晚饭",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-904",
+    "word": "デジカメ",
+    "reading": "デジカメ",
+    "meaning": "数码相机",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-905",
+    "word": "テニスコート",
+    "reading": "テニスコート",
+    "meaning": "网球场",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-906",
+    "word": "トイレットペーパー",
+    "reading": "トイレットペーパー",
+    "meaning": "厕纸",
+    "type": "N",
+    "accent": "⑥",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-907",
+    "word": "トップ",
+    "reading": "トップ",
+    "meaning": "顶部，前列",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-908",
+    "word": "トマト",
+    "reading": "トマト",
+    "meaning": "番茄",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-909",
+    "word": "ドリンク",
+    "reading": "ドリンク",
+    "meaning": "饮料",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-910",
+    "word": "トレーニング",
+    "reading": "トレーニング",
+    "meaning": "训练",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-911",
+    "word": "ドレス",
+    "reading": "ドレス",
+    "meaning": "礼服",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-912",
+    "word": "生クリーム",
+    "reading": "生クリーム",
+    "meaning": "鲜奶油",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-913",
+    "word": "ニーズ",
+    "reading": "ニーズ",
+    "meaning": "需求",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-914",
+    "word": "ネット",
+    "reading": "ネット",
+    "meaning": "网络",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-915",
+    "word": "ネットショッピング",
+    "reading": "ネットショッピング",
+    "meaning": "网络购物",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-916",
+    "word": "バイク",
+    "reading": "バイク",
+    "meaning": "摩托车",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-917",
+    "word": "パック",
+    "reading": "パック",
+    "meaning": "纸盒",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-918",
+    "word": "バドミントン",
+    "reading": "バドミントン",
+    "meaning": "羽毛球",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-919",
+    "word": "ハム",
+    "reading": "ハム",
+    "meaning": "火腿",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-920",
+    "word": "バランス",
+    "reading": "バランス",
+    "meaning": "平衡",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-921",
+    "word": "パリ",
+    "reading": "パリ",
+    "meaning": "巴黎",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-922",
+    "word": "バレンタインデー",
+    "reading": "バレンタインデー",
+    "meaning": "情人节",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-923",
+    "word": "バンド",
+    "reading": "バンド",
+    "meaning": "乐队",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-924",
+    "word": "ハンドル",
+    "reading": "ハンドル",
+    "meaning": "方向盘",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-925",
+    "word": "ハンバーガー",
+    "reading": "ハンバーガー",
+    "meaning": "汉堡",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-926",
+    "word": "ピアス",
+    "reading": "ピアス",
+    "meaning": "耳环",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-927",
+    "word": "ピザ",
+    "reading": "ピザ",
+    "meaning": "披萨",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-928",
+    "word": "ピッチャー",
+    "reading": "ピッチャー",
+    "meaning": "投手",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-929",
+    "word": "ヒット",
+    "reading": "ヒット",
+    "meaning": "打；大热",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-930",
+    "word": "ビニール袋",
+    "reading": "ビニール袋",
+    "meaning": "塑料袋",
+    "type": "N",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-931",
+    "word": "ファイル",
+    "reading": "ファイル",
+    "meaning": "文件",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-932",
+    "word": "ファーストフード",
+    "reading": "ファーストフード",
+    "meaning": "快餐",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-933",
+    "word": "ファッション",
+    "reading": "ファッション",
+    "meaning": "时尚",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-934",
+    "word": "ファッションショー",
+    "reading": "ファッションショー",
+    "meaning": "时尚表演",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-935",
+    "word": "フィンランド",
+    "reading": "フィンランド",
+    "meaning": "芬兰",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-936",
+    "word": "フォーク",
+    "reading": "フォーク",
+    "meaning": "叉子",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-937",
+    "word": "プライベート",
+    "reading": "プライベート",
+    "meaning": "私人的",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-938",
+    "word": "プラグ",
+    "reading": "プラグ",
+    "meaning": "插头",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-939",
+    "word": "フラッシュ",
+    "reading": "フラッシュ",
+    "meaning": "闪光灯",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-940",
+    "word": "プラモデル",
+    "reading": "プラモデル",
+    "meaning": "塑料模型",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-941",
+    "word": "プラン",
+    "reading": "プラン",
+    "meaning": "计划",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-942",
+    "word": "フリーズ",
+    "reading": "フリーズ",
+    "meaning": "死机",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-943",
+    "word": "フルーツ",
+    "reading": "フルーツ",
+    "meaning": "水果",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-944",
+    "word": "プレゼンテーション",
+    "reading": "プレゼンテーション",
+    "meaning": "说明，演示",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-945",
+    "word": "プロ",
+    "reading": "プロ",
+    "meaning": "专业",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-946",
+    "word": "プロジェクター",
+    "reading": "プロジェクター",
+    "meaning": "投影仪",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-947",
+    "word": "プロジェクト",
+    "reading": "プロジェクト",
+    "meaning": "项目",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-948",
+    "word": "ペット",
+    "reading": "ペット",
+    "meaning": "宠物",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-949",
+    "word": "ヘッドホン",
+    "reading": "ヘッドホン",
+    "meaning": "耳机",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-950",
+    "word": "ベランダ",
+    "reading": "ベランダ",
+    "meaning": "阳台",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-951",
+    "word": "ベル",
+    "reading": "ベル",
+    "meaning": "铃",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-952",
+    "word": "ボウリング",
+    "reading": "ボウリング",
+    "meaning": "保龄球",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-953",
+    "word": "ボウル",
+    "reading": "ボウル",
+    "meaning": "碗",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-954",
+    "word": "ホームステイ",
+    "reading": "ホームステイ",
+    "meaning": "家庭寄宿",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-955",
+    "word": "ホームページ",
+    "reading": "ホームページ",
+    "meaning": "主页",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-956",
+    "word": "マイク",
+    "reading": "マイク",
+    "meaning": "麦克风",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-957",
+    "word": "マスク",
+    "reading": "マスク",
+    "meaning": "面具",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-958",
+    "word": "マンション",
+    "reading": "マンション",
+    "meaning": "公寓",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-959",
+    "word": "ミス",
+    "reading": "ミス",
+    "meaning": "犯错误",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-960",
+    "word": "ミリオンセラー",
+    "reading": "ミリオンセラー",
+    "meaning": "百万畅销",
+    "type": "N",
+    "accent": "⑤",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-961",
+    "word": "メダル",
+    "reading": "メダル",
+    "meaning": "奖牌",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-962",
+    "word": "メモ",
+    "reading": "メモ",
+    "meaning": "笔记",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-963",
+    "word": "メリット",
+    "reading": "メリット",
+    "meaning": "好处",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-964",
+    "word": "モデル",
+    "reading": "モデル",
+    "meaning": "模型",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-965",
+    "word": "ユニフォーム",
+    "reading": "ユニフォーム",
+    "meaning": "制服",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-966",
+    "word": "ヨーグルト",
+    "reading": "ヨーグルト",
+    "meaning": "优格",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-967",
+    "word": "ライバル",
+    "reading": "ライバル",
+    "meaning": "对手",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-968",
+    "word": "ランチタイム",
+    "reading": "ランチタイム",
+    "meaning": "午餐时间",
+    "type": "N",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-969",
+    "word": "ランニング",
+    "reading": "ランニング",
+    "meaning": "慢跑",
+    "type": "N",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-970",
+    "word": "ランニングマシン",
+    "reading": "ランニングマシン",
+    "meaning": "跑步机",
+    "type": "N",
+    "accent": "⑥",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-971",
+    "word": "リットル",
+    "reading": "リットル",
+    "meaning": "升",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-972",
+    "word": "レシピ",
+    "reading": "レシピ",
+    "meaning": "菜谱",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-973",
+    "word": "レンタル",
+    "reading": "レンタル",
+    "meaning": "租赁",
+    "type": "N",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-974",
+    "word": "ロレックス",
+    "reading": "ロレックス",
+    "meaning": "劳力士",
+    "type": "N",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-975",
+    "word": "ワンシーン",
+    "reading": "ワンシーン",
+    "meaning": "一个场面",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-976",
+    "word": "ワンルーム",
+    "reading": "ワンルーム",
+    "meaning": "一室户",
+    "type": "N",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-977",
+    "word": "あっという間に",
+    "reading": "あっというまに",
+    "meaning": "瞬间",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-978",
+    "word": "改めて",
+    "reading": "あらためて",
+    "meaning": "再次，重新",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-979",
+    "word": "一気に",
+    "reading": "いっきに",
+    "meaning": "一口气",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-980",
+    "word": "一斉に",
+    "reading": "いっせいに",
+    "meaning": "一齐",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-981",
+    "word": "員",
+    "reading": "いん",
+    "meaning": "~员",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-982",
+    "word": "大幅に",
+    "reading": "おおはばに",
+    "meaning": "大幅地",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-983",
+    "word": "家",
+    "reading": "か",
+    "meaning": "~家，做某种职业的人",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-984",
+    "word": "課",
+    "reading": "か",
+    "meaning": "~课",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-985",
+    "word": "学",
+    "reading": "がく",
+    "meaning": "~学，某一领域的学问",
+    "type": "接尾词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-986",
+    "word": "がっかり",
+    "reading": "がっかり",
+    "meaning": "失望地",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-987",
+    "word": "ぐつぐつ",
+    "reading": "ぐつぐつ",
+    "meaning": "咕嘟咕嘟",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-988",
+    "word": "再度",
+    "reading": "さいど",
+    "meaning": "再次",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-989",
+    "word": "最優先",
+    "reading": "さいゆうせん",
+    "meaning": "最优先",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-990",
+    "word": "更に",
+    "reading": "さらに",
+    "meaning": "更加",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-991",
+    "word": "仕方ない",
+    "reading": "しかたない",
+    "meaning": "无奈",
+    "type": "副词",
+    "accent": "④",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-992",
+    "word": "事前",
+    "reading": "じぜん",
+    "meaning": "事前",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-993",
+    "word": "実際",
+    "reading": "じっさい",
+    "meaning": "实际",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-994",
+    "word": "じっと",
+    "reading": "じっと",
+    "meaning": "一动不动的样子",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-995",
+    "word": "者",
+    "reading": "しゃ",
+    "meaning": "~人（做……的人）",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-996",
+    "word": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "充分，足够",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-997",
+    "word": "すっかり",
+    "reading": "すっかり",
+    "meaning": "完全",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-998",
+    "word": "製",
+    "reading": "せい",
+    "meaning": "~制，由……生产的",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-999",
+    "word": "せっかく",
+    "reading": "せっかく",
+    "meaning": "好不容易",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1000",
+    "word": "先日",
+    "reading": "せんじつ",
+    "meaning": "前几天",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1001",
+    "word": "前日",
+    "reading": "ぜんじつ",
+    "meaning": "前一天",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1002",
+    "word": "全体",
+    "reading": "ぜんたい",
+    "meaning": "全体",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1003",
+    "word": "そのくせ",
+    "reading": "そのくせ",
+    "meaning": "为此，然而",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1004",
+    "word": "それほど",
+    "reading": "それほど",
+    "meaning": "没那么",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1005",
+    "word": "代",
+    "reading": "だい",
+    "meaning": "~费，表示支付……的钱",
+    "type": "接尾词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1006",
+    "word": "大体",
+    "reading": "だいたい",
+    "meaning": "大概",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1007",
+    "word": "ただ",
+    "reading": "ただ",
+    "meaning": "免费",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1008",
+    "word": "たっぷり",
+    "reading": "たっぷり",
+    "meaning": "大量地",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1009",
+    "word": "当",
+    "reading": "とう",
+    "meaning": "本，我们",
+    "type": "接头词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1010",
+    "word": "特に",
+    "reading": "とくに",
+    "meaning": "特别",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1011",
+    "word": "ドロドロ",
+    "reading": "どろどろ",
+    "meaning": "黏糊糊",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1012",
+    "word": "どんどん",
+    "reading": "どんどん",
+    "meaning": "连续不断",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1013",
+    "word": "仲良く",
+    "reading": "なかよく",
+    "meaning": "亲密地",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1014",
+    "word": "生",
+    "reading": "なま",
+    "meaning": "生的",
+    "type": "接头词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1015",
+    "word": "何といっても",
+    "reading": "なんといっても",
+    "meaning": "毕竟；无论怎么说都",
+    "type": "副词",
+    "accent": "",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1016",
+    "word": "のんびり",
+    "reading": "のんびり",
+    "meaning": "悠闲，悠哉",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1017",
+    "word": "はっきり",
+    "reading": "はっきり",
+    "meaning": "清楚地",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1018",
+    "word": "バラバラ",
+    "reading": "ばらばら",
+    "meaning": "四分五裂，七零八落",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1019",
+    "word": "無事",
+    "reading": "ぶじ",
+    "meaning": "安全地",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1020",
+    "word": "真ん中",
+    "reading": "まんなか",
+    "meaning": "正中间",
+    "type": "副词",
+    "accent": "◎",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1021",
+    "word": "やっぱり",
+    "reading": "やっぱり",
+    "meaning": "还是；果然",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1022",
+    "word": "やはり",
+    "reading": "やはり",
+    "meaning": "还是；果然",
+    "type": "副词",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1023",
+    "word": "山ほど",
+    "reading": "やまほど",
+    "meaning": "如山一般",
+    "type": "副词",
+    "accent": "②",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1024",
+    "word": "ゆっくり",
+    "reading": "ゆっくり",
+    "meaning": "慢慢地",
+    "type": "副词",
+    "accent": "③",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1025",
+    "word": "ワイワイ",
+    "reading": "ワイワイ",
+    "meaning": "大声嚷嚷",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  },
+  {
+    "id": "n3-1026",
+    "word": "わざわざ",
+    "reading": "わざわざ",
+    "meaning": "特地",
+    "type": "副词",
+    "accent": "①",
+    "example": "",
+    "exampleTranslation": ""
+  }
+]

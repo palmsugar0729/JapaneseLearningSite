@@ -1,0 +1,13 @@
+@use 'sass:color';
+
+$primary-bg: #A3C1AD;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(
+    120deg,
+    $primary-bg,
+    color.adjust($primary-bg, $lightness: 10%)
+  );
+  color: #2c3e50;
+}

@@ -1,0 +1,4 @@
+- [项目定位和架构](memory/project-identity.md) — 项目定位、技术栈、架构概览
+- [双模式存储设计](memory/storage-dual-mode.md) — API+SQLite / localStorage 双模式 + Vue ref 教训
+- [词库 JSON 无 level 字段](memory/word-data-level-field.md) — 文件分类但条目缺字段的修复方案
+- [每日新词上限](memory/daily-new-word-limit.md) — 全天硬上限实现 + 为什么不能每次 10 个

@@ -1,0 +1,51 @@
+// 引入字体
+@font-face {
+  font-family: SmileySans;
+  src: url('/src/assets/fonts/SmileySans-Oblique.otf.woff2'),
+       url("/src//assets/fonts/SmileySans-Oblique.ttf.woff2");
+  font-display: swap;
+}
+/* 该字体的作者以及来源 */
+/* Font： SmileySans 得意黑
+   Author： atelierAnchor
+   Sourse: https://atelier-anchor.com
+   Github: https://github.com/atelier-anchor/smiley-sans
+*/
+body {
+  font-family:
+    'SmileySans',
+    'PingFang SC',
+    'Hiragino Sans',
+    'Microsoft YaHei',
+    'Yu Gothic',
+    'Noto Sans CJK SC',
+    'Noto Sans CJK JP',
+    sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .markdown-body { 
+    h1 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  .card_box, .content_box, .list_card_box {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .content_box {
+    min-height: 75lvh;
+  }
+
+  button:active {
+    transform: scale(0.8);
+  }
