@@ -1,0 +1,28 @@
+/* 主题色变量 */
+$primary: #A3C1AD;
+$primary-light: #C5DACB;
+$primary-dark: #7FA88D;
+$bg: #F0F4F1;
+$card-bg: #FFFFFF;
+$text: #2c3e50;
+$text-secondary: #7f8c8d;
+$danger: #e74c3c;
+$warning: #f39c12;
+$success: #27ae60;
+
+/* 全局页面背景 */
+page {
+  background: $bg;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Helvetica Neue', sans-serif;
+  font-size: 28rpx;
+  color: $text;
+  line-height: 1.6;
+}
+
+/* 重置 */
+view, text, image, scroll-view, swiper, swiper-item, button, input, textarea {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ex-001",
+    "type": "choice",
+    "level": "N5",
+    "question": "それでは、日本語（　　　）練習を始めましょう。",
+    "options": ["を", "で", "の", "は"],
+    "answer": 2,
+    "explanation": "对「練習」这个词的具体说明，日语的练习。"
+  },
+  {
+    "id": "ex-002",
+    "type": "choice",
+    "level": "N5",
+    "question": "姉はパソコン（　　　）持っています。",
+    "options": ["を", "で", "の", "は"],
+    "answer": 0,
+    "explanation": "动词宾语，带着电脑。"
+  },
+  {
+    "id": "ex-003",
+    "type": "choice",
+    "level": "N5",
+    "question": "私は今日ずっと、部屋（　　　）勉強しています。",
+    "options": ["を", "で", "の", "は"],
+    "answer": 1,
+    "explanation": "动作发生的地点，在房间学习。"
+  },
+  {
+    "id": "ex-004",
+    "type": "choice",
+    "level": "N5",
+    "question": "学校（　　　）勉強します。",
+    "options": ["が", "を", "に", "で"],
+    "answer": 3,
+    "explanation": "动作发生的地点，在学校学习。"
+  },
+  {
+    "id": "ex-005",
+    "type": "choice",
+    "level": "N5",
+    "question": "私は地下鉄（　　　）行きます。",
+    "options": ["で", "に", "が", "の"],
+    "answer": 0,
+    "explanation": "方式方法，利用地铁去。"
+  },
+  {
+    "id": "ex-006",
+    "type": "translation",
+    "level": "N5",
+    "question": "明日、図書館へ行きます。",
+    "options": ["明天去图书馆。", "昨天去了图书馆。", "今天不去图书馆。", "明天不去图书馆。"],
+    "answer": 0,
+    "explanation": "「明日」是明天，「行きます」是去。"
+  },
+  {
+    "id": "ex-007",
+    "type": "translation",
+    "level": "N5",
+    "question": "この本は面白いです。",
+    "options": ["这本书很有趣。", "这本书很无聊。", "那本书很有趣。", "这本书很难。"],
+    "answer": 0,
+    "explanation": "「この」是这个，「面白い」是有趣的。"
+  },
+  {
+    "id": "ex-008",
+    "type": "translation",
+    "level": "N5",
+    "question": "私は猫が好きです。",
+    "options": ["我喜欢猫。", "我讨厌猫。", "我养了猫。", "我怕猫。"],
+    "answer": 0,
+    "explanation": "「好きです」是喜欢。"
+  },
+  {
+    "id": "ex-009",
+    "type": "choice",
+    "level": "N4",
+    "question": "雨が降っても、出かけます（　　　）。",
+    "options": ["か", "よ", "ね", "わ"],
+    "answer": 1,
+    "explanation": "「よ」表示主张、告知。"
+  },
+  {
+    "id": "ex-010",
+    "type": "choice",
+    "level": "N4",
+    "question": "この仕事は私（　　　）しましょう。",
+    "options": ["が", "で", "に", "を"],
+    "answer": 0,
+    "explanation": "「が」表示主语，我来完成这项工作。"
+  }
+]

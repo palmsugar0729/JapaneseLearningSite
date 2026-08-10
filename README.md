@@ -1,28 +1,28 @@
 # JapaneseLearning — 日语学习工具
 
-基于 Vue 3 + TypeScript + Vite 的日语学习应用，内置 SM-2 间隔重复算法。支持用户系统、教科书同步学习。
+基于 Vue 3 + TypeScript 的日语学习应用，支持 **Web SPA** + **微信小程序** 双端。内置 SM-2 间隔重复算法、用户系统、教科书同步。
 
 ## 功能
 
 - **📝 SRS 单词卡** — SM-2 间隔重复算法，N5~N1 共 16,427 词，支持级别筛选
 - **📖 教科书同步** — 按教科书单元组织单词，支持进度追踪（新编日语教程1）
 - **✏️ 练习题库** — 语法选择 + 翻译题，错题本 + 级别筛选
-- **📊 学习统计** — 热力图、掌握率柱状图、正确率趋势等可视化图表
-- **👤 用户系统** — 注册/登录，多用户数据隔离，SQLite 持久化
-- **🏠 欢迎页** — 简洁着陆页 + 顶部导航
+- **📊 学习统计** — 热力图、掌握率柱状图、正确率趋势等 ECharts 图表
+- **👤 用户系统** — 注册/登录 + 微信登录，多用户数据隔离，SQLite 持久化
+- **📱 微信小程序** — uni-app 开发，一套代码双端运行
 
 ## 快速开始
 
 ```bash
-# 启动后端（需要用户系统时）
-cd server
-npm install
-npm run dev          # → http://localhost:3001
+# 后端
+cd server && npm install && npm run dev    # → http://localhost:3001
 
-# 启动前端
-cd codes
-npm install
-npm run dev          # → http://localhost:5173
+# Web 版
+cd codes/web && npm install && npm run dev # → http://localhost:5173
+
+# 微信小程序版
+cd codes/miniprogram && npm install && npm run dev:mp-weixin
+# → 用微信开发者工具导入 dist/build/mp-weixin/
 ```
 
 不启动后端也可使用——自动回退到 localStorage 模式。

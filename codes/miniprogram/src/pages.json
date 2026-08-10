@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "日语学习"
+      }
+    },
+    {
+      "path": "pages/word/word",
+      "style": {
+        "navigationBarTitleText": "单词学习"
+      }
+    },
+    {
+      "path": "pages/exercise/exercise",
+      "style": {
+        "navigationBarTitleText": "练习题库"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/login/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#A3C1AD",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/word/word",
+        "text": "单词",
+        "iconPath": "static/tabbar/word.png",
+        "selectedIconPath": "static/tabbar/word-active.png"
+      },
+      {
+        "pagePath": "pages/exercise/exercise",
+        "text": "练习",
+        "iconPath": "static/tabbar/exercise.png",
+        "selectedIconPath": "static/tabbar/exercise-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "日语学习",
+    "navigationBarBackgroundColor": "#A3C1AD",
+    "backgroundColor": "#F5F5F5"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^ui-(.*)": "@/components/ui-$1/ui-$1.vue"
+    }
+  }
+}
