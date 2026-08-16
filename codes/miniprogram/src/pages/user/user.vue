@@ -24,6 +24,8 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { getUser, setToken, setUser } from '@/api/client'
+import { resetSRSInit } from '@/composables/useSRS'
+import { resetExerciseInit } from '@/composables/useExerciseProgress'
 
 const user = ref(getUser())
 
@@ -43,6 +45,8 @@ function handleLogout() {
       if (res.confirm) {
         setToken(null)
         setUser(null)
+        resetSRSInit()
+        resetExerciseInit()
         user.value = null
         uni.switchTab({ url: '/pages/index/index' })
       }

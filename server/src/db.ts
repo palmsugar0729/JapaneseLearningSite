@@ -18,6 +18,7 @@ db.exec(`
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
+    openid TEXT UNIQUE,
     created_at TEXT DEFAULT (datetime('now'))
   );
 
@@ -60,5 +61,13 @@ db.exec(`
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
   );
 `)
+
+// ========== 迁移：旧库补 openid 列 ==========
+
+const userColumns = db.prepare('PRAGMA table_info(users)').all() as { name: string }[]
+if (!userColumns.some((c) => c.name === 'openid')) {
+  db.exec('ALTER TABLE users ADD COLUMN openid TEXT UNIQUE')
+  console.log('[db] migrated: added users.openid')
+}
 
 export default db

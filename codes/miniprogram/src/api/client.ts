@@ -31,7 +31,17 @@ export interface UserInfo {
   openid?: string
 }
 
-const _user = ref<UserInfo | null>(null)
+function loadStoredUser(): UserInfo | null {
+  try {
+    const raw = uni.getStorageSync('jl:user')
+    if (!raw) return null
+    return JSON.parse(raw) as UserInfo
+  } catch {
+    return null
+  }
+}
+
+const _user = ref<UserInfo | null>(loadStoredUser())
 
 export function getUser(): UserInfo | null {
   return _user.value
@@ -39,6 +49,11 @@ export function getUser(): UserInfo | null {
 
 export function setUser(user: UserInfo | null): void {
   _user.value = user
+  if (user) {
+    uni.setStorageSync('jl:user', JSON.stringify(user))
+  } else {
+    uni.removeStorageSync('jl:user')
+  }
 }
 
 function request<T>(method: 'GET' | 'POST' | 'PUT', path: string, body?: unknown): Promise<T> {
@@ -55,7 +70,7 @@ function request<T>(method: 'GET' | 'POST' | 'PUT', path: string, body?: unknown
       url: `${API_BASE}${path}`,
       method,
       header,
-      data: body,
+      data: body as Record<string, any>,
       success(res) {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           resolve(res.data as T)

@@ -40,6 +40,13 @@
         <text class="empty-icon">🎉</text>
         <text>今日任务已完成！</text>
       </view>
+      <view
+        v-if="todayReviews > 0 || todayNewRemaining > 0"
+        class="btn btn-primary mt-base"
+        @click="goWord"
+      >
+        <text>开始学习</text>
+      </view>
     </view>
 
     <!-- 最近动态 -->
@@ -61,13 +68,17 @@ import { ref, computed } from 'vue'
 import {
   getTodayReviews as srsTodayReviews,
   getTodayNewCount,
+  getStats,
   MAX_NEW_PER_DAY,
 } from '@/composables/useSRS'
 import { getRecentSessions } from '@/composables/useExerciseProgress'
+import { getAllStudyWords } from '@/api/vocabulary'
 import type { Word } from '@/types/japanese'
 
-// TODO: 从 API/本地加载真实单词数据
-const allWords = ref<Word[]>([])
+// 加载全部学习单词（JLPT + 教科书，开发期本地词库）
+const allWords = ref<Word[]>(getAllStudyWords())
+
+const stats = computed(() => getStats(allWords.value))
 
 const todayReviews = computed(() => srsTodayReviews(allWords.value, undefined, false).length)
 const todayNewCount = computed(() => getTodayNewCount())
@@ -77,6 +88,8 @@ const maxNewPerDay = MAX_NEW_PER_DAY
 const statsCards = computed(() => [
   { label: '待复习', value: todayReviews.value },
   { label: '新词配额', value: todayNewRemaining.value },
+  { label: '连续天数', value: stats.value.streakDays },
+  { label: '已掌握', value: stats.value.masteredWords },
 ])
 
 const recentSessions = computed(() => {
@@ -86,8 +99,9 @@ const recentSessions = computed(() => {
   }))
 })
 
-const goWord = () => uni.navigateTo({ url: '/pages/word/word' })
-const goExercise = () => uni.navigateTo({ url: '/pages/exercise/exercise' })
+// word / exercise 是 tabBar 页面，必须用 switchTab
+const goWord = () => uni.switchTab({ url: '/pages/word/word' })
+const goExercise = () => uni.switchTab({ url: '/pages/exercise/exercise' })
 </script>
 
 <style lang="scss" scoped>
@@ -121,7 +135,7 @@ const goExercise = () => uni.navigateTo({ url: '/pages/exercise/exercise' })
 }
 
 .stat-num {
-  font-size: 48rpx;
+  font-size: 44rpx;
   font-weight: 700;
   color: #A3C1AD;
 }

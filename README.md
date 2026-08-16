@@ -37,17 +37,24 @@ JapaneseLearning/
 │       ├── db.ts        # SQLite 数据库
 │       ├── auth.ts      # JWT 认证
 │       └── routes/      # API 路由
-├── codes/               # Vue 3 前端
-│   └── src/
-│       ├── views/       # 页面组件
-│       ├── components/  # 图表组件
-│       ├── composables/ # SRS、练习进度、图表数据
-│       ├── api/         # 数据加载 + HTTP 客户端
-│       ├── types/       # TypeScript 类型
-│       ├── content/     # 单词 JSON、练习数据
-│       │   ├── words/   # N5~N1 词库
-│       │   └── textbook/# 教科书单词
-│       └── router/      # 路由配置
+├── codes/               # 前端
+│   ├── web/             # Web 版 (Vue 3 + Vite SPA)
+│   │   └── src/
+│   │       ├── views/       # 页面组件
+│   │       ├── components/  # 图表组件
+│   │       ├── composables/ # SRS、练习进度、图表数据
+│   │       ├── api/         # 数据加载 + HTTP 客户端
+│   │       ├── types/       # TypeScript 类型
+│   │       ├── content/     # 单词 JSON、练习数据
+│   │       └── router/      # 路由配置
+│   └── miniprogram/     # 微信小程序版 (uni-app Vue 3)
+│       └── src/
+│           ├── pages/       # 页面（index/word/exercise/login/user）
+│           ├── components/  # 图表组件（原生 view）
+│           ├── composables/ # SRS、练习进度、图表数据
+│           ├── api/         # uni.request 客户端
+│           ├── types/       # TypeScript 类型
+│           └── content/     # 开发期词库（N5 + 教科书）
 ├── docs/                # 产品文档
 ├── assets/              # 设计素材
 ├── AGENTS.md            # AI 开发指南
@@ -63,7 +70,7 @@ JapaneseLearning/
 | 构建 | Vite |
 | 路由 | Vue Router 4 |
 | 样式 | SCSS (玻璃拟态) |
-| 图表 | ECharts + vue-echarts |
+| 图表 | ECharts + vue-echarts（小程序端为原生 view） |
 | 后端 | Express + better-sqlite3 |
 | 认证 | JWT (jsonwebtoken) |
 | 存储 | SQLite / localStorage 双模式 |
@@ -73,5 +80,5 @@ JapaneseLearning/
 
 - [产品需求文档 (PRD)](docs/PRD.md)
 - [开发日志](docs/开发日志.md)
-- [数据格式模板](codes/src/content/japanese/DATA_TEMPLATE.md)
+- [数据格式模板](codes/web/src/content/japanese/DATA_TEMPLATE.md)
 - [AI 开发指南](AGENTS.md)

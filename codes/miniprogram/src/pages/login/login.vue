@@ -54,10 +54,18 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { api, setToken, setUser } from '@/api/client'
+import { initSRSFromServer } from '@/composables/useSRS'
+import { initExerciseFromServer } from '@/composables/useExerciseProgress'
 
 const username = ref('')
 const password = ref('')
 const loading = ref(false)
+
+// 登录成功后拉取服务端学习进度（失败自动回退本地存储）
+function loadServerProgress() {
+  initSRSFromServer().catch((e) => console.warn('[login] initSRS:', e))
+  initExerciseFromServer().catch((e) => console.warn('[login] initExercise:', e))
+}
 
 async function handleLogin() {
   if (!username.value || !password.value) {
@@ -72,6 +80,7 @@ async function handleLogin() {
     )
     setToken(res.token)
     setUser(res.user)
+    loadServerProgress()
     uni.showToast({ title: '登录成功', icon: 'success' })
     setTimeout(() => {
       uni.switchTab({ url: '/pages/index/index' })
@@ -93,6 +102,7 @@ async function wxLogin() {
     )
     setToken(res.token)
     setUser(res.user)
+    loadServerProgress()
     uni.showToast({ title: '登录成功', icon: 'success' })
     setTimeout(() => {
       uni.switchTab({ url: '/pages/index/index' })

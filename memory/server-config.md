@@ -9,20 +9,28 @@ metadata:
 
 **配置：** 4 核 4GB 内存 40GB SSD
 
-**当前状态：** 之前跑 龙虾（Lobster）项目，计划重装系统
+**当前状态：** 已部署 JapaneseLearning 后端（2026-08-13 完成）
 
-**计划用途：** JapaneseLearning 后端服务器，后续也跑 龙虾中枢 + Obsidian 同步
+**IP：** 124.221.0.238
+**实例 ID：** lhins-keecg7lu
+**系统：** Ubuntu 24.04 LTS
 
-**重装方案：** Ubuntu 22.04 LTS（或 24.04 LTS），可选装宝塔面板方便管理
+**域名：** palmsugar.cn，子域名 `jplearning.palmsugar.cn` → 已解析到服务器 IP
 
-**域名：** 已申请，备案上线前一个月再提交
+**代码路径：** `/opt/japanese-learning/JapaneseLearningSite/`
+**数据库：** `/opt/japanese-learning/JapaneseLearningSite/server/data/japanese.db`
 
-**部署清单：**
-- Node.js 18/20 LTS
-- Nginx 反向代理（API 子域 → localhost:3001）
-- PM2 进程管理（自动重启、开机启动）
-- SSL 证书（腾讯云免费证书 / Let's Encrypt）
-- Git 拉取 + 部署脚本
-- 防火墙：只开 22/80/443
+**已部署：**
+- Node.js 20 + nvm
+- PM2（进程名 `japanese-api`，开机自启）
+- Nginx 反向代理（80 → localhost:3001）
+- Express 后端（PM2 守护，稳定 online）
+- DNS 解析已配置
 
-**开发阶段：** 用 IP + 端口直连测试，微信开发者工具关掉域名校验
+**待办：**
+- 备案（上线前一个月提交）
+- SSL 证书（备案通过后，certbot + Let's Encrypt）
+- 小程序端 API 地址换成正式域名（当前是 `localhost:3001`）
+- 微信登录：`/api/auth/wx-login` 接口已实现（2026-08-16），待配 `WX_APPID`/`WX_SECRET` 环境变量
+
+**部署指南：** [[docs/服务器部署指南]]，见项目 `docs/服务器部署指南.md`
