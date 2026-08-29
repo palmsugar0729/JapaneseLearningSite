@@ -1,12 +1,12 @@
 {
   "name": "日语学习",
-  "appid": "",
+  "appid": "wx43f7122b646031a3",
   "description": "日语学习助手 — SRS 单词卡 + 练习题库",
   "versionName": "1.0.0",
   "versionCode": "100",
   "transformPx": false,
   "mp-weixin": {
-    "appid": "",
+    "appid": "wx43f7122b646031a3",
     "setting": {
       "urlCheck": false,
       "es6": true,
