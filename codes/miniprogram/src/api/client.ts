@@ -5,8 +5,8 @@
 
 import { ref } from 'vue'
 
-// 开发阶段用本地 + IP 直连，上线后换成正式域名
-const API_BASE = 'http://localhost:3001/api'
+// 测试阶段直连服务器 IP（密钥已配好）；备案 + SSL 完成后换成 https://jplearning.palmsugar.cn/api
+const API_BASE = 'http://124.221.0.238/api'
 
 // 响应式 token 状态
 const _token = ref<string | null>(uni.getStorageSync('jl:token') || null)
