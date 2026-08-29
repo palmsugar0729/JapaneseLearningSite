@@ -66,7 +66,8 @@ db.exec(`
 
 const userColumns = db.prepare('PRAGMA table_info(users)').all() as { name: string }[]
 if (!userColumns.some((c) => c.name === 'openid')) {
-  db.exec('ALTER TABLE users ADD COLUMN openid TEXT UNIQUE')
+  db.exec('ALTER TABLE users ADD COLUMN openid TEXT')
+  db.exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_openid ON users(openid)')
   console.log('[db] migrated: added users.openid')
 }
 
