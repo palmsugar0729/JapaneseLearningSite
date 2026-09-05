@@ -2,7 +2,7 @@
   <div class="app">
     <nav class="nav">
       <div class="nav-inner">
-        <router-link to="/word" class="nav-brand">🎌 日语学习</router-link>
+        <router-link to="/" class="nav-brand">🎌 日语学习</router-link>
         <div class="nav-links">
           <router-link to="/word">背单词</router-link>
           <router-link to="/exercise">刷题</router-link>
