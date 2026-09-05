@@ -5,7 +5,8 @@
 
 import { ref } from 'vue'
 
-const API_BASE = 'http://localhost:3001/api'
+// 同域相对路径：开发时由 Vite proxy 转发到本地后端，生产时由 Nginx 反代到后端
+const API_BASE = '/api'
 
 // 响应式状态，Vue computed 可以追踪变化
 const _token = ref<string | null>(localStorage.getItem('japanese-learning:token'))
