@@ -2,5 +2,5 @@
 - [双模式存储设计](memory/storage-dual-mode.md) — API+SQLite / localStorage 双模式 + Vue ref 教训
 - [词库 JSON 无 level 字段](memory/word-data-level-field.md) — 文件分类但条目缺字段的修复方案
 - [每日新词上限](memory/daily-new-word-limit.md) — 全天硬上限实现 + 为什么不能每次 10 个
-- [服务器配置](memory/server-config.md) — 腾讯云轻量 4C4G40G，已部署完成（Nginx+PM2+DNS），待备案+SSL
+- [服务器配置](memory/server-config.md) — 腾讯云轻量 4C4G40G，网页版已上线（HTTPS，nginx gzip + 静态缓存已配），备案已通过，待公安备案+小程序切域名
 - [v2.4 迭代计划](memory/v2.4-plan.md) — uni-app 双端 + 微信登录 + 服务器部署
