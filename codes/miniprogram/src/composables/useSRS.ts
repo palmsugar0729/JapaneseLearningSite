@@ -39,10 +39,14 @@ function todayStr(): string {
   return new Date().toISOString().split('T')[0]
 }
 
+/** 今日新词集合对应的日期（用于跨天重置，避免依赖 stats.lastStudyDate 造成渲染期写响应式） */
+let _todayNewDate = todayStr()
+
 /** 重置今日新词计数（跨天自动清） */
 function resetTodayNewIfNeeded(): void {
   const today = todayStr()
-  if (stats.value.lastStudyDate !== today) {
+  if (_todayNewDate !== today) {
+    _todayNewDate = today
     todayNewSet.value = new Set()
   }
 }
