@@ -2,7 +2,7 @@
   <div class="app">
     <nav class="nav">
       <div class="nav-inner">
-        <router-link to="/" class="nav-brand">🎌 日语学习</router-link>
+        <router-link to="/word" class="nav-brand">🎌 日语学习</router-link>
         <div class="nav-links">
           <router-link to="/word">背单词</router-link>
           <router-link to="/exercise">刷题</router-link>
@@ -24,6 +24,11 @@
     <main class="main">
       <router-view />
     </main>
+    <footer class="footer">
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+        沪ICP备2026043380号
+      </a>
+    </footer>
   </div>
 </template>
 
@@ -156,5 +161,21 @@ $primary: #a3c1ad;
 .main {
   flex: 1;
   padding: 24px 16px;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+
+  a {
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      color: #666;
+    }
+  }
 }
 </style>

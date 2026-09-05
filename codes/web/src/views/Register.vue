@@ -68,7 +68,7 @@ async function handleRegister() {
     setToken(data.token)
     setUser(data.user)
     success.value = '注册成功！正在跳转...'
-    setTimeout(() => router.push('/'), 800)
+    setTimeout(() => router.push('/word'), 800)
   } catch (e: any) {
     error.value = e.message || '注册失败'
   } finally {

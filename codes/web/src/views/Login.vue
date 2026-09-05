@@ -54,7 +54,7 @@ async function handleLogin() {
     })
     setToken(data.token)
     setUser(data.user)
-    router.push('/')
+    router.push('/word')
   } catch (e: any) {
     error.value = e.message || '登录失败'
   } finally {
