@@ -67,8 +67,15 @@ export interface WordWithStatus extends Word {
 
 // ========== 练习相关 ==========
 
-/** 练习题类型 */
-export type ExerciseType = 'choice' | 'translation'
+/**
+ * 练习题类型
+ *
+ * - `choice` / `translation`：选项作答
+ * - `fill` / `reading`：输入框作答（v2.6 新增）
+ *
+ * 「未来开放」是设置页里的禁用占位按钮，不是题型，**不在**此联合类型中。
+ */
+export type ExerciseType = 'choice' | 'translation' | 'fill' | 'reading'
 
 /** 练习题数据 */
 export interface Exercise {
@@ -78,12 +85,16 @@ export interface Exercise {
   type: ExerciseType
   /** JLPT 级别 */
   level: JLPTLevel
-  /** 题目 */
+  /** 题目：选项题为整句，填空题为含空格的句子，读音题为待注音的词 */
   question: string
-  /** 选项 */
-  options: string[]
-  /** 正确选项索引 */
-  answer: number
+  /** 选项（仅选项作答的题型使用） */
+  options?: string[]
+  /**
+   * 正确答案
+   * - 选项题：正确选项的索引（number）
+   * - 输入题（fill / reading）：可接受的答案数组，含多个变体写法
+   */
+  answer: number | string[]
   /** 解析 */
   explanation: string
 }

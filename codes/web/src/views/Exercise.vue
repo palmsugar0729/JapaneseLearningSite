@@ -34,6 +34,8 @@
             >
               {{ tp.label }}
             </button>
+            <!-- 占位：后续再补题型与数据 -->
+            <button class="option-disabled" disabled>未来开放</button>
           </div>
         </div>
 
@@ -90,16 +92,16 @@
 
         <div class="question-text">{{ currentExercise.question }}</div>
 
-        <!-- 选项 -->
-        <div class="options">
+        <!-- 选项作答（语法选择 / 翻译） -->
+        <div v-if="!isInputQuestion" class="options">
           <button
-            v-for="(opt, i) in currentExercise.options"
+            v-for="(opt, i) in currentOptions"
             :key="i"
             class="option-btn"
             :class="{
               selected: selectedAnswer === i,
-              correct: showAnswer && i === currentExercise.answer,
-              wrong: showAnswer && selectedAnswer === i && i !== currentExercise.answer,
+              correct: showAnswer && isCorrectOption(i),
+              wrong: showAnswer && selectedAnswer === i && !isCorrectOption(i),
             }"
             :disabled="showAnswer"
             @click="selectAnswer(i)"
@@ -108,12 +110,33 @@
             <span class="option-text">{{ opt }}</span>
           </button>
         </div>
+
+        <!-- 输入作答（语法词填空 / 读音练习） -->
+        <div v-else class="answer-input">
+          <input
+            ref="inputRef"
+            v-model="userInput"
+            type="text"
+            :placeholder="currentExercise.type === 'reading' ? '请输入读音（假名）' : '请输入要填入的词'"
+            :disabled="showAnswer"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+            @keyup.enter="submitAnswer"
+          />
+          <p class="input-hint">
+            全角/半角、平假名/片假名均可，空格会被忽略
+          </p>
+        </div>
       </div>
 
       <!-- 答案解析（显示答案后） -->
       <div v-if="showAnswer" class="answer-section">
         <div class="answer-result" :class="isCorrect ? 'correct' : 'wrong'">
           {{ isCorrect ? '✅ 正确！' : '❌ 错误' }}
+        </div>
+        <div v-if="!isCorrect" class="correct-answer">
+          正确答案：<strong>{{ correctAnswerText(currentExercise) }}</strong>
         </div>
         <div class="explanation">
           <strong>解析：</strong>{{ currentExercise.explanation }}
@@ -127,7 +150,7 @@
       <button
         v-else
         class="btn-primary"
-        :disabled="selectedAnswer === null"
+        :disabled="!hasUserAnswer"
         @click="submitAnswer"
       >
         提交答案
@@ -152,7 +175,10 @@
         <div v-for="(item, i) in wrongAnswers" :key="i" class="wrong-item">
           <div class="wrong-question">{{ i + 1 }}. {{ item.exercise.question }}</div>
           <div class="wrong-answer">
-            正确答案：{{ item.exercise.options[item.exercise.answer] }}
+            正确答案：{{ correctAnswerText(item.exercise) }}
+            <span v-if="item.selectedText" class="your-answer">
+              ｜ 你的答案：{{ item.selectedText }}
+            </span>
           </div>
           <div class="wrong-explanation">{{ item.exercise.explanation }}</div>
         </div>
@@ -177,13 +203,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import type { Exercise, JLPTLevel, ExerciseType } from '../types/japanese'
 import {
   getExercisesByLevelAndType,
   shuffleExercises,
   getExerciseById,
 } from '../api/exercise'
+import { isInputExerciseType, checkInputAnswer, correctAnswerText } from '../utils/answer'
 import {
   recordAnswer,
   getWrongList,
@@ -205,10 +232,16 @@ const settings = ref({
 
 const exerciseList = ref<Exercise[]>([])
 const currentIndex = ref(0)
+/** 选项题的作答（选中项索引） */
 const selectedAnswer = ref<number | null>(null)
+/** 输入题的作答（原始输入文本） */
+const userInput = ref('')
+const inputRef = ref<HTMLInputElement | null>(null)
 const showAnswer = ref(false)
 const correctCount = ref(0)
-const wrongAnswers = ref<{ exercise: Exercise; selected: number }[]>([])
+const wrongAnswers = ref<
+  { exercise: Exercise; selected: number | string; selectedText: string }[]
+>([])
 const startTime = ref(0)
 const elapsedTime = ref(0)
 let timerInterval: ReturnType<typeof setInterval> | null = null
@@ -228,6 +261,8 @@ const typeOptions = [
   { value: 'mixed' as const, label: '混合' },
   { value: 'choice' as const, label: '语法选择' },
   { value: 'translation' as const, label: '翻译' },
+  { value: 'fill' as const, label: '语法词填空' },
+  { value: 'reading' as const, label: '读音练习' },
 ]
 
 const countOptions = [5, 10, 20, 0]
@@ -235,6 +270,8 @@ const countOptions = [5, 10, 20, 0]
 const typeLabel: Record<ExerciseType, string> = {
   choice: '语法选择',
   translation: '翻译',
+  fill: '语法词填空',
+  reading: '读音练习',
 }
 
 // ========== 计算属性 ==========
@@ -248,8 +285,33 @@ const availableCount = computed(() => {
 
 const currentExercise = computed(() => exerciseList.value[currentIndex.value])
 
+/** 当前题是否为输入作答（语法词填空 / 读音练习） */
+const isInputQuestion = computed(
+  () => !!currentExercise.value && isInputExerciseType(currentExercise.value.type)
+)
+
+/** 选项题的选项列表（输入题为空数组） */
+const currentOptions = computed(() => currentExercise.value?.options ?? [])
+
+/** 第 index 个选项是否为正确答案 */
+function isCorrectOption(index: number): boolean {
+  const ex = currentExercise.value
+  if (!ex || isInputExerciseType(ex.type)) return false
+  return ex.answer === index
+}
+
 const isCorrect = computed(() => {
-  return selectedAnswer.value === currentExercise.value?.answer
+  const ex = currentExercise.value
+  if (!ex) return false
+  if (isInputExerciseType(ex.type)) {
+    return checkInputAnswer(ex, userInput.value)
+  }
+  return selectedAnswer.value === ex.answer
+})
+
+/** 是否已作答（用于控制提交按钮可用状态） */
+const hasUserAnswer = computed(() => {
+  return isInputQuestion.value ? userInput.value.trim().length > 0 : selectedAnswer.value !== null
 })
 
 const isLast = computed(() => {
@@ -265,6 +327,38 @@ const wrongCount = computed(() => getWrongCount())
 
 // ========== 方法 ==========
 
+/** 输入题作答时自动聚焦输入框 */
+function focusInput() {
+  const ex = exerciseList.value[currentIndex.value]
+  if (!ex || !isInputExerciseType(ex.type)) return
+  nextTick(() => inputRef.value?.focus())
+}
+
+/** 开始一组练习：重置全部作答状态并启动计时 */
+function beginQuiz(exercises: Exercise[]) {
+  if (timerInterval) {
+    clearInterval(timerInterval)
+    timerInterval = null
+  }
+
+  exerciseList.value = exercises
+  currentIndex.value = 0
+  selectedAnswer.value = null
+  userInput.value = ''
+  showAnswer.value = false
+  correctCount.value = 0
+  wrongAnswers.value = []
+  startTime.value = Date.now()
+  elapsedTime.value = 0
+  mode.value = 'quiz'
+
+  focusInput()
+
+  timerInterval = setInterval(() => {
+    elapsedTime.value = Math.floor((Date.now() - startTime.value) / 1000)
+  }, 1000)
+}
+
 function startExercise() {
   let exercises = getExercisesByLevelAndType(
     settings.value.level,
@@ -279,20 +373,7 @@ function startExercise() {
     exercises = exercises.slice(0, settings.value.count)
   }
 
-  exerciseList.value = exercises
-  currentIndex.value = 0
-  selectedAnswer.value = null
-  showAnswer.value = false
-  correctCount.value = 0
-  wrongAnswers.value = []
-  startTime.value = Date.now()
-  elapsedTime.value = 0
-  mode.value = 'quiz'
-
-  // 启动计时器
-  timerInterval = setInterval(() => {
-    elapsedTime.value = Math.floor((Date.now() - startTime.value) / 1000)
-  }, 1000)
+  beginQuiz(exercises)
 }
 
 function startWrongExercise() {
@@ -305,19 +386,7 @@ function startWrongExercise() {
 
   if (exercises.length === 0) return
 
-  exerciseList.value = shuffleExercises(exercises)
-  currentIndex.value = 0
-  selectedAnswer.value = null
-  showAnswer.value = false
-  correctCount.value = 0
-  wrongAnswers.value = []
-  startTime.value = Date.now()
-  elapsedTime.value = 0
-  mode.value = 'quiz'
-
-  timerInterval = setInterval(() => {
-    elapsedTime.value = Math.floor((Date.now() - startTime.value) / 1000)
-  }, 1000)
+  beginQuiz(shuffleExercises(exercises))
 }
 
 function selectAnswer(index: number) {
@@ -326,10 +395,11 @@ function selectAnswer(index: number) {
 }
 
 function submitAnswer() {
-  if (selectedAnswer.value === null) return
-
   const exercise = currentExercise.value
-  const isRight = selectedAnswer.value === exercise.answer
+  if (!exercise || showAnswer.value || !hasUserAnswer.value) return
+
+  const inputMode = isInputExerciseType(exercise.type)
+  const isRight = isCorrect.value
 
   showAnswer.value = true
 
@@ -338,7 +408,10 @@ function submitAnswer() {
   } else {
     wrongAnswers.value.push({
       exercise,
-      selected: selectedAnswer.value,
+      selected: inputMode ? userInput.value : (selectedAnswer.value as number),
+      selectedText: inputMode
+        ? userInput.value
+        : (exercise.options?.[selectedAnswer.value as number] ?? ''),
     })
   }
 
@@ -352,7 +425,9 @@ function nextQuestion() {
   } else {
     currentIndex.value++
     selectedAnswer.value = null
+    userInput.value = ''
     showAnswer.value = false
+    focusInput()
   }
 }
 
@@ -474,6 +549,17 @@ $shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
       color: white;
       border-color: $primary;
       box-shadow: 0 2px 8px rgba(163, 193, 173, 0.4);
+    }
+  }
+
+  // 占位题型：未来开放
+  .option-disabled {
+    opacity: 0.35;
+    border-style: dashed;
+    cursor: not-allowed;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.5);
     }
   }
 }
@@ -627,6 +713,54 @@ $shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+// ========== 输入作答（语法词填空 / 读音练习） ==========
+
+.answer-input {
+  input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      border-color: $primary;
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    &:disabled {
+      background: rgba(0, 0, 0, 0.03);
+      color: $text-main;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.input-hint {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 8px;
+}
+
+.correct-answer {
+  font-size: 15px;
+  margin-bottom: 12px;
+
+  strong {
+    color: $primary-dark;
+    font-size: 17px;
+  }
+}
+
+.your-answer {
+  opacity: 0.6;
 }
 
 .option-btn {

@@ -25,22 +25,52 @@
       <router-view />
     </main>
     <footer class="footer">
-      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
-        沪ICP备2026043380号
-      </a>
+      <div class="footer-inner">
+        <!-- 政策链接（左）-->
+        <div class="footer-item footer-links">
+          <router-link to="/privacy">隐私政策</router-link>
+          <span class="sep">·</span>
+          <router-link to="/contact">联系我们</router-link>
+        </div>
+
+        <!-- 备案信息（中）-->
+        <div class="footer-item footer-beian">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+            沪ICP备2026043380号-1
+          </a>
+          <a
+            href="https://beian.mps.gov.cn/#/query/webSearch?code=31011302009700"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="/beian.png" alt="" />
+            沪公网安备31011302009700号
+          </a>
+        </div>
+
+        <!-- 访问统计（右，busuanzi）-->
+        <div class="footer-item footer-stats">
+          <span id="busuanzi_container_site_pv" style="display: none">
+            本站总访问量<span id="busuanzi_value_site_pv"></span>次
+          </span>
+        </div>
+      </div>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { getToken, setToken, setUser, getUser } from './api/client'
 import { initSRSFromServer, resetSRSInit } from './composables/useSRS'
 import { initExerciseFromServer, resetExerciseInit } from './composables/useExerciseProgress'
 
 const router = useRouter()
-const user = ref(getUser())
+
+// getUser() 返回 client.ts 里的响应式 ref，包成 computed 才能跟着 setUser() 变
+// （之前用 ref 存快照，改了用户名导航栏不会更新）
+const user = computed(() => getUser())
 const isLoggedIn = computed(() => !!getToken())
 
 async function handleLogout() {
@@ -48,13 +78,11 @@ async function handleLogout() {
   setUser(null)
   resetSRSInit()
   resetExerciseInit()
-  user.value = null
   router.push('/')
 }
 
 onMounted(async () => {
   if (getToken()) {
-    user.value = getUser()
     await Promise.all([initSRSFromServer(), initExerciseFromServer()])
   }
 })
@@ -163,19 +191,91 @@ $primary: #a3c1ad;
   padding: 24px 16px;
 }
 
+// 深色底 + 奶白字。本站底色是浅绿渐变，亮色字压在它上面对比度极低：
+// #999 只有 1.46~1.86:1，换成奶白色反而更差（1.40~1.78:1），
+// 所以加一层半透明深色底，奶白字压在这层底上是 6.66~7.06:1（达 WCAG AA）
+$footer-bg: rgba(44, 62, 80, 0.82); // 取自站内文字色 #2c3e50
+$footer-text: #f2f6f3;
+
 .footer {
-  padding: 16px;
-  text-align: center;
+  padding: 18px 16px;
   font-size: 12px;
-  color: #999;
+  background: $footer-bg;
+  color: $footer-text;
 
   a {
-    color: #999;
+    color: $footer-text;
     text-decoration: none;
+    transition: color 0.2s;
 
     &:hover {
-      color: #666;
+      color: #fff;
+      text-decoration: underline;
     }
+  }
+}
+
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+// 左右各占一份，中间的备案号才是真正居中（只靠 space-between 会偏）
+.footer-links {
+  flex: 1;
+}
+
+.footer-stats {
+  flex: 1;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.footer-beian a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+// 原图 36×40，按 16px 高显示并保持比例
+.footer-beian img {
+  height: 16px;
+  width: auto;
+  display: block;
+}
+
+.footer-links .sep {
+  opacity: 0.55;
+}
+
+// 窄屏转上下结构，备案号在上、政策链接在下
+@media (max-width: 640px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer-links,
+  .footer-stats {
+    flex: 0 0 auto;
+    justify-content: center;
+  }
+
+  .footer-beian {
+    order: -1;
   }
 }
 </style>

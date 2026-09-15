@@ -30,6 +30,15 @@ const routes = [
     path: '/user',
     component: () => import('../views/UserCenter.vue'),
   },
+  // 公开页面：备案要求可访问，无需登录
+  {
+    path: '/privacy',
+    component: () => import('../views/Privacy.vue'),
+  },
+  {
+    path: '/contact',
+    component: () => import('../views/Contact.vue'),
+  },
 ]
 
 const router = createRouter({

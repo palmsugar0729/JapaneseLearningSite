@@ -7,15 +7,18 @@
       <form @submit.prevent="handleRegister">
         <div class="form-group">
           <label>用户名</label>
-          <input v-model="username" type="text" placeholder="2-30个字符" autocomplete="username" />
+          <input v-model="username" type="text" :placeholder="USERNAME_HINT" autocomplete="username" />
+          <p v-if="username && usernameError" class="field-error">{{ usernameError }}</p>
         </div>
         <div class="form-group">
           <label>密码</label>
-          <input v-model="password" type="password" placeholder="至少4个字符" autocomplete="new-password" />
+          <input v-model="password" type="password" :placeholder="PASSWORD_HINT" autocomplete="new-password" />
+          <p v-if="password && passwordError" class="field-error">{{ passwordError }}</p>
         </div>
         <div class="form-group">
           <label>确认密码</label>
           <input v-model="confirmPassword" type="password" placeholder="再输入一次密码" autocomplete="new-password" />
+          <p v-if="confirmError" class="field-error">{{ confirmError }}</p>
         </div>
 
         <div v-if="error" class="error-msg">{{ error }}</div>
@@ -34,9 +37,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { api, setToken, setUser, type UserInfo } from '../api/client'
+import {
+  validateUsername,
+  validatePassword,
+  USERNAME_HINT,
+  PASSWORD_HINT,
+} from '../utils/validation'
 
 const router = useRouter()
 const username = ref('')
@@ -46,12 +55,31 @@ const error = ref('')
 const success = ref('')
 const loading = ref(false)
 
+// 即时校验：与后端 server/src/validation.ts 同一套规则
+const usernameError = computed(() =>
+  username.value ? validateUsername(username.value) : null
+)
+const passwordError = computed(() =>
+  password.value ? validatePassword(password.value) : null
+)
+const confirmError = computed(() =>
+  confirmPassword.value && password.value && confirmPassword.value !== password.value
+    ? '两次密码不一致'
+    : null
+)
+
 async function handleRegister() {
   error.value = ''
   success.value = ''
 
-  if (!username.value || !password.value) {
-    error.value = '请填写用户名和密码'
+  const usernameErr = validateUsername(username.value)
+  if (usernameErr) {
+    error.value = usernameErr
+    return
+  }
+  const passwordErr = validatePassword(password.value)
+  if (passwordErr) {
+    error.value = passwordErr
     return
   }
   if (password.value !== confirmPassword.value) {
@@ -147,6 +175,13 @@ $primary-dark: color.adjust($primary, $lightness: -10%);
   font-size: 13px;
   margin-bottom: 14px;
   text-align: center;
+}
+
+.field-error {
+  font-size: 12px;
+  color: #ff6b6b;
+  margin-top: 6px;
+  line-height: 1.4;
 }
 
 .success-msg {

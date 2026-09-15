@@ -29,7 +29,19 @@ export interface UserInfo {
   username: string
 }
 
-const _user = ref<UserInfo | null>(null)
+// 与 token 一样持久化，否则刷新页面后导航栏的用户名会变空
+const USER_STORAGE_KEY = 'japanese-learning:user'
+
+function readStoredUser(): UserInfo | null {
+  try {
+    const raw = localStorage.getItem(USER_STORAGE_KEY)
+    return raw ? (JSON.parse(raw) as UserInfo) : null
+  } catch {
+    return null
+  }
+}
+
+const _user = ref<UserInfo | null>(readStoredUser())
 
 export function getUser(): UserInfo | null {
   return _user.value
@@ -37,6 +49,11 @@ export function getUser(): UserInfo | null {
 
 export function setUser(user: UserInfo | null): void {
   _user.value = user
+  if (user) {
+    localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user))
+  } else {
+    localStorage.removeItem(USER_STORAGE_KEY)
+  }
 }
 
 async function request<T>(method: string, path: string, body?: unknown): Promise<T> {

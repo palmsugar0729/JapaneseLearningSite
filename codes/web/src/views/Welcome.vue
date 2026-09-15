@@ -7,7 +7,13 @@
       <router-link to="/word" class="entry-card">
         <div class="entry-icon">🎌</div>
         <h3>日语学习</h3>
-        <p>SM-2 间隔重复背单词 · JLPT N5~N1 · 练习题库</p>
+        <p>SM-2 间隔重复背单词 · JLPT N5~N1</p>
+      </router-link>
+
+      <router-link to="/exercise" class="entry-card">
+        <div class="entry-icon">✏️</div>
+        <h3>刷题</h3>
+        <p>语法选择 · 翻译 · 语法词填空 · 读音练习</p>
       </router-link>
 
       <div class="entry-card disabled">
@@ -25,7 +31,7 @@
 
 <style scoped lang="scss">
 .welcome {
-  max-width: 560px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 80px 16px 40px;
   text-align: center;
@@ -87,7 +93,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .entries {
     flex-direction: column;
     align-items: center;
