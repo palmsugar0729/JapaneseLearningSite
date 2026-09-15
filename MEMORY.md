@@ -4,5 +4,5 @@
 - [每日新词上限](memory/daily-new-word-limit.md) — 全天硬上限实现 + 为什么不能每次 10 个
 - [服务器配置与部署要点](memory/server-config.md) — PM2 跑在 root（pm2 不在 ubuntu PATH）、server/src 属 root 需 sudo、用 scp 不用 git pull、本机 git push 依赖本地代理
 - [v2.4 迭代计划](memory/v2.4-plan.md) — uni-app 双端 + 微信登录 + 服务器部署
-- [v2.6 迭代](memory/v2.6-plan.md) — 已于 2026-09-15 上线；含违禁词未做的合规缺口 + 两项遗留（题型无数据、隐私政策主体名待补）
+- [v2.6 迭代](memory/v2.6-plan.md) — 已于 2026-09-15 上线；含违禁词未做的合规缺口 + 个人备案站点隐私政策的写法约定
 - [协作方式偏好](memory/collab-preferences.md) — 先讨论定方案再动代码；改完要先在浏览器验收，通过后才提交部署
