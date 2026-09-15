@@ -32,18 +32,28 @@ cd codes/miniprogram && npm install && npm run dev:mp-weixin
 
 线上地址 `https://jplearning.palmsugar.cn`（nginx 静态托管 `codes/web/dist`，`/api` 反代到 PM2 守护的 `japanese-api`）。
 
-```bash
-# 前端：本地构建 → 上传 dist → 替换 web root
-cd codes/web && npm run build
-tar czf /tmp/dist.tgz dist && scp /tmp/dist.tgz jplearning:/tmp/
-# 服务器：备份旧 dist 后解包替换
+> ⚠️ **服务器连不上 GitHub，不能用 `git pull` 部署**，一律走 `scp`。`push` 到 GitHub 和部署到服务器是两件独立的事。
 
-# 后端：上传改动的 src 文件 → 重启进程
-scp server/src/... jplearning:/tmp/
-sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-api
+```bash
+# 前端：本地构建 → 打包上传 → 服务器上换掉旧 dist（dist 属 ubuntu，无需 sudo）
+cd codes/web && npm run build
+tar czf /tmp/jp-dist.tgz dist && scp /tmp/jp-dist.tgz jplearning:/tmp/
+
+# 后端：server/src 属 root，必须先传 /tmp 再 sudo cp
+scp server/src/routes/auth.ts jplearning:/tmp/
+ssh jplearning 'sudo cp /tmp/auth.ts /opt/japanese-learning/JapaneseLearningSite/server/src/routes/auth.ts'
+ssh jplearning 'sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-api'
 ```
 
-> 详细步骤与故障排查见 [服务器部署指南](docs/服务器部署指南.md)。
+判断部署成功：新接口返回 **401/400 而不是 404**（404 = 路由没注册上，文件没传对）。
+
+> 完整流程、回滚、环境变量与故障排查见 [服务器部署指南](docs/服务器部署指南.md)。
+
+## 环境变量
+
+后端可选环境变量：`PORT`、`JWT_SECRET`、`WX_APPID`、`WX_SECRET`。
+
+⚠️ **线上目前没有 `.env`**，`JWT_SECRET` 用的是源码里的开发默认值 —— 建议尽快换成随机值（会让已登录用户掉线，挑人少时做）。`WX_SECRET` **绝不能提交进仓库**。
 
 ## 项目结构
 
@@ -77,9 +87,13 @@ JapaneseLearning/
 │           ├── api/         # uni.request 客户端
 │           ├── types/       # TypeScript 类型
 │           └── content/     # 开发期词库（N5 + 教科书）
-├── docs/                # 产品文档
-├── assets/              # 设计素材
+├── docs/                # 产品文档（PRD / 开发日志 / 迭代清单 / 部署指南）
+├── assets/              # 设计素材（design / bug / reference）
+├── notes/               # 开发笔记 & 踩坑记录
+├── memory/              # 会话记忆（决策、服务器配置、协作偏好）+ 索引在 MEMORY.md
+├── nginx-jplearning.conf # nginx 站点配置（服务器上的副本）
 ├── AGENTS.md            # AI 开发指南
+├── MEMORY.md            # 记忆索引
 └── README.md
 ```
 
@@ -100,10 +114,11 @@ JapaneseLearning/
 
 ## 文档
 
-- [产品需求文档 (PRD)](docs/PRD.md)
-- [开发日志](docs/开发日志.md)
-- [v2.6 迭代待办清单](docs/2026-09-15-todo-list.md)
+- [产品需求文档 (PRD)](docs/PRD.md) — 功能清单、数据结构、版本历史
+- [开发日志](docs/开发日志.md) — 按日期记录完成事项、决策与踩坑
+- [v2.6 迭代清单](docs/2026-09-15-todo-list.md) — 需求→决策对照、新题型数据格式、验收清单
 - [需求原文](docs/needs.md)
-- [服务器部署指南](docs/服务器部署指南.md)
+- [服务器部署指南](docs/服务器部署指南.md) — **部署前必读**（含 PM2/权限/nginx 的坑）
 - [数据格式模板](codes/web/src/content/japanese/DATA_TEMPLATE.md)
-- [AI 开发指南](AGENTS.md)
+- [AI 开发指南](AGENTS.md) — 代码约定、页脚与备案约定、当前状态
+- 历史批次：[2026-08-16 迭代](docs/2026-08-16-todo-list.md) · [2026-09-04 上线](docs/2026-09-04-上线todo-list.md) · [网页版上线步骤](docs/2026-09-04-网页版上线步骤.md)

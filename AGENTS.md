@@ -112,7 +112,17 @@ JapaneseLearning/
 - ⚠️ **不要往 footer 上用亮色字压本站背景**。本站底色是浅绿渐变（`styles/theme.scss`），亮色字对比度极低（`#999` 只有 1.46:1，奶白更差只有 1.40:1）。现行方案是半透明深色底 `rgba(44,62,80,.82)` + 奶白字 `#f2f6f3`，达标 6.66~7.06:1。改配色前先算对比度。
 - `/privacy`、`/contact` 是**公开路由**，不能加 `requiresAuth`（备案要求可访问）。
 
-### 3.8 uni-app / 小程序
+### 3.8 部署与环境变量
+
+- **部署是 `scp`，不是 `git pull`** —— 服务器连不上 GitHub（已实测）。`push` 到 GitHub 与部署到服务器是**两件独立的事**。
+- **目录归属决定要不要 sudo**：`server/src/`、`server/data/` 属 **root**；`codes/web/dist` 属 **ubuntu**。后端必须先传 `/tmp/` 再 `sudo cp`。
+- **`pm2` 不在 ubuntu 的 PATH 里**（装在 root 的 nvm 下），必须 `sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 ...`。
+- ⚠️ **验证接口别用 `http://127.0.0.1/api/health`**，会命中 nginx 80 端口那个 `return 404` 的 server 块，看起来像后端挂了。用公网域名，或直连 `:3001`。
+- 🔐 **环境变量**：`PORT` / `JWT_SECRET` / `WX_APPID` / `WX_SECRET`。`WX_SECRET` **绝不能提交进仓库**；`JWT_SECRET` 线上曾长期使用源码默认值，改它会踢掉所有已登录用户。
+
+> 详细步骤见 [docs/服务器部署指南.md](docs/服务器部署指南.md)。
+
+### 3.9 uni-app / 小程序
 - 小程序版在 `codes/miniprogram/`，基于 uni-app (Vue 3 + Vite + TS)
 - 存储通过 `storage.ts` 封装，内部使用 `uni.getStorageSync` / `uni.setStorageSync`
 - 避免 `backdrop-filter`（小程序不支持），使用扁平卡片风格
