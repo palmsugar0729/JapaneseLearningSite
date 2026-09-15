@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <h1 class="title">隐私政策</h1>
-    <p class="updated">更新日期：2026-09-15</p>
+    <p class="updated">更新日期：2026-09-16</p>
 
     <div class="card">
       <p class="lead">
-        本站（jplearning.palmsugar.cn，以下简称「本站」）是一个日语学习工具，
-        由 <strong class="todo">【备案主体名称，待补充】</strong> 运营。
+        本站（jplearning.palmsugar.cn，以下简称「本站」）是一个由个人开发者运营的日语学习工具网站
+        （沪ICP备2026043380号-1）。
         我们重视你的隐私，本政策说明我们收集哪些信息、如何使用，以及你可以如何管理这些信息。
         使用本站即表示你已阅读并同意本政策。
       </p>
@@ -142,13 +142,6 @@
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   margin-bottom: 20px;
-}
-
-.todo {
-  color: #d9534f;
-  background: rgba(217, 83, 79, 0.08);
-  padding: 1px 6px;
-  border-radius: 4px;
 }
 
 section {
