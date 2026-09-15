@@ -5,3 +5,9 @@ server/data/
 .DS_Store
 Thumbs.db
 docs/小程序APPID.txt
+
+# 环境变量与密钥：WX_SECRET / JWT_SECRET 绝不能进仓库
+.env
+.env.*
+*.pem
+*.key
