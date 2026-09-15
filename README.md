@@ -53,7 +53,15 @@ ssh jplearning 'sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 re
 
 后端可选环境变量：`PORT`、`JWT_SECRET`、`WX_APPID`、`WX_SECRET`。
 
-⚠️ **线上目前没有 `.env`**，`JWT_SECRET` 用的是源码里的开发默认值 —— 建议尽快换成随机值（会让已登录用户掉线，挑人少时做）。`WX_SECRET` **绝不能提交进仓库**。
+线上不落 `.env` 文件（依赖里也没有 `dotenv`），密钥统一放 `/root/.jplearning-secrets.env`（600，root），由 PM2 注入进程环境：
+
+```bash
+set -a; . /root/.jplearning-secrets.env; set +a
+sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-api --update-env
+sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 save   # 不 save，重启后会丢
+```
+
+⚠️ 改 `JWT_SECRET` 会让**所有已登录用户掉线**（签名对不上），要挑没人用的时候做。`WX_SECRET` **绝不能提交进仓库**。
 
 ## 项目结构
 

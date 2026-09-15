@@ -1,6 +1,6 @@
 ---
 name: server-config
-description: 腾讯云轻量服务器配置信息 + 部署操作要点（PM2 跑在 root、目录归属、scp 流程）
+description: 腾讯云轻量服务器配置信息 + 部署操作要点（PM2 跑在 root、目录归属、scp 流程、密钥注入与 pm2 save）
 metadata:
   type: project
 ---
@@ -47,6 +47,30 @@ sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-a
 
 **6. 回滚素材：** 每次部署都留了备份 —— `server/src/routes/auth.ts.bak-<时间戳>`、`codes/web/dist.bak-<时间戳>`。
 
+**7. `node` / `pm2` 都不在 ubuntu 的 PATH 里**，所以 `pm2 jlist | node -e ...` 这类管道会在后半段报 `node: command not found`。要跑 node 脚本一律 `sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH node ...`。
+
+---
+
+## 🔐 密钥（JWT_SECRET 已于 2026-09-15 轮换）
+
+**背景：** 线上**从来没有 `.env`**（依赖里也没有 `dotenv`，只能靠进程环境变量注入），所以后端一直回退到源码里硬编码的 `'japanese-learning-dev-secret'`。而源码在 GitHub 上公开 —— 等于**任何看过源码的人都能伪造任意用户的登录态**。
+
+**现状：** 密钥文件 `/root/.jplearning-secrets.env`（权限 600，属主 root），由 PM2 注入进程环境：
+
+```bash
+set -a; . /root/.jplearning-secrets.env; set +a
+sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-api --update-env
+sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 save   # 不 save 重启后会丢
+```
+
+**验证结果（2026-09-15）：** 用旧默认密钥伪造的 token 访问 `GET /api/progress/srs` → **401 拒绝**；用新密钥签发 → **200 放行**。`/root/.pm2/dump.pm2` 中已含 64 位新密钥且与密钥文件一致，`pm2-root.service` 为 enabled，**重启后不会退回默认值**。
+
+**回滚方式：** 旧值就是源码默认值，所以「回滚」= 把 `JWT_SECRET` 从环境里去掉，进程会自己回退 —— 但那样等于恢复漏洞，只在排查故障时临时用。
+
+**教训：** 换密钥会让**所有已登录用户掉线**（token 签名对不上），要挑没人用的时候做。
+
+**待办：** `WX_SECRET` 同样不能进仓库（见 `docs/2026-08-16-todo-list.md`）；`WX_APPID`/`WX_SECRET` 尚未配置，微信登录接口还没真正跑通。
+
 ---
 
 **已部署：**
@@ -70,4 +94,4 @@ sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-a
 
 本机 git 配了代理 `http.proxy=http://127.0.0.1:7897`（Clash 之类）。**代理没开时 `git push`/`fetch` 会失败**，直连 GitHub 也不通。报错形如 `Failed to connect to github.com port 443 via 127.0.0.1`。此时 commit 本地照常，push 交给用户手动做即可。
 
-**部署指南：** [[docs/服务器部署指南]]，见项目 `docs/服务器部署指南.md`（⚠️ 该文档部分内容已过时：写的 `root@` 登录名和 `server_name _` 都不对，实际配置见上）
+**部署指南：** [[docs/服务器部署指南]]，见项目 `docs/服务器部署指南.md` —— **已于 2026-09-15 按线上实测重写**，上面这些坑都固化进去了，日常部署看它的第 1 节即可。

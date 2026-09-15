@@ -118,7 +118,7 @@ JapaneseLearning/
 - **目录归属决定要不要 sudo**：`server/src/`、`server/data/` 属 **root**；`codes/web/dist` 属 **ubuntu**。后端必须先传 `/tmp/` 再 `sudo cp`。
 - **`pm2` 不在 ubuntu 的 PATH 里**（装在 root 的 nvm 下），必须 `sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 ...`。
 - ⚠️ **验证接口别用 `http://127.0.0.1/api/health`**，会命中 nginx 80 端口那个 `return 404` 的 server 块，看起来像后端挂了。用公网域名，或直连 `:3001`。
-- 🔐 **环境变量**：`PORT` / `JWT_SECRET` / `WX_APPID` / `WX_SECRET`。`WX_SECRET` **绝不能提交进仓库**；`JWT_SECRET` 线上曾长期使用源码默认值，改它会踢掉所有已登录用户。
+- 🔐 **环境变量**：`PORT` / `JWT_SECRET` / `WX_APPID` / `WX_SECRET`。线上密钥放 `/root/.jplearning-secrets.env`（600，root），由 PM2 注入，**改完必须 `pm2 save`**，否则重启退回默认值。`WX_SECRET` **绝不能提交进仓库**；改 `JWT_SECRET` 会踢掉所有已登录用户（签名对不上），挑人少时做。
 
 > 详细步骤见 [docs/服务器部署指南.md](docs/服务器部署指南.md)。
 
