@@ -98,7 +98,7 @@ sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 save   # 不 save 
 **待办：**
 - 小程序端 API 地址换成正式域名 `https://jplearning.palmsugar.cn/api`（当前是服务器 IP，测试阶段）
 - 微信登录：`/api/auth/wx-login` 接口已实现（2026-08-16），待配 `WX_APPID`/`WX_SECRET` 环境变量
-- 数据库备份 crontab（部署指南第 6 节有脚本，尚未真正挂上）
+- ~~数据库备份 crontab~~ ✅ 2026-09-19 已挂（每天 03:17，脚本 `server/scripts/backup-db.mjs`，产出 `/opt/japanese-learning/backups/` 留 14 份，日志 `/var/log/jplearning-backup.log`）。见 [[v2.6.2-plan]]
 
 ---
 

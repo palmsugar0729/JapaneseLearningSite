@@ -5,8 +5,8 @@
 ## 功能
 
 - **📝 SRS 单词卡** — SM-2 间隔重复算法，N5~N1 共 16,427 词，支持级别筛选
-- **📖 教科书同步** — 按教科书单元组织单词，支持进度追踪（新编日语教程1）
-- **✏️ 练习题库** — 语法选择 / 翻译 / 语法词填空 / 读音练习，错题本 + 级别筛选（后两类为输入框作答，判分做全角/假名归一化）
+- **📖 教科书词库** — 按「教材 LEVEL + 单元」组织，支持进度追踪。当前 LEVEL 1（新编日语教程1）全 16 课 920 词；前端可选 LEVEL，`level-2~4` 目录已就绪，数据到位即用
+- **✏️ 练习题库** — 语法选择 / 翻译 / 语法词填空 / 读音练习，错题本 + 级别筛选（后两类为输入框作答，判分做全角/假名归一化）。⚠️ 当前仅 10 题，且后两类**尚无数据**
 - **📊 学习统计** — 热力图、掌握率柱状图、正确率趋势等 ECharts 图表
 - **👤 用户系统** — 注册/登录 + 微信登录，多用户数据隔离，SQLite 持久化；支持修改用户名（重签 JWT）与修改密码
 - **📱 微信小程序** — uni-app 开发，一套代码双端运行（当前暂缓，Web 端优先）
@@ -47,6 +47,8 @@ ssh jplearning 'sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 re
 
 判断部署成功：新接口返回 **401/400 而不是 404**（404 = 路由没注册上，文件没传对）。
 
+> 🗄️ **数据库备份**：线上库跑在 WAL 模式，**绝不能直接 `cp` 主库文件**（数据压在 `-wal` 里，`cp` 拿到的是不完整快照）。用 `server/scripts/backup-db.mjs`，线上已挂 cron 每天 03:17，产出在 `/opt/japanese-learning/backups/`（留 14 份）。细节见 [AGENTS.md](AGENTS.md) 3.10。
+
 > 完整流程、回滚、环境变量与故障排查见 [服务器部署指南](docs/服务器部署指南.md)。
 
 ## 环境变量
@@ -68,13 +70,14 @@ sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 save   # 不 save�
 ```
 JapaneseLearning/
 ├── server/              # Express + SQLite 后端
-│   └── src/
-│       ├── index.ts     # 服务入口 (port 3001)
-│       ├── db.ts        # SQLite 数据库与迁移
-│       ├── auth.ts      # JWT 认证
-│       ├── validation.ts    # 用户名/密码校验规则（唯一定义处，前端镜像同一份）
-│       ├── contentFilter.ts # 违禁词过滤（当前为空实现，已知合规缺口）
-│       └── routes/      # API 路由（auth：注册/登录/改名/改密码，progress）
+│   ├── src/
+│   │   ├── index.ts     # 服务入口 (port 3001)
+│   │   ├── db.ts        # SQLite 数据库与迁移
+│   │   ├── auth.ts      # JWT 认证
+│   │   ├── validation.ts    # 用户名/密码校验规则（唯一定义处，前端镜像同一份）
+│   │   ├── contentFilter.ts # 违禁词过滤（当前为空实现，已知合规缺口）
+│   │   └── routes/      # API 路由（auth：注册/登录/改名/改密码，progress）
+│   └── scripts/         # 运维脚本：backup-db.mjs（数据库备份，线上 cron 每天跑）
 ├── codes/               # 前端
 │   ├── web/             # Web 版 (Vue 3 + Vite SPA)
 │   │   ├── public/          # 静态直出资源（icon.png、beian.png）
@@ -85,7 +88,7 @@ JapaneseLearning/
 │   │       ├── api/         # 数据加载 + HTTP 客户端
 │   │       ├── utils/       # 校验规则、输入题判分归一化
 │   │       ├── types/       # TypeScript 类型
-│   │       ├── content/     # 单词 JSON、练习数据
+│   │       ├── content/     # 词库：JLPT (words/) + 教科书 (textbook/level-N/)；练习数据
 │   │       └── router/      # 路由配置
 │   └── miniprogram/     # 微信小程序版 (uni-app Vue 3)
 │       └── src/
