@@ -96,8 +96,8 @@ import {
   USERNAME_HINT,
   PASSWORD_HINT,
 } from '../utils/validation'
-import { resetSRSInit } from '../composables/useSRS'
-import { resetExerciseInit } from '../composables/useExerciseProgress'
+import { initSRS, resetSRSInit } from '../composables/useSRS'
+import { initExercise, resetExerciseInit } from '../composables/useExerciseProgress'
 
 const router = useRouter()
 
@@ -198,11 +198,14 @@ async function handleUpdatePassword() {
 
 // ========== 退出登录 ==========
 
-function handleLogout() {
+async function handleLogout() {
   setToken(null)
   setUser(null)
   resetSRSInit()
   resetExerciseInit()
+  // 与 App.vue 的 handleLogout 一致：退出后身份变回匿名，要重新读回本机进度，
+  // 否则下一次 saveAll() 会把 localStorage 里的匿名进度冲掉
+  await Promise.all([initSRS(), initExercise()])
   router.push('/')
 }
 </script>

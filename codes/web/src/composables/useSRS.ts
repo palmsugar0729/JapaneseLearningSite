@@ -64,18 +64,34 @@ async function saveAll(): Promise<void> {
 
 // ========== 初始化 ==========
 
-/** 从服务器加载 SRS 数据（登录后调用） */
-export async function initSRSFromServer(): Promise<void> {
+/**
+ * 初始化 SRS 数据：先用 localStorage 垫底，登录用户再以服务端数据覆盖。
+ *
+ * ⚠️ 匿名用户全靠这里读回进度。未登录时 saveAll() 只写 localStorage，
+ * 若启动时不读回来，progressMap 就是空的，下一次 saveAll() 会用空 map
+ * 把之前的学习记录整个覆盖掉 —— 表现就是「刷新一次进度全没」。
+ *
+ * ⚠️ 登录/注册成功后**不要**再调这个函数：新账号服务端是空的，会把内存里
+ * 匿名试用的进度覆盖掉。现在不调它，匿名进度会在下次 saveAll() 时随登录态
+ * 一起推到服务端，等于天然继承了。
+ */
+export async function initSRS(): Promise<void> {
   if (_initialized) return
-  try {
-    const data = await api.get<{ progress: Record<string, WordProgress>; stats: Partial<LearningStats> }>('/progress/srs')
-    progressMap.value = data.progress || {}
-    stats.value = data.stats || {}
-  } catch (e) {
-    console.warn('[useSRS] Failed to load from server, using local storage:', e)
-    progressMap.value = storage.get<Record<string, WordProgress>>(STORAGE_KEY) || {}
-    stats.value = storage.get<Partial<LearningStats>>(STORAGE_KEY_STATS) || {}
+
+  progressMap.value = storage.get<Record<string, WordProgress>>(STORAGE_KEY) || {}
+  stats.value = storage.get<Partial<LearningStats>>(STORAGE_KEY_STATS) || {}
+
+  if (getToken()) {
+    try {
+      const data = await api.get<{ progress: Record<string, WordProgress>; stats: Partial<LearningStats> }>('/progress/srs')
+      progressMap.value = data.progress || {}
+      stats.value = data.stats || {}
+    } catch (e) {
+      // 服务端拿不到就留着本地垫底数据，别让用户看到空白
+      console.warn('[useSRS] Failed to load from server, using local storage:', e)
+    }
   }
+
   _initialized = true
 }
 

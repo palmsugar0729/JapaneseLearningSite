@@ -29,6 +29,7 @@ const routes = [
   {
     path: '/user',
     component: () => import('../views/UserCenter.vue'),
+    meta: { requiresAuth: true },
   },
   // 公开页面：备案要求可访问，无需登录
   {

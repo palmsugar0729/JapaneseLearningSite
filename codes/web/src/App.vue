@@ -63,8 +63,8 @@
 import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { getToken, setToken, setUser, getUser } from './api/client'
-import { initSRSFromServer, resetSRSInit } from './composables/useSRS'
-import { initExerciseFromServer, resetExerciseInit } from './composables/useExerciseProgress'
+import { initSRS, resetSRSInit } from './composables/useSRS'
+import { initExercise, resetExerciseInit } from './composables/useExerciseProgress'
 
 const router = useRouter()
 
@@ -78,13 +78,16 @@ async function handleLogout() {
   setUser(null)
   resetSRSInit()
   resetExerciseInit()
+  // 退出后身份变回匿名，重新读回本机进度。不重读的话内存里是空的，
+  // 用户随便点一下触发 saveAll() 就会把 localStorage 里的匿名进度冲掉。
+  await Promise.all([initSRS(), initExercise()])
   router.push('/')
 }
 
 onMounted(async () => {
-  if (getToken()) {
-    await Promise.all([initSRSFromServer(), initExerciseFromServer()])
-  }
+  // ⚠️ 不能只在有 token 时初始化：匿名用户同样要读回 localStorage，
+  // 否则刷新一次进度全丢（见 useSRS.initSRS 的注释）
+  await Promise.all([initSRS(), initExercise()])
 })
 </script>
 

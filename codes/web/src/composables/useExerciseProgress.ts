@@ -31,18 +31,28 @@ async function saveAll(): Promise<void> {
 
 // ========== 初始化 ==========
 
-/** 从服务器加载练习数据（登录后调用） */
-export async function initExerciseFromServer(): Promise<void> {
+/**
+ * 初始化练习数据：先用 localStorage 垫底，登录用户再以服务端数据覆盖。
+ *
+ * ⚠️ 与 useSRS 同一个坑：匿名用户只有 localStorage 这一个来源，不读回来的话
+ * 下一次 saveAll() 会把错题本和练习历史一起冲掉。登录/注册成功后同理不要再调。
+ */
+export async function initExercise(): Promise<void> {
   if (_initialized) return
-  try {
-    const data = await api.get<{ wrong: string[]; history: ExerciseSession[] }>('/progress/exercise')
-    wrongSet.value = new Set(data.wrong || [])
-    history.value = data.history || []
-  } catch (e) {
-    console.warn('[useExerciseProgress] Failed to load from server, using local storage:', e)
-    wrongSet.value = new Set(storage.get<string[]>(STORAGE_KEY_WRONG) || [])
-    history.value = storage.get<ExerciseSession[]>(STORAGE_KEY_HISTORY) || []
+
+  wrongSet.value = new Set(storage.get<string[]>(STORAGE_KEY_WRONG) || [])
+  history.value = storage.get<ExerciseSession[]>(STORAGE_KEY_HISTORY) || []
+
+  if (getToken()) {
+    try {
+      const data = await api.get<{ wrong: string[]; history: ExerciseSession[] }>('/progress/exercise')
+      wrongSet.value = new Set(data.wrong || [])
+      history.value = data.history || []
+    } catch (e) {
+      console.warn('[useExerciseProgress] Failed to load from server, using local storage:', e)
+    }
   }
+
   _initialized = true
 }
 

@@ -106,6 +106,9 @@ JapaneseLearning/
 - 基于 SM-2 算法，反馈质量映射：known=5, vague=3, unknown=0
 - 每日新词上限：10（`MAX_NEW_PER_DAY` 常量）
 - 学习进度存储在 localStorage key `japanese-learning:srs-progress`
+- ⚠️ **初始化必须无条件调用**：`App.vue` 的 `onMounted` 里不分登录与否都调 `initSRS()` / `initExercise()`。匿名用户只有 localStorage 一个数据来源，若只在有 token 时初始化，刷新后内存里是空的，下一次 `saveAll()` 会用空 map 把本地进度整个覆盖掉（表现就是「刷新一次进度全没」）。
+- ⚠️ **但登录/注册成功后不要再调这两个 init**：新账号服务端是空的，会把内存里匿名试用的进度覆盖掉。现状是登录后不调用，匿名进度会在下次 `saveAll()` 时随登录态推到服务端，等于天然继承。要动这块务必先看 `useSRS.ts` 里 `initSRS` 的注释。
+- ⚠️ **小程序端与 web 相反**：`codes/miniprogram/src/pages/login/login.vue` 在登录后**会**调 init，所以小程序踩的是反向的坑（匿名进度被新账号覆盖）。小程序暂缓上线故未改，恢复开发时要一并处理。
 
 ### 3.6 账号校验规则（v2.6）
 
@@ -124,6 +127,7 @@ JapaneseLearning/
 - 页脚结构为三栏：**左**隐私政策·联系我们 / **中**备案号 / **右** busuanzi 访问统计。中间栏要靠左右两栏 `flex: 1` 才能真居中（只写 `space-between` 会偏）。
 - ⚠️ **不要往 footer 上用亮色字压本站背景**。本站底色是浅绿渐变（`styles/theme.scss`），亮色字对比度极低（`#999` 只有 1.46:1，奶白更差只有 1.40:1）。现行方案是半透明深色底 `rgba(44,62,80,.82)` + 奶白字 `#f2f6f3`，达标 6.66~7.06:1。改配色前先算对比度。
 - `/privacy`、`/contact` 是**公开路由**，不能加 `requiresAuth`（备案要求可访问）。
+- `/word`、`/exercise`、`/user` 都带 `requiresAuth`，未登录会跳 `/login`。首页 `/` 是**公开门面**（匿名可看欢迎页与入口卡片），这是有意为之，别顺手给它加上 `requiresAuth`
 
 ### 3.8 部署与环境变量
 
@@ -142,6 +146,14 @@ JapaneseLearning/
 - 数据加载：开发阶段用 `import.meta.glob` 加载本地 JSON（仅 N5 词库），上线后走 API 按需加载
 - API 客户端使用 `uni.request` 替代 `fetch`
 - Web 版不动，在 `codes/web/`
+
+### 3.10 数据库备份
+
+- **线上库必须定期备份**，脚本 `server/scripts/backup-db.mjs`，cron 每天 03:17（root），产出在 `/opt/japanese-learning/backups/`，留 14 份，日志 `/var/log/jplearning-backup.log`
+- ⚠️ **库跑在 WAL 模式，绝不能直接 `cp` 主库文件** —— 主库平时只有 4KB，真实数据在 `-wal` 里，`cp` 拿到的是不完整快照。脚本用的是 SQLite 在线备份 API
+- ⚠️ **服务器没有 `sqlite3` CLI**，别照抄 `.backup` 那种写法；查库用 server 自带的 better-sqlite3（注意：脚本放 `/tmp` 时 `require` 会失败，模块解析按脚本所在目录走，必须用绝对路径指到 `server/node_modules`）
+- 备份产出是**非 WAL 单文件**，校验通过（`integrity_check` + 行数）才留下，校验失败当场删除并非零退出
+- ⚠️ 同盘备份**防不了磁盘损坏**，只能防误删和写坏。异地容灾尚未做
 
 ---
 
