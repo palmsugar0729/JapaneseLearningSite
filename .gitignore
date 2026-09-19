@@ -6,6 +6,9 @@ server/data/
 Thumbs.db
 docs/小程序APPID.txt
 
+# 参考图存档：教材拍照留档，单目录就 300MB+，只本地留存，不进仓库
+assets/reference/
+
 # 环境变量与密钥：WX_SECRET / JWT_SECRET 绝不能进仓库
 .env
 .env.*
