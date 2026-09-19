@@ -9,7 +9,7 @@ metadata:
 
 **配置：** 4 核 4GB 内存 40GB SSD
 
-**当前状态：** 网页版已上线（HTTPS，2026-09-04）；v2.6 前后端已于 2026-09-15 部署并线上验证
+**当前状态：** 网页版已上线（HTTPS，2026-09-04）；v2.6 前后端已于 2026-09-15 部署并线上验证；v2.6.1（教科书词库换代）于 2026-09-19 部署，`/api/health` 200
 
 **IP：** 124.221.0.238
 **实例 ID：** lhins-keecg7lu
@@ -48,6 +48,18 @@ sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH pm2 restart japanese-a
 **6. 回滚素材：** 每次部署都留了备份 —— `server/src/routes/auth.ts.bak-<时间戳>`、`codes/web/dist.bak-<时间戳>`。
 
 **7. `node` / `pm2` 都不在 ubuntu 的 PATH 里**，所以 `pm2 jlist | node -e ...` 这类管道会在后半段报 `node: command not found`。要跑 node 脚本一律 `sudo env PATH=/root/.nvm/versions/node/v20.20.2/bin:$PATH node ...`。
+
+**8. 后端是 PM2 直跑 tsx，改完源码不用编译。** `pm2 describe japanese-api` 显示 `script path` 是 `server/node_modules/.bin/tsx`、`script args` 是 `src/index.ts` —— **直接执行 TS 源码**。`server/package.json` 里的 `"build": "tsc"` / `"start": "node dist/index.js"` **线上完全没在用**，别照着它去 `npm run build` 或去找 `dist/index.js`。改 `server/src/*.ts` 的正确做法就是：传 `/tmp` → `sudo cp` → `sudo chown root:root` → `pm2 restart`。
+
+**9. 服务器上没有 `sqlite3` CLI**，查库要借 server 自带的 better-sqlite3。⚠️ 脚本放 `/tmp` 时 `require('better-sqlite3')` 会失败（模块解析按**脚本所在目录**找 node_modules，不是 cwd），必须写绝对路径：
+
+```js
+const BASE = "/opt/japanese-learning/JapaneseLearningSite/server"
+const D = require(BASE + "/node_modules/better-sqlite3")
+const db = new D(BASE + "/data/japanese.db", { readonly: true })
+```
+
+**10. 看 pm2 日志别只看尾巴就下结论。** `pm2 logs --nostream` 把 out 和 error 两个文件的尾部拼在一起，**不是时间顺序**。曾出现「error 尾部是崩溃、out 尾部是启动成功」的假象，实际那条崩溃是 2026-08-29 的陈旧内容。判定方法：`sudo stat -c "%y" /root/.pm2/logs/japanese-api-error.log` 比对进程启动时间（`ps -o lstart= -p $(pm2 pid japanese-api)`）。
 
 ---
 
