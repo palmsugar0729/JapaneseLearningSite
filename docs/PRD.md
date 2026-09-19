@@ -1,7 +1,7 @@
 # JapaneseLearning — 产品需求文档（PRD）
 
 > 项目：JapaneseLearning（日语学习独立应用）
-> 版本：v2.6.1（教科书词库换代，⏳ 待验收部署）
+> 版本：v2.6.1（教科书词库换代，✅ 已部署，待浏览器验收）
 > 日期：2026-09-19
 > 上一版本：v2.6（✅ 已上线 2026-09-15）
 >
@@ -377,7 +377,7 @@ JapaneseLearning/
 | v2.6 | 2026-09-15 | ✅ 已上线：备案合规页脚、首页三入口、刷题新增 2 题型、用户中心、注册校验强化；小程序暂缓 |
 | v2.6.1 | 2026-09-19 | 教科书词库换代：LEVEL 1 全 16 课（920 词）、按级别分目录、前端 LEVEL 选择、进度统计拆成 JLPT/教科书两套、清旧进度迁移 |
 
-### v2.6.1 变更（2026-09-19，待验收）
+### v2.6.1 变更（2026-09-19，已部署，待验收）
 
 - 教科书词库由「4 课 / 175 词」换成「LEVEL 1 · 16 课 / 920 词」，文件改为 `textbook/level-N/unit-NN.json` 分级别目录
 - `Word` 新增 `textbookLevel` 字段；加载层新增 `getTextbookLevels()` / `getTextbookLevelName()`，`getTextbookWords(level)` / `getTextbookUnits(level)` / `getWordsByUnit(level, unit)` 改签名
