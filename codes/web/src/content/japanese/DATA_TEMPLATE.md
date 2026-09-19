@@ -8,14 +8,26 @@
 
 ### 1.1 文件位置
 
+**两套词库，维度不同，互不相干：**
+
 ```
-src/content/japanese/words/
-  N5.json    # N5 级别单词
-  N4.json    # N4 级别单词
-  N3.json    # N3 级别单词
-  N2.json    # N2 级别单词
-  N1.json    # N1 级别单词
+src/content/japanese/
+├── words/                    # JLPT 词库（维度：JLPT 级别 N5~N1）
+│   ├── N5.json
+│   ├── N4.json
+│   ├── N3.json
+│   ├── N2.json
+│   └── N1.json
+└── textbook/                 # 教科书词库（维度：教材 LEVEL + 单元）
+    ├── level-1/
+    │   ├── unit-01.json
+    │   └── … unit-16.json
+    ├── level-2/              # 第二本书放这里，加文件即可，无需改代码
+    ├── level-3/
+    └── level-4/
 ```
+
+⚠️ **不要混着统计。** `N5~N1` 是 JLPT 的维度；教科书单词的 `level` 字段虽然也填 `N5`，但那只是**难度参考**，它不属于 JLPT 词库。级别进度卡片和统计页详情表都已拆成两组。
 
 ### 1.2 文件格式
 
@@ -57,6 +69,72 @@ src/content/japanese/words/
 2. 在数组末尾添加新的单词对象
 3. 确保 `id` 唯一，建议按序号递增
 4. 保存文件，重新构建项目即可生效
+
+---
+
+### 1.5 教科书单词数据
+
+数据来源是人工校对过的 Excel 词表，用脚本导入，**不要手写 JSON**。
+
+#### 导入流程
+
+```
+docs/vocabulary_files/LEVEL N/UNIT M.xlsx   ← 人工校对的词表
+        ↓  python codes/import_textbook_excel.py <N>
+src/content/japanese/textbook/level-N/unit-MM.json
+```
+
+Excel 第 1 行是表头，列顺序固定：**日语 | 读音 | 声调 | 词性 | 中文意思**
+（这个格式由上游的 `codes/build_vocab_excel.py` 从 OCR 结果生成）
+
+```bash
+python codes/import_textbook_excel.py 1 --dry-run   # 先校验，不写文件
+python codes/import_textbook_excel.py 1             # 正式导入 LEVEL 1
+```
+
+#### 字段说明
+
+比 JLPT 单词多出 4 个教科书专有字段：
+
+```json
+{
+  "id": "tb1-01-001",
+  "word": "私",
+  "reading": "わたし",
+  "meaning": "我",
+  "type": "代",
+  "accent": "⓪",
+  "level": "N5",
+  "example": "",
+  "exampleTranslation": "",
+  "source": "textbook",
+  "textbook": "LEVEL 1",
+  "textbookLevel": 1,
+  "unit": 1
+}
+```
+
+| 字段 | 说明 |
+|------|------|
+| `id` | `tb{级别}-{单元}-{序号}`，由脚本生成 |
+| `level` | **难度参考**，默认 `N5`，不参与 JLPT 级别统计 |
+| `source` | 固定 `"textbook"` |
+| `textbook` | 教材展示名，界面上显示的就是它 |
+| `textbookLevel` | 教材级别（1 = LEVEL 1），按级别筛选用 |
+| `unit` | 单元/课次 |
+| `example` / `exampleTranslation` | 来源词表**没有例句**，保持空字符串 |
+
+#### 加一本新教材
+
+1. 把词表放进 `docs/vocabulary_files/LEVEL <新级别>/`
+2. `python codes/import_textbook_excel.py <新级别>`
+3. 完成——前端 LEVEL 按钮、级别进度分组、单元列表**全部自动生成**，不用改任何代码
+
+#### ⚠️ 改词条会让学习进度错位
+
+学习进度按 `word_id` 存（服务端 `srs_progress` 表 / 前端 localStorage）。**改动已有词条的内容或 ID，会让「已学过」标记跑到别的词上。**
+
+v2.6.1 教科书词库换代（4 课 → 16 课）时，是靠 `server/src/db.ts` 里的一次性迁移 + `meta` 表标记位清的旧进度——因为新旧 ID 形态完全一样（都是 `tb1-0N-*`），**没法用 SQL 模式匹配区分**，只能靠标记位。下次换代照这个做法来。
 
 ---
 

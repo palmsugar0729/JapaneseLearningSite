@@ -43,59 +43,51 @@ export function getAllWords(): Word[] {
 
 // ========== 教科书词库 ==========
 
+// 文件按级别分目录：textbook/level-1/unit-01.json …
 const textbookModules = import.meta.glob<{ default: Word[] }>(
-  '../content/japanese/textbook/*.json',
+  '../content/japanese/textbook/**/*.json',
   { eager: true }
 )
 
 let _textbookCache: Word[] | null = null
 
-/** 获取所有教科书单词 */
-export function getTextbookWords(): Word[] {
-  if (_textbookCache) return _textbookCache
-
-  const words: Word[] = []
-  for (const [, module] of Object.entries(textbookModules)) {
-    if (module.default && Array.isArray(module.default)) {
-      words.push(...module.default)
+/** 获取所有教科书单词；传入 level 则只返回该 LEVEL 的单词 */
+export function getTextbookWords(level?: number): Word[] {
+  if (!_textbookCache) {
+    const words: Word[] = []
+    for (const [, module] of Object.entries(textbookModules)) {
+      if (module.default && Array.isArray(module.default)) {
+        words.push(...module.default)
+      }
     }
+    _textbookCache = words
   }
-  _textbookCache = words
-  return words
+  if (level === undefined) return _textbookCache
+  return _textbookCache.filter((w) => w.textbookLevel === level)
 }
 
-/** 获取教科书所有单元号及标题 */
-export function getTextbookUnits(): { unit: number; title: string }[] {
-  // 按照教材实际课次标题
-  const unitTitles: Record<number, string> = {
-    1: 'わたしは留学生です',
-    2: 'これは家族の写真です',
-    3: '自習室は５階にあります',
-    4: 'ギョーザは８個で５００円です',
-    5: '今朝７時に起きました',
-    6: '週末は何をしますか',
-    7: 'ここで写真を撮ってもいいですか',
-    8: '温泉に入りたいです',
-    9: 'おいしそうですね',
-    10: '食事の時は、はしを使います',
-    11: '私は中国語が話せます',
-    12: '天気はどうでしょうか',
-    13: '一度食べてみてください',
-    14: '田中さんに頼まれたらいいですよ',
-    15: '日本語の本が読めるようになりました',
-    16: 'もう少しがんばってみます',
+/** 获取所有教科书级别（LEVEL 1、LEVEL 2…），升序 */
+export function getTextbookLevels(): number[] {
+  const levels = new Set<number>()
+  for (const w of getTextbookWords()) {
+    if (w.textbookLevel !== undefined) levels.add(w.textbookLevel)
   }
+  return Array.from(levels).sort((a, b) => a - b)
+}
 
-  const existingUnits = new Set(
-    getTextbookWords().map((w) => w.unit).filter((u): u is number => u !== undefined)
-  )
+/** 获取级别的展示名，如 1 → "LEVEL 1"（取自数据里的 textbook 字段） */
+export function getTextbookLevelName(level: number): string {
+  const sample = getTextbookWords(level)[0]
+  return sample?.textbook || `LEVEL ${level}`
+}
 
-  return Array.from(existingUnits)
-    .sort((a, b) => a - b)
-    .map((unit) => ({
-      unit,
-      title: unitTitles[unit] || `第${unit}课`,
-    }))
+/** 获取某级别下的所有单元号，升序 */
+export function getTextbookUnits(level: number): number[] {
+  const units = new Set<number>()
+  for (const w of getTextbookWords(level)) {
+    if (w.unit !== undefined) units.add(w.unit)
+  }
+  return Array.from(units).sort((a, b) => a - b)
 }
 
 // ========== 综合查询 ==========
@@ -110,9 +102,9 @@ export function getWordsByLevel(level: JLPTLevel): Word[] {
   return getAllWords().filter((word) => word.level === level)
 }
 
-/** 按教科书单元获取单词 */
-export function getWordsByUnit(unit: number): Word[] {
-  return getTextbookWords().filter((w) => w.unit === unit)
+/** 按教科书级别 + 单元获取单词 */
+export function getWordsByUnit(level: number, unit: number): Word[] {
+  return getTextbookWords(level).filter((w) => w.unit === unit)
 }
 
 /** 获取所有 JLPT 级别列表 */

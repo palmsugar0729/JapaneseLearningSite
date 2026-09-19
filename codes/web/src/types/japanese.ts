@@ -32,8 +32,10 @@ export interface Word {
   exampleTranslation: string
   /** 来源：jlpt（词库） 或 textbook（教科书） */
   source?: WordSource
-  /** 教科书名称 */
+  /** 教科书名称（展示用，如 "LEVEL 1"） */
   textbook?: string
+  /** 教科书级别（1 = LEVEL 1），用于按级别筛选 */
+  textbookLevel?: number
   /** 教科书单元/课次 */
   unit?: number
 }

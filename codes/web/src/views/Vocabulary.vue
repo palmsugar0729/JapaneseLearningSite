@@ -24,9 +24,11 @@
         </div>
       </div>
 
-      <!-- 级别进度 -->
+      <!-- 级别进度：JLPT 与教科书两套词库分开统计 -->
       <div class="level-progress">
         <h3>各级别进度</h3>
+
+        <div class="level-group-title">JLPT 词库</div>
         <div class="level-list">
           <div v-for="lp in levelProgress" :key="lp.level" class="level-item">
             <div class="level-name">{{ lp.level }}</div>
@@ -37,6 +39,20 @@
               />
             </div>
             <div class="level-count">{{ lp.mastered }}/{{ lp.total }}</div>
+          </div>
+        </div>
+
+        <div class="level-group-title">教科书词库</div>
+        <div class="level-list">
+          <div v-for="tp in textbookProgress" :key="tp.level" class="level-item">
+            <div class="level-name">{{ getTextbookLevelName(tp.level) }}</div>
+            <div class="level-bar">
+              <div
+                class="level-fill"
+                :style="{ width: `${tp.total > 0 ? (tp.mastered / tp.total) * 100 : 0}%` }"
+              />
+            </div>
+            <div class="level-count">{{ tp.mastered }}/{{ tp.total }}</div>
           </div>
         </div>
       </div>
@@ -89,6 +105,22 @@
         </div>
       </div>
 
+      <!-- 教科书 LEVEL 选择 -->
+      <div v-if="studySource === 'textbook'" class="source-select">
+        <h3>选择 LEVEL</h3>
+        <div class="source-options">
+          <button
+            v-for="lv in textbookLevels"
+            :key="lv"
+            class="source-btn"
+            :class="{ active: studyLevel === lv }"
+            @click="selectStudyLevel(lv)"
+          >
+            📗 {{ getTextbookLevelName(lv) }}
+          </button>
+        </div>
+      </div>
+
       <!-- 级别/单元选择 -->
       <div class="level-select">
         <h3>{{ studySource === 'textbook' ? '选择单元' : '选择复习级别' }}</h3>
@@ -114,7 +146,6 @@
             class="level-btn"
             :class="{ active: selectedUnit === u.value }"
             @click="selectedUnit = u.value"
-            :title="u.title"
           >
             {{ u.label }}
             <span class="level-badge" :class="{ empty: u.total === u.learned }">
@@ -179,8 +210,9 @@
                 <h3>{{ currentWord?.reading }}</h3>
                 <p class="meaning">{{ currentWord?.meaning }}</p>
                 <p class="meta">
-                  <span class="type">{{ currentWord?.type }}</span>
-                  <span class="accent">声调 {{ currentWord?.accent }}</span>
+                  <!-- 部分寒暄语来源表里没有词性/声调，空值不渲染空标签 -->
+                  <span v-if="currentWord?.type" class="type">{{ currentWord.type }}</span>
+                  <span v-if="currentWord?.accent" class="accent">声调 {{ currentWord.accent }}</span>
                 </p>
                 <div class="example">
                   <p>{{ currentWord?.example }}</p>
@@ -226,10 +258,21 @@
           </select>
         </div>
         <div class="filter-group" v-if="browseSource !== 'jlpt'">
+          <label>LEVEL：</label>
+          <select v-model="browseTextbookLevel">
+            <option :value="0">全部</option>
+            <option v-for="lv in textbookLevels" :key="lv" :value="lv">
+              {{ getTextbookLevelName(lv) }}
+            </option>
+          </select>
+        </div>
+        <div class="filter-group" v-if="browseSource !== 'jlpt'">
           <label>单元：</label>
           <select v-model="browseUnit">
-            <option :value="0">全部单元</option>
-            <option v-for="u in getTextbookUnits()" :key="u.unit" :value="u.unit">第{{ u.unit }}课</option>
+            <option value="all">全部单元</option>
+            <option v-for="opt in browseUnitOptions" :key="opt.value" :value="opt.value">
+              {{ opt.label }}
+            </option>
           </select>
         </div>
         <div class="filter-group" v-if="browseSource !== 'textbook'">
@@ -273,7 +316,7 @@
           </div>
           <div class="word-tags">
             <span class="tag-level">{{ word.level }}</span>
-            <span class="tag-type">{{ word.type }}</span>
+            <span v-if="word.type" class="tag-type">{{ word.type }}</span>
             <span class="tag-status" :class="`status-${word.status}`">
               {{ statusText[word.status] }}
             </span>
@@ -357,6 +400,7 @@
             </tr>
           </thead>
           <tbody>
+            <tr class="group-row"><td colspan="6">JLPT 词库</td></tr>
             <tr v-for="lp in levelProgress" :key="lp.level">
               <td>{{ lp.level }}</td>
               <td>{{ lp.total }}</td>
@@ -366,6 +410,17 @@
               <td>{{ lp.total > 0 ? Math.round((lp.mastered / lp.total) * 100) : 0 }}%</td>
             </tr>
           </tbody>
+          <tbody>
+            <tr class="group-row"><td colspan="6">教科书词库</td></tr>
+            <tr v-for="tp in textbookProgress" :key="tp.level">
+              <td>{{ getTextbookLevelName(tp.level) }}</td>
+              <td>{{ tp.total }}</td>
+              <td>{{ tp.mastered }}</td>
+              <td>{{ tp.learning }}</td>
+              <td>{{ tp.new }}</td>
+              <td>{{ tp.total > 0 ? Math.round((tp.mastered / tp.total) * 100) : 0 }}%</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
@@ -373,9 +428,17 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import type { Word, WordWithStatus, LearningStats, LevelProgress, JLPTLevel, WordSource } from '../types/japanese'
-import { getAllWords, getAllLevels, getTextbookWords, getTextbookUnits, getAllStudyWords } from '../api/vocabulary'
+import {
+  getAllWords,
+  getAllLevels,
+  getTextbookWords,
+  getTextbookLevels,
+  getTextbookLevelName,
+  getTextbookUnits,
+  getAllStudyWords,
+} from '../api/vocabulary'
 import { shuffleArray } from '../utils/shuffle'
 import {
   getTodayQueue,
@@ -412,9 +475,16 @@ const studySource = ref<WordSource | 'all'>('textbook')
 const selectedLevel = ref<ReviewLevel>('all')
 const selectedUnit = ref<number>(1)
 
+// 教科书级别（LEVEL 1、LEVEL 2…），当前可选级别与当前选中级别
+const textbookLevels = getTextbookLevels()
+const studyLevel = ref<number>(textbookLevels[0] ?? 1)
+
 // 浏览模式筛选
 const browseSource = ref<string>('all')
-const browseUnit = ref<number>(0)
+/** 教材 LEVEL，0 表示全部 */
+const browseTextbookLevel = ref<number>(0)
+/** 单元，'all' 或 "级别-单元"（如 "1-3"），跨 LEVEL 时需带级别才不歧义 */
+const browseUnit = ref<string>('all')
 const browseLevel = ref<string>('all')
 const browseStatus = ref<string>('all')
 const searchKeyword = ref('')
@@ -432,19 +502,38 @@ const stats = computed<LearningStats>(() => {
   return getStats(allWords.value)
 })
 
+// 两套词库分开统计：N5~N1 是 JLPT 的级别维度，教科书按 LEVEL/课组织、没有这个
+// 维度，混在一起会把 N5 分母撑大（920 条教科书词全被算进 N5），进度条严重失真。
 const levelProgress = computed<LevelProgress[]>(() => {
-  return getLevelProgress(allWords.value)
+  return getLevelProgress(getAllWords())
 })
 
-/** 当前激活的词库（根据 source 切换） */
+/** 教科书各级别进度，每个 LEVEL 一行 */
+const textbookProgress = computed(() =>
+  textbookLevels.map((level) => {
+    const words = getTextbookWords(level)
+    let mastered = 0
+    let learning = 0
+    let fresh = 0
+    for (const w of words) {
+      const status = getWordStatus(w.id)
+      if (status === 'mastered') mastered++
+      else if (status === 'learning') learning++
+      else fresh++
+    }
+    return { level, total: words.length, mastered, learning, new: fresh }
+  })
+)
+
+/** 当前激活的词库（根据 source 切换；教科书按选中的 LEVEL 收窄） */
 const activeWordPool = computed(() => {
   if (studySource.value === 'jlpt') return getAllWords()
-  if (studySource.value === 'textbook') return getTextbookWords()
+  if (studySource.value === 'textbook') return getTextbookWords(studyLevel.value)
   return getAllStudyWords()
 })
 
 const levelOptions = computed(() => {
-  const pool = studySource.value === 'textbook' ? getTextbookWords() : getAllWords()
+  const pool = studySource.value === 'textbook' ? getTextbookWords(studyLevel.value) : getAllWords()
   const options: { value: ReviewLevel; label: string; count: number; totalWords: number }[] = [
     {
       value: 'all',
@@ -466,25 +555,40 @@ const levelOptions = computed(() => {
 })
 
 const unitOptions = computed(() => {
-  const units = getTextbookUnits()
+  const levelWords = getTextbookWords(studyLevel.value)
+  const units = getTextbookUnits(studyLevel.value)
   if (units.length === 0) return []
-  // 全部单元的进度
-  const allWords = getTextbookWords()
-  const allLearned = allWords.filter((w) => getWordStatus(w.id) !== 'new').length
+  const allLearned = levelWords.filter((w) => getWordStatus(w.id) !== 'new').length
   return [
-    { value: 0, label: '全部单元', title: '', learned: allLearned, total: allWords.length },
-    ...units.map((u) => {
-      const unitWords = getTextbookWords().filter((w) => w.unit === u.unit)
+    { value: 0, label: '全部单元', learned: allLearned, total: levelWords.length },
+    ...units.map((unit) => {
+      const unitWords = levelWords.filter((w) => w.unit === unit)
       const learned = unitWords.filter((w) => getWordStatus(w.id) !== 'new').length
       return {
-        value: u.unit,
-        label: `第${u.unit}课`,
-        title: u.title,
+        value: unit,
+        label: `第${unit}课`,
         learned,
         total: unitWords.length,
       }
     }),
   ]
+})
+
+/** 浏览模式的单元选项；选了具体 LEVEL 时不重复标级别名 */
+const browseUnitOptions = computed(() => {
+  const levelList =
+    browseTextbookLevel.value === 0 ? textbookLevels : [browseTextbookLevel.value]
+  const withLevelName = levelList.length > 1
+  const options: { value: string; label: string }[] = []
+  for (const lv of levelList) {
+    for (const unit of getTextbookUnits(lv)) {
+      options.push({
+        value: `${lv}-${unit}`,
+        label: withLevelName ? `${getTextbookLevelName(lv)} 第${unit}课` : `第${unit}课`,
+      })
+    }
+  }
+  return options
 })
 
 const todayQueue = computed(() => {
@@ -533,9 +637,15 @@ const filteredWords = computed(() => {
     result = result.filter((w) => w.source === 'textbook')
   }
 
-  // 单元筛选
-  if (browseUnit.value > 0) {
-    result = result.filter((w) => w.unit === browseUnit.value)
+  // 教材 LEVEL 筛选
+  if (browseTextbookLevel.value > 0) {
+    result = result.filter((w) => w.textbookLevel === browseTextbookLevel.value)
+  }
+
+  // 单元筛选（值形如 "1-3"，需同时比对级别与单元号）
+  if (browseUnit.value !== 'all') {
+    const [lv, unit] = browseUnit.value.split('-').map(Number)
+    result = result.filter((w) => w.textbookLevel === lv && w.unit === unit)
   }
 
   // 级别筛选
@@ -566,7 +676,28 @@ const filteredWords = computed(() => {
 const dailyActivity = computed(() => getCombinedDailyActivity(84))
 const accuracyTrend = computed(() => getAccuracyTrend(30))
 
+// ========== 监听 ==========
+
+// 换 LEVEL 后原先选的单元可能已不存在，重置回「全部单元」
+watch(browseTextbookLevel, () => {
+  browseUnit.value = 'all'
+})
+
+// 切到 JLPT 词库时清掉教材筛选：下拉框虽隐藏，不重置仍会参与过滤导致空列表
+watch(browseSource, (src) => {
+  if (src === 'jlpt') {
+    browseTextbookLevel.value = 0
+    browseUnit.value = 'all'
+  }
+})
+
 // ========== 方法 ==========
+
+/** 切换教科书 LEVEL；同步把单元重置到该级别的第 1 课 */
+function selectStudyLevel(level: number) {
+  studyLevel.value = level
+  selectedUnit.value = 1
+}
 
 function startReview() {
   let pool = activeWordPool.value
@@ -671,6 +802,17 @@ $shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   }
 }
 
+/* 分组小标题：JLPT 词库 / 教科书词库 */
+.level-group-title {
+  font-size: 13px;
+  opacity: 0.6;
+  margin: 16px 0 8px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
 .level-list {
   display: flex;
   flex-direction: column;
@@ -683,7 +825,9 @@ $shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   gap: 10px;
 
   .level-name {
-    width: 36px;
+    /* min-width 让 "N5" 与 "LEVEL 1" 都能放下，不写死宽度免得长出省略号 */
+    min-width: 36px;
+    white-space: nowrap;
     font-size: 14px;
     font-weight: bold;
   }
@@ -1304,6 +1448,16 @@ $shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 
     td {
       border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    /* 两组词库之间的分组行：JLPT 词库 / 教科书词库 */
+    .group-row td {
+      text-align: left;
+      font-size: 13px;
+      font-weight: 600;
+      opacity: 0.6;
+      padding-top: 16px;
+      border-bottom: none;
     }
   }
 }

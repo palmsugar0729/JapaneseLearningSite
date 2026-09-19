@@ -37,7 +37,7 @@ JapaneseLearning/
 │   │   │   ├── composables/ # useSRS、useExerciseProgress、useStudyHistory
 │   │   │   ├── views/     # 页面组件
 │   │   │   ├── components/ # 图表等可复用组件
-│   │   │   ├── content/   # 静态数据（16,427 词 JSON）
+│   │   │   ├── content/   # 静态数据：JLPT 词库 16,427 词 + 教科书 LEVEL 1 920 词
 │   │   │   ├── styles/    # SCSS 样式
 │   │   │   └── router/    # Vue Router 路由
 │   │   └── package.json
@@ -83,9 +83,22 @@ JapaneseLearning/
 - 路径别名 `@/` → `src/`（如需要可在 vite.config.ts 配置）
 
 ### 3.4 数据格式
-- 单词 JSON 格式见 `codes/web/src/content/japanese/DATA_TEMPLATE.md`
-- 单词 ID 格式：`{级别小写}-{序号}`，如 `n5-001`
+
+**两套词库，互不相干：**
+
+| 词库 | 路径 | ID 格式 | 组织维度 |
+|------|------|---------|----------|
+| JLPT | `codes/web/src/content/japanese/words/{N5..N1}.json` | `n5-001` | JLPT 级别 N5~N1 |
+| 教科书 | `codes/web/src/content/japanese/textbook/level-N/unit-NN.json` | `tb1-01-001`（= `tb{级别}-{课}-{序号}`） | 教材 LEVEL + 单元 |
+
+- ⚠️ **两套词库的维度不同，不要混着统计。** `N5~N1` 是 JLPT 的维度，教科书按「LEVEL + 课」组织；教科书单词的 `level` 字段虽然填了 `N5`（难度参考），但**不能拿它去做 JLPT 级别统计**。级别进度卡片和统计页详情表都已拆成两组。
+- 教科书条目额外字段：`source: "textbook"` / `textbook: "LEVEL 1"`（展示名）/ `textbookLevel: 1`（筛选用）/ `unit: 1`
+- **加一本新教材**：`level-2/` `level-3/` `level-4/` **目录已建好**（放 `.gitkeep` 占位）。把词表放进 `docs/vocabulary_files/LEVEL N/`，跑 `python codes/import_textbook_excel.py N` 即可。前端 LEVEL 按钮、进度分组、单元列表全部由 `getTextbookLevels()` 自动生成，**无需改代码**
+- **教科书 JSON 不要手写**，用 `codes/import_textbook_excel.py` 从 Excel 导入（格式见 `DATA_TEMPLATE.md` 1.5 节）。手写容易漏字段、词性忘了剥方括号
+- ⚠️ **教科书没有单元标题数据**。早先代码里硬编码过 16 条课次标题，核对后发现只有前 6 课与本课生词吻合、第 7~16 课零重合，判定为凭空生成，已删除。**不要再往代码里塞标题**，要用只能从书上抄
+- ⚠️ **改教科书单词 ID 或内容会让旧学习进度错位**。进度按 `word_id` 存（服务端 `srs_progress` 表 / 前端 localStorage），ID 复用但词换了 = 「已学过」标记跑到别的词上。v2.6.1 换代时是用 `server/src/db.ts` 里的一次性迁移 + `meta` 表标记清的，见该文件注释
 - 练习 ID 格式：`ex-{序号}`
+- 词性写法：不带方括号（`名`、`名・他動3`）—— 来源 Excel 带 `[]`，入库时要剥掉，与 JLPT 词库保持一致
 - 日文特殊字符注意全角/半角区分
 
 ### 3.5 SRS 算法
@@ -148,6 +161,17 @@ JapaneseLearning/
 - [x] 服务器部署上线 + ICP 备案 + SSL（`jplearning.palmsugar.cn`）
 - [x] 公安联网备案（沪公网安备31011302009700号）
 
+### v2.6.1（⏳ 2026-09-19 待验收部署）
+> 详见 [docs/开发日志.md](docs/开发日志.md) 2026-09-19 条目
+
+- [x] 教科书词库换代：LEVEL 1 全 16 课 / 920 词，替换原 4 课 / 175 词
+- [x] 教科书改为按级别分目录 `textbook/level-N/unit-NN.json`
+- [x] 前端 LEVEL 选择（Dashboard + 浏览模式）
+- [x] 级别进度统计拆成 JLPT / 教科书两套
+- [x] 服务端一次性迁移清掉旧 `tb1-*` SRS 进度
+- [ ] **浏览器验收**（未提交 git、未部署）
+- [ ] ⚠️ **部署时后端要和新前端一起上**，否则旧前端会把 `tb1-*` 旧记录推回来
+
 ### v2.6（✅ 2026-09-15 已上线）
 > 完整清单见 [docs/2026-09-15-todo-list.md](docs/2026-09-15-todo-list.md)
 
@@ -193,8 +217,10 @@ npm run dev          # → http://localhost:3001
 ```
 
 ### 添加新单词
-1. 编辑 `codes/web/src/content/japanese/words/{N5|N4|N3|N2|N1}.json`
-2. 确保 `id` 唯一、JSON 格式合法
+- **JLPT 单词**：编辑 `codes/web/src/content/japanese/words/{N5|N4|N3|N2|N1}.json`
+- **教科书单词**：**不要手写 JSON**，用 `python codes/import_textbook_excel.py <级别>` 从
+  `docs/vocabulary_files/LEVEL N/` 的 Excel 导入，格式见 `DATA_TEMPLATE.md` 1.5 节
+- 两种情况都要确保 `id` 唯一、JSON 格式合法。**改已有词条的内容或 ID 会打乱用户进度**，见 3.4 节
 
 ### 添加新练习
 1. 编辑 `codes/web/src/content/japanese/exercise/exercises.json`
